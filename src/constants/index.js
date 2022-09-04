@@ -42,7 +42,7 @@ export const navLinks = [
     {
       id: "social-media-4",
       icon: linkedin,
-      link: "https://www.linkedin.com/",
+      link: "https://www.linkedin.com/in/nic-babineaux/",
     },
   ];
 
@@ -70,6 +70,7 @@ export const navLinks = [
       id: "feature-1",
       icon: Star,
       title: "Projects",
+      path: "/portfolio",
       content:
         "The best credit cards offer some tantalizing combinations of promotions and prizes",
     },

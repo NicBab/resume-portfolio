@@ -1,6 +1,6 @@
 import styles from "./style";
 import { Routes, Route } from "react-router-dom";
-import { Home, ContactPg, BioPg } from "./pages/index/pages.index";
+import { Home, BioPg, PortfolioPg, ContactPg } from "./pages/index/pages.index";
 import { Navbar, Footer } from "./components/index/components.index.js";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/bio" element={<BioPg />} />
+        <Route path="/portfolio" element={ < PortfolioPg /> } />
         <Route path="/contact" element={<ContactPg />} />
       </Routes>
 

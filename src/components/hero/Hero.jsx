@@ -13,18 +13,19 @@ const Hero = () => {
         >
           {/* <img src={discount} alt="discount" className="w-[32px] h-32px" /> */}
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Hello</span>{" "}
+            <span className="text-white ss:text-[35px] text-[14px]">Hello</span>
           </p>
         </div>
+
         <div className="flex flex-wrap-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[30px] text-[20px] text-white ss:leading-[80px] leading-[60px]">
-            {" "}
-            Welcome to my portfolio<br className="sm:block hidden" />{" "}
+            Welcome to my portfolio<br className="sm:block " />
             <span className="ss:text-[35px] text-[14px]">My name is</span>
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0"><GetStarted/></div> */}
         </div>
-        <h1 className="text-purple-gradient font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">Nick Babineaux</h1>
+
+        <h1 className="text-purple-gradient font-poppins font-semibold xs:text-[68px] text-[40px] text-white ss:leading-[100px] leading-[75px] w-full">Nick Babineaux</h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Developing features utilizing a variety of markup
             languages and frameworks. Creating web front end, back end,
