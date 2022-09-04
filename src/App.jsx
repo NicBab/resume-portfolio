@@ -1,30 +1,31 @@
 import styles from "./style";
-
-import { Navbar, Hero, Stats, Business, Footer } from "./components/index/components.index";
+import { Routes, Route } from "react-router-dom";
+import { Home, ContactPg, BioPg } from "./pages/index/pages.index";
+import { Navbar, Footer } from "./components/index/components.index.js";
 
 function App() {
   return (
-    <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
+    <>
+      <div className="bg-primary w-full overflow-hidden">
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            <Navbar />
+          </div>
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/bio" element={<BioPg />} />
+        <Route path="/contact" element={<ContactPg />} />
+      </Routes>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats />
-          <Business />
           <Footer />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
