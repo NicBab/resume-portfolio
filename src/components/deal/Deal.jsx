@@ -21,8 +21,9 @@ const Deal = () => {
       </Link>
     </div>
     <div className={layout.sectionImg}>
-      <img src={tailwindLogo} alt="card" className="w-[100%] h-[100%]"/>
+      <img src={tailwindLogo} alt="card" className="w-[100%] h-[100%] z-[1]"/>
     </div>
+    <div className="absolute z-[0] w-[80%] h-[60%] -right-[50%] rounded-full blue__gradient"/>
   </section>
   )
 }
