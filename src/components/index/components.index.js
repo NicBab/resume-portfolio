@@ -7,6 +7,7 @@ export { default as Billing } from '.././billing/Billing'
 export { default as Deal } from '.././deal/Deal'
 export { default as CTA } from ".././cta/CTA"
 export { default as Footer } from '.././footer/Footer'
+export { default as Social } from ".././social/Social"
 
 //BUTTONS
 export { default as MoreAboutButton } from '../buttons/MoreAboutButton'

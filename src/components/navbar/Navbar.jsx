@@ -1,16 +1,16 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom"
-import gears from "../../assets/images/logo/gears_Img2.png";
 import { menu, close } from "../.././assets/index/assets.index"
 import { navLinks } from '../.././constants/index'
+import { Social } from "../.././components/index/components.index"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={gears} alt="logo" className="w-[110px] h-[52px]" />
+      <Social className="w-[110px] h-[52px]"/>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -33,9 +33,9 @@ const Navbar = () => {
       <div
         className={`${
           toggle ? "flex" : "hidden"
-        } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-4 min-w-[140px] rounded-xl sidebar`}
+        } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-4 min-w-[140px] rounded-xl sidebar `}
       >
-        <ul className="list-none flex flex-col justify-end items-center flex-1">
+        <ul className="list-none flex flex-col justify-end items-center flex-1 sticky top-0 z-10">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
