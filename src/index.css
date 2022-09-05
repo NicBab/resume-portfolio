@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 body {
   scroll-behavior: smooth;
@@ -31,8 +29,16 @@ body {
       #11101d 91.61%);
 }
 
+.reverse-black-gradient {
+  background: linear-gradient(
+      #11101d 91.61%,
+      #6d6d6d -78.47%,
+      #ffffff -278.56%);
+
+} 
+
 .bg-purple-gradient {
-  background:  linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%)
+  background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%)
 }
 
 .purple__gradient {
@@ -74,6 +80,7 @@ body {
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -85,14 +92,30 @@ body {
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 
+input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+}
 
-.navGlass {
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding-left: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
 }
