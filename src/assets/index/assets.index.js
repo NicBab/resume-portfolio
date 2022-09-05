@@ -11,3 +11,5 @@ export { default as menu } from "../icons/menu.svg"
 
 //IMAGES
 export { default as gearLogo } from "../images/logo/gears_Img2.png"
+export { default as reactLogo } from '../images/logo/1_react_logo.png'
+export { default as tailwindLogo } from "../images/logo/tailwind_logo.png"

@@ -4,6 +4,8 @@ import {
   Hero,
   Stats,
   Business,
+  Billing,
+  Deal,
   CTA,
 } from "../.././components/index/components.index";
 
@@ -20,6 +22,8 @@ const Home = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
+          <Billing />
+          <Deal />
           <CTA />
         </div>
       </div>

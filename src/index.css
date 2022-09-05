@@ -25,12 +25,10 @@ body {
 }
 
 .bg-black-gradient-2 {
-  background: linear-gradient(
-    -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+  background: linear-gradient(-168.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%);
 }
 
 .bg-purple-gradient {
@@ -38,7 +36,7 @@ body {
 }
 
 .purple__gradient {
-  background: linear-gradient(90deg, rgb(106, 23, 250) 16.4%, rgb(125, 31, 165) 56.1%);
+  background: linear-gradient(90deg, #6c19fa 16.4%, #7d1fa5 56.1%);
   filter: blur(900px);
 }
 

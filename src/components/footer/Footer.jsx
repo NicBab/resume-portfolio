@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from '../.././constants/index'
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-primary`}>
+    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-primary border-t-[1px] border-t-[#3F3E45]`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img

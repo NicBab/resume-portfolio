@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import { Link } from "react-router-dom"
 import gears from "../../assets/images/logo/gears_Img2.png";
 import { menu, close } from "../.././assets/index/assets.index"
 import { navLinks } from '../.././constants/index'
@@ -17,7 +18,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px] text-white
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} hover:text-secondary`}
           >
-            <a href={`${nav.path}`}>{nav.title}</a>
+             <Link to={`${nav.path}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -41,7 +42,7 @@ const Navbar = () => {
               className={`font-poppins font-normal cursor-pointer text-[16px] text-white
             ${index === navLinks.length - 1 ? "mr-0" : "mb-4"}`}
             >
-              <a href={`${nav.path}`}>{nav.title}</a>
+              <Link to={`${nav.path}`}>{nav.title}</Link>
             </li>
           ))}
         </ul>

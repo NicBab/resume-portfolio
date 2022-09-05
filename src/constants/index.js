@@ -72,21 +72,24 @@ export const navLinks = [
       title: "Projects",
       path: "/portfolio",
       content:
-        "The best credit cards offer some tantalizing combinations of promotions and prizes",
+        "VIEW PORTFOLIO",
     },
     {
       id: "feature-2",
       icon: Shield,
       title: "Education",
+      path: "/resume",
       content:
-        "We take proactive steps make sure your information and transactions are secure.",
+     "VIEW RESUME",
+
     },
     {
       id: "feature-3",
       icon: Send,
       title: "Experience",
+      path: "/resume",
       content:
-        "A balance transfer credit card can save you a lot of money in interest charges.",
+        "VIEW RESUME",
     },
   ];
 
