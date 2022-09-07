@@ -83,7 +83,6 @@ body {
   filter: blur(750px);
 }
 
-<<<<<<< Updated upstream
 .glass-card {
   background: linear-gradient(144.39deg,
       #fffffff1 -200.56%,
@@ -98,12 +97,8 @@ body {
   border: 1px solid #00f7ff82; 
       /* background: var(--black-gradient); 
        box-shadow: var(--card-shadow);  */
-=======
-<<<<<<< Updated upstream
-.feature-card:hover {
-  background: var(--black-gradient);
-  box-shadow: var(--card-shadow);
-=======
+}
+
 .glass-card {
   background: linear-gradient(144.39deg,
       #fffffff1 -200.56%,
@@ -119,8 +114,6 @@ body {
   border: 1px solid rgb(69, 44, 99);
       /* background: var(--black-gradient); 
        box-shadow: var(--card-shadow);  */
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 }
 
 .button:hover {

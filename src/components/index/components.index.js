@@ -4,7 +4,6 @@ export { default as Hero } from '.././hero/Hero'
 export { default as AboutMe } from '.././about-me/AboutMe'
 export { default as Stats } from '../stats/Stats'
 export { default as Business } from '.././business/Business'
-export { default as FeatureCard } from ".././cards/feature-card/FeatureCard"
 export { default as Billing } from '.././billing/Billing'
 export { default as Deal } from '.././deal/Deal'
 export { default as CTA } from ".././cta/CTA"

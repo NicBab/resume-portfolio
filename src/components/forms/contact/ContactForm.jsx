@@ -60,22 +60,10 @@ const ContactForm = () => {
               className="textarea mb-10 "
             />
           </form>
-          <SendEmailButton type="submit"/>
+          <SendEmailButton type="submit" />
         </div>
-<<<<<<< Updated upstream
-      </section>
-      <div className="absolute z-[0] w-[80%] h-[60%] -right-[50%] -top-[0] rounded-full blue__gradient" />
-=======
-<<<<<<< Updated upstream
-        <div className="absolute z-[0] w-[80%] h-[60%] -right-[50%] -top-[0] rounded-full blue__gradient" />
-      </section>
-
-=======
         <div className="absolute z-[0] w-[60%] h-[50%] -top-[0] rounded-full blue__gradient opacity-[.50]" />
       </section>
-     
->>>>>>> Stashed changes
->>>>>>> Stashed changes
       <div>
         {done
           ? "Thank you for your interest... Your email has been sent!"
