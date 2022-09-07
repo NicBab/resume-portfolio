@@ -28,9 +28,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexEnd}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexEnd} `}>
       <section className={layout.section}>
-        <div className={layout.sectionInfo}>
+        <div className={`${layout.sectionInfo} z-[1]`}>
           <h2 className={styles.heading2}>
             Interested?... <br className="sm:block hidden" />
             Get in touch!
@@ -44,7 +44,7 @@ const ContactForm = () => {
             aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
           </p>
         </div>
-        <div className={`${layout.sectionImg} flex-col`}>
+        <div className={`${layout.sectionImg} flex-col z-[1]`}>
           <form
             ref={formRef}
             onSubmit={handleEmailSubmit}
@@ -57,14 +57,13 @@ const ContactForm = () => {
               rows="5"
               placeholder="Message"
               name="message"
-              className="textarea mb-10 z-[2]"
+              className="textarea mb-10 "
             />
           </form>
-          <SendEmailButton />
+          <SendEmailButton type="submit"/>
         </div>
-        <div className="absolute z-[0] w-[80%] h-[60%] -right-[50%] -top-[0] rounded-full blue__gradient" />
       </section>
-
+      <div className="absolute z-[0] w-[80%] h-[60%] -right-[50%] -top-[0] rounded-full blue__gradient" />
       <div>
         {done
           ? "Thank you for your interest... Your email has been sent!"
