@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles, { layout } from "../.././style";
-import { ViewPortfolioButton } from "../.././components/index/components.index";
+import { ViewResumeButton } from "../.././components/index/components.index";
 import { tailwindLogo } from "../.././assets/index/assets.index";
 
 const Deal = () => {
@@ -9,17 +9,15 @@ const Deal = () => {
     <section className={`${layout.section} relative`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-         Make it work <br className="sm:block hidden" /> in few easy
-          steps.
+          "deal " <br className="sm:block hidden" /> Experience
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] m-5 z-[2]`}>
-              Creating web front end, back end,
-            databases and APIs. Enhancing the functionality, user
-            experience and user interface design, while optimizing web pages for
-            maximum speed and scalability.
+          Creating web front end, back end, databases and APIs. Enhancing the
+          functionality, user experience and user interface design, while
+          optimizing web pages for maximum speed and scalability.
         </p>
-        <Link to="/portfolio">
-          <ViewPortfolioButton />
+        <Link to="/resume">
+          <ViewResumeButton />
         </Link>
       </div>
       <div className={layout.sectionImg}>

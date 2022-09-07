@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import styles from "../.././style";
 import robot from "../.././assets/images/hero/robot.png";
+import AboutMeHeroClicker from "../buttons/AboutMeHeroClicker";
 
 const Hero = () => {
   return (
@@ -25,10 +27,14 @@ const Hero = () => {
               My name is
             </span>
           </h1>
-          {/* <div className="ss:flex hidden md:mr-4 mr-0"><GetStarted/></div> */}
+          <div className="ss:flex hidden md:mr-4 mr-0">
+            <Link to="/bio">
+            <AboutMeHeroClicker />
+            </Link>
+          </div>
         </div>
 
-        <h1 className="text-purple-gradient font-poppins font-semibold xs:text-[68px] text-[40px] text-white ss:leading-[100px] leading-[75px] w-full">
+        <h1 className="purple-text-gradient font-poppins font-semibold xs:text-[68px] text-[40px] text-white ss:leading-[100px] leading-[75px] w-full">
           Nick Babineaux
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -36,7 +42,7 @@ const Hero = () => {
             Software Developer
           </span>
           <br className="sm:block " />
-          Creating stylish modern web services and E-commerce. Utilizing a
+          Creating stylish modern web services and E-commerce utilizing a
           variety of markup languages and frameworks.
         </p>
       </div>

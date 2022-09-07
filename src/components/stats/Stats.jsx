@@ -1,4 +1,3 @@
-import React from 'react'
 import { stats } from '../../constants/index';
 import styles from '../../style';
 
@@ -12,10 +11,10 @@ const Stats = () => {
         key={stat.id}
         className={`flex-1 flex justify-center items-center flex-row m-3`}
       >
-        <h4 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">
+        {/* <h4 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">
           {stat.value}
-        </h4>
-        <p className={`${styles.flexCenter} text-purple-gradient font-poppins font-normal xs:text-[30px] text-[16px] xs:leading-[53px] leading-[43px] uppercase ml-3`}>
+        </h4> */}
+        <p className={`${styles.flexCenter} purple-text-gradient font-poppins font-normal xs:text-[30px] text-[16px] xs:leading-[53px] leading-[43px] uppercase ml-3`}>
           <a href={`#${stat.id}`}>{stat.title}</a>
         </p>
       </div>

@@ -1,10 +1,7 @@
-import React from 'react'
-import { AboutMe } from "../.././components/index/components.index"
 
-const BioPg = () => {
-  return (
-    <div> <AboutMe /> </div>
-  )
-}
+import { AboutMe } from "../.././components/index/components.index";
 
-export default BioPg
+const BioPg = () => <AboutMe />;
+
+
+export default BioPg;

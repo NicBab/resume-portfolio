@@ -38,20 +38,26 @@ body {
       #11101d 91.61%,
       #6d6d6d -78.47%,
       #ffffff -278.56%);
-
 } 
 
-.bg-purple-gradient {
-  background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%)
-}
-
-.purple__gradient {
-  background: linear-gradient(90deg, #6c19fa 16.4%, #7d1fa5 56.1%);
-  filter: blur(900px);
-}
-
-.text-purple-gradient {
+.purple-text-gradient {
   background: linear-gradient(135.9deg, rgb(106, 23, 250) 16.4%, rgb(125, 31, 165) 56.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -62,6 +68,17 @@ body {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);
 }
+
+.bg-purple-gradient {
+  background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%)
+}
+
+.purple__gradient {
+  background: linear-gradient(90deg, #6c19fa 16.4%, #7d1fa5 56.1%);
+  filter: blur(900px);
+}
+
+
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
@@ -78,14 +95,19 @@ body {
   border: 1px solid rgb(68, 44, 98);
 }
 
-.feature-card:hover {
-  border: 1px solid #00f7ff82; 
-      /* background: var(--black-gradient); 
-       box-shadow: var(--card-shadow);  */
+.glass-card {
+  background: linear-gradient(144.39deg,
+      #fffffff1 -200.56%,
+      #6d6d6d3c -78.47%,
+      #11101d7d 91.61%);
+      backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #00f7ff82
 }
 
-.button:hover {
-  border: 1px solid #00f7ff82;
+.feature-card:hover {
+  border: 1px solid rgb(69, 44, 99);
+  border: 1px solid #00f7ff82
 }
 
 .sidebar {

@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { features } from "../.././constants/index";
 import styles, { layout } from "../.././style";
-import { MoreAboutButton, FeatureCard } from "../.././components/index/components.index"
-
+import {
+  ViewPortfolioButton,
+  FeatureCard,
+} from "../.././components/index/components.index";
 
 const Business = () => {
   return (
@@ -11,15 +13,15 @@ const Business = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Striking balance between <br className="sm:block hidden" />
-          functional and aesthetic design.
+          functional and aesthetic design. "business" PROJECTS
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] m-5`}>
           Being able to understand the big picture means being able to imagine
-          another way of doing things. One that might work better for the
+          another way of doing things, one that might work better for the
           organization's goal, employee productivity and job satisfaction!
         </p>
-        <Link to="/bio">
-          <MoreAboutButton />
+        <Link to="/portfolio">
+          <ViewPortfolioButton />
         </Link>
       </div>
       <div className={`${layout.sectionImg} flex-col `}>
