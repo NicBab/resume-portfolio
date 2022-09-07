@@ -1,6 +1,8 @@
 const styles = {
     boxWidth: "xl:max-w-[100vw] w-full",
 
+    button: "py-4 px-6 bg-purple-gradient font-poppins font-medium text-[18px] text-primary rounded-[10px] hover:text-secondary",
+
     heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
     paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] indent-5",
   

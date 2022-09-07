@@ -1,8 +1,9 @@
 import React from 'react'
+import { AboutMe } from "../.././components/index/components.index"
 
 const BioPg = () => {
   return (
-    <div>BioPg</div>
+    <div> <AboutMe /> </div>
   )
 }
 

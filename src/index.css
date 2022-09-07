@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   scroll-behavior: smooth;
 }
@@ -64,11 +68,25 @@ body {
   filter: blur(750px);
 }
 
-.feature-card:hover {
-  background: var(--black-gradient);
-  box-shadow: var(--card-shadow);
+.glass-card {
+  background: linear-gradient(144.39deg,
+      #fffffff1 -200.56%,
+      #6d6d6d3c -78.47%,
+      #11101d7d 91.61%);
+      backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgb(68, 44, 98);
 }
 
+.feature-card:hover {
+  border: 1px solid #00f7ff82; 
+      /* background: var(--black-gradient); 
+       box-shadow: var(--card-shadow);  */
+}
+
+.button:hover {
+  border: 1px solid #00f7ff82;
+}
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
