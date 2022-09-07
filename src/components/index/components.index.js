@@ -9,6 +9,7 @@ export { default as Deal } from '.././deal/Deal'
 export { default as CTA } from ".././cta/CTA"
 export { default as Footer } from '.././footer/Footer'
 export { default as Social } from ".././social/Social"
+export { default as Resume } from ".././resume/Resume"
 
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard"
@@ -20,6 +21,7 @@ export { default as MoreAboutButton } from '.././buttons/MoreAboutButton'
 export { default as ViewPortfolioButton } from '.././buttons/ViewPortfolioButton'
 export { default as ContactMeButton } from '.././buttons/ContactMeButton'
 export { default as SendEmailButton } from '.././buttons/SendEmailButton'
+export { default as ViewResumeButton } from ".././buttons/ViewResumeButton"
 
 //FORMS
 export { default as ContactForm } from '../forms/contact/ContactForm'

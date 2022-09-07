@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles, { layout } from "../.././style";
-import { ViewPortfolioButton } from "../.././components/index/components.index";
+import { ViewResumeButton } from "../.././components/index/components.index";
 import { tailwindLogo } from "../.././assets/index/assets.index";
 
 const Deal = () => {
@@ -16,8 +16,8 @@ const Deal = () => {
           functionality, user experience and user interface design, while
           optimizing web pages for maximum speed and scalability.
         </p>
-        <Link to="/portfolio">
-          <ViewPortfolioButton />
+        <Link to="/resume">
+          <ViewResumeButton />
         </Link>
       </div>
       <div className={layout.sectionImg}>

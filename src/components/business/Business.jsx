@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { features } from "../.././constants/index";
 import styles, { layout } from "../.././style";
 import {
-  MoreAboutButton,
+  ViewPortfolioButton,
   FeatureCard,
 } from "../.././components/index/components.index";
 
@@ -20,8 +20,8 @@ const Business = () => {
           another way of doing things, one that might work better for the
           organization's goal, employee productivity and job satisfaction!
         </p>
-        <Link to="/bio">
-          <MoreAboutButton />
+        <Link to="/portfolio">
+          <ViewPortfolioButton />
         </Link>
       </div>
       <div className={`${layout.sectionImg} flex-col `}>

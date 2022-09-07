@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import styles from "../.././style";
 import robot from "../.././assets/images/hero/robot.png";
 import AboutMeHeroClicker from "../buttons/AboutMeHeroClicker";
@@ -27,11 +28,13 @@ const Hero = () => {
             </span>
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
+            <Link to="/bio">
             <AboutMeHeroClicker />
+            </Link>
           </div>
         </div>
 
-        <h1 className="text-purple-gradient font-poppins font-semibold xs:text-[68px] text-[40px] text-white ss:leading-[100px] leading-[75px] w-full">
+        <h1 className="purple-text-gradient font-poppins font-semibold xs:text-[68px] text-[40px] text-white ss:leading-[100px] leading-[75px] w-full">
           Nick Babineaux
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
