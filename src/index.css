@@ -38,8 +38,23 @@ body {
       #11101d 91.61%,
       #6d6d6d -78.47%,
       #ffffff -278.56%);
-
 } 
+
+.blue-text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 
 .bg-purple-gradient {
   background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%)
@@ -68,6 +83,7 @@ body {
   filter: blur(750px);
 }
 
+<<<<<<< Updated upstream
 .glass-card {
   background: linear-gradient(144.39deg,
       #fffffff1 -200.56%,
@@ -82,6 +98,29 @@ body {
   border: 1px solid #00f7ff82; 
       /* background: var(--black-gradient); 
        box-shadow: var(--card-shadow);  */
+=======
+<<<<<<< Updated upstream
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+=======
+.glass-card {
+  background: linear-gradient(144.39deg,
+      #fffffff1 -200.56%,
+      #6d6d6d3c -78.47%,
+      #11101d7d 91.61%);
+      backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(4px);
+  /* border: 1px solid rgb(69, 44, 99); */
+  border: 1px solid #00f7ff82
+}
+
+.feature-card:hover {
+  border: 1px solid rgb(69, 44, 99);
+      /* background: var(--black-gradient); 
+       box-shadow: var(--card-shadow);  */
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 .button:hover {

@@ -11,11 +11,19 @@ const Business = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Striking balance between <br className="sm:block hidden" />
-          functional and aesthetic design.
+          functional and aesthetic design. "business" PROJECTS
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] m-5`}>
           Being able to understand the big picture means being able to imagine
+<<<<<<< Updated upstream
           another way of doing things. One that might work better for the
+=======
+<<<<<<< Updated upstream
+          another way of doing things, one that might work better for the
+=======
+          another way of doing things. Ones that might work better for the
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
           organization's goal, employee productivity and job satisfaction!
         </p>
         <Link to="/bio">

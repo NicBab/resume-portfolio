@@ -1,9 +1,7 @@
-import React from 'react'
 
-const PortfolioPg = () => {
-  return (
-    <div>PortfolioPg</div>
-  )
-}
+import { ProjectCard } from "../.././components/index/components.index"
+
+
+const PortfolioPg = () => <ProjectCard />
 
 export default PortfolioPg

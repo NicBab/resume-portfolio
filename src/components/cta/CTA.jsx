@@ -9,7 +9,15 @@ import {
 const CTA = () => {
   return (
     <section
+<<<<<<< Updated upstream
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient rounded-[20px] box-shadow z-[10] glass`}
+=======
+<<<<<<< Updated upstream
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient rounded-[20px] box-shadow`}
+=======
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient rounded-[20px] box-shadow z-[1] glass-card`}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     >
       <div className="flex-1 flex flex-col">
         <h2 className={styles.heading2}>Let’s chat about your project!</h2>
@@ -22,6 +30,7 @@ const CTA = () => {
           <ContactMeButton />
         </Link>
       </div>
+      <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.25]" />
     </section>
   );
 };

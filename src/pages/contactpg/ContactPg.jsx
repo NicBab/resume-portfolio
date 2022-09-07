@@ -1,10 +1,5 @@
-import React from 'react'
-import { ContactForm } from "../.././components/index/components.index"
+import { ContactForm } from "../.././components/index/components.index";
 
-const ContactPg = () => {
-  return (
-    <div> <ContactForm /> </div>
-  )
-}
+const ContactPg = () =>  <ContactForm />
 
-export default ContactPg
+export default ContactPg;

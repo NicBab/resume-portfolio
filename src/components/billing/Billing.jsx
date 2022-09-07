@@ -1,28 +1,25 @@
 import React from 'react'
 import styles, { layout } from "../.././style"
-import { reactLogo } from '../.././assets/index/assets.index'
+import { LSUfs } from '../.././assets/index/assets.index'
  
 const Billing = () => {
   return (
     <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
-        src={reactLogo}
-        alt="logo"
-        className="w-[100%] h-[100%] relative z-[5] ml-10"
+        src={LSUfs}
+        alt="lsu-fullstack-cert"
+        className="w-[100%] h-[100%] relative  ml-10 rounded-md z-[1]"
       />
 
       {/* gradient start */}
-
-      <div className="absolute z-[3] -left-[50%] bottom-0 w-[60%] h-[60%] rounded-full white__gradient" />
-      <div className="absolute z-[0] w-[60%] h-[60%] -left-10 bottom-20 rounded-full pink__gradient" />
+      <div className="absolute z-[2] left-[50%] bottom-0 w-[60%] h-[60%] rounded-full white__gradient opacity-[.50]"/>
       {/* gradient end */}
     </div>
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+      "billing"<br className="sm:block hidden" />EDUCATION
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean

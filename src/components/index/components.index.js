@@ -11,8 +11,13 @@ export { default as CTA } from ".././cta/CTA"
 export { default as Footer } from '.././footer/Footer'
 export { default as Social } from ".././social/Social"
 
+//CARDS
+export { default as FeatureCard } from ".././cards/feature-card/FeatureCard"
+export { default as ProjectCard } from '.././cards/projects-card/ProjectCard'
+
 //BUTTONS
-export { default as MoreAboutButton } from '../buttons/MoreAboutButton'
+export { default as AboutMeHeroClicker } from '.././buttons/AboutMeHeroClicker'
+export { default as MoreAboutButton } from '.././buttons/MoreAboutButton'
 export { default as ViewPortfolioButton } from '.././buttons/ViewPortfolioButton'
 export { default as ContactMeButton } from '.././buttons/ContactMeButton'
 export { default as SendEmailButton } from '.././buttons/SendEmailButton'

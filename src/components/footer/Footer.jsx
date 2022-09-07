@@ -7,9 +7,9 @@ import { footerLinks } from "../.././constants/index";
 const Footer = () => {
   return (
     <section
-      className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-primary border-t-[1px] border-t-[#3F3E45]`}
+      className={`${styles.flexCenter} ${styles.paddingY} z-[1] flex-col bg-primary border-t-[1px] border-t-[#3F3E45] `}
     >
-      <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+      <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full z-[1]`}>
         <div className="flex-[1] flex flex-col justify-start mr-10">
           <img
             src={gearLogo}

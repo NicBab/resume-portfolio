@@ -1,6 +1,15 @@
 import React from "react";
 import styles from "../.././style";
+<<<<<<< Updated upstream
 import robot from "../.././assets/images/hero/robot.png";
+=======
+<<<<<<< Updated upstream
+import robot from "../.././assets/images/hero/robot.png"
+=======
+import robot from "../.././assets/images/hero/robot.png";
+import AboutMeHeroClicker from "../buttons/AboutMeHeroClicker";
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 const Hero = () => {
   return (
@@ -25,19 +34,35 @@ const Hero = () => {
               My name is
             </span>
           </h1>
-          {/* <div className="ss:flex hidden md:mr-4 mr-0"><GetStarted/></div> */}
+          <div className="ss:flex hidden md:mr-4 mr-0"><AboutMeHeroClicker/></div>
         </div>
 
         <h1 className="text-purple-gradient font-poppins font-semibold xs:text-[68px] text-[40px] text-white ss:leading-[100px] leading-[75px] w-full">
           Nick Babineaux
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+            Developing features utilizing a variety of markup
+            languages and frameworks. Creating web front end, back end,
+            databases and APIs. Enhancing the functionality, user
+            experience and user interface design, while optimizing web pages for
+            maximum speed and scalability.
+=======
+>>>>>>> Stashed changes
           <span className="ss:text-[35px] text-[20px] text-white">
             Software Developer
           </span>
           <br className="sm:block " />
+<<<<<<< Updated upstream
           Creating stylish modern web services and E-commerce. Utilizing a
           variety of markup languages and frameworks.
+=======
+          Creating stylish modern web services and E-commerce utilizing a
+          variety of markup languages and frameworks.
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
         </p>
       </div>
       <div
