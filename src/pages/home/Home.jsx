@@ -21,9 +21,9 @@ const Home = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Business />
-          <Billing />
           <Deal />
+          <Billing />
+          <Business />
           <CTA />
         </div>
       </div>

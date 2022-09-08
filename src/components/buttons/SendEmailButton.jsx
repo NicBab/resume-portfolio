@@ -7,7 +7,7 @@ const SendEmailButton = () => {
     type="button"
     className={`${styles.button} w-[100%]`}
   >
-    Send
+    SEND
   </button>
   )
 }

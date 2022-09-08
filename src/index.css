@@ -78,8 +78,6 @@ body {
   filter: blur(900px);
 }
 
-
-
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
@@ -92,22 +90,21 @@ body {
       #11101d7d 91.61%);
       backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgb(68, 44, 98);
-}
-
-.glass-card {
-  background: linear-gradient(144.39deg,
-      #fffffff1 -200.56%,
-      #6d6d6d3c -78.47%,
-      #11101d7d 91.61%);
-      backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid #00f7ff82
-}
-
-.feature-card:hover {
   border: 1px solid rgb(69, 44, 99);
-  border: 1px solid #00f7ff82
+}
+
+.glass-card-2 {
+  background: linear-gradient(144.39deg,
+  #fffffff1 -200.56%,
+  #6d6d6d3c -78.47%,
+  #11101d7d 91.61%);
+  backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid #00f6ff;
+}
+
+.card-hover:hover {
+  border: 1px solid #00f6ff;
 }
 
 .sidebar {
@@ -146,7 +143,7 @@ input {
   margin: 10px 0px;
   padding: 10px;
   font-size: 14px;
-  border-radius: 30px;
+  border-radius: 10px;
   position: relative;
   z-index: 2;
 }

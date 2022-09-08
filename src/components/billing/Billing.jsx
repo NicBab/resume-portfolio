@@ -9,17 +9,17 @@ const Billing = () => {
       <img
         src={LSUfs}
         alt="lsu-fullstack-cert"
-        className="w-[100%] h-[100%] relative  ml-10 rounded-md z-[1]"
+        className="w-[50%] h-[100%] relative  ml-10 rounded-md z-[1]"
       />
 
       {/* gradient start */}
-      <div className="absolute z-[2] left-[50%] bottom-0 w-[60%] h-[60%] rounded-full white__gradient opacity-[.50]"/>
+      {/* <div className="absolute z-[2] left-[50%] bottom-0 w-[60%] h-[60%] rounded-full white__gradient opacity-[.50]"/> */}
       {/* gradient end */}
     </div>
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      "billing"<br className="sm:block hidden" />EDUCATION
+      "billing"<br className="sm:block hidden" />
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean

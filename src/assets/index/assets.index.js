@@ -15,3 +15,5 @@ export { default as gearLogo } from "../images/logo/gears_Img2.png"
 export { default as reactLogo } from '../images/logo/1_react_logo.png'
 export { default as tailwindLogo } from "../images/logo/tailwind_logo.png"
 export { default as LSUfs } from '../images/certifications/LSU_fullstack.jpg'
+export { default as hoobankImg } from '../images/projects/hoobankPg.vite.png'
+export { default as NicRes } from "../images/res/Nic Babineaux.png"

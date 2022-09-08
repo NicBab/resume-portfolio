@@ -1,6 +1,6 @@
 import styles from "./style";
 import { Routes, Route } from "react-router-dom";
-import { Home, BioPg, PortfolioPg, ContactPg } from "./pages/index/pages.index";
+import { Home, BioPg, PortfolioPg, ContactPg, ResumePg } from "./pages/index/pages.index";
 import { Navbar, Footer } from "./components/index/components.index.js";
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Route path="/bio" element={<BioPg />} />
         <Route path="/portfolio" element={ < PortfolioPg /> } />
         <Route path="/contact" element={<ContactPg />} />
+        <Route path="/resume" element={ <ResumePg /> } />
       </Routes>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>

@@ -10,9 +10,9 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
   return (
     <>
       <div
-        className={`flex flex-row p-6 min-w-[400px] rounded-[20px] z-[1] ${
+        className={`flex flex-row w-[300px] p-6 rounded-[20px] z-[1] ${
           index !== features.length - 1 ? "mb-8" : "mb-0"
-        } glass-card feature-card cursor-pointer`}
+        } glass-card card-hover cursor-pointer xs:w-[400px]`}
         onMouseEnter={() => setInfo(!info)}
         onMouseLeave={() => setInfo(false)}
       >
