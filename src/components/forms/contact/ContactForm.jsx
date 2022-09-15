@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import styles, { layout } from "../../.././style";
 import { SendEmailButton } from "../../.././components/index/components.index";
 import emailjs from "@emailjs/browser";
-
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PlaceIcon from "@mui/icons-material/Place";
@@ -44,18 +43,14 @@ const ContactForm = () => {
             </span>
           </h2>
 
-          <div className= "flex-flex-col text-dimWhite">
-            <div>
-              <PhoneInTalkIcon /> (337)-257-9202
-              <AlternateEmailIcon />stellarinnovationco@gmail.com
-              <PlaceIcon /> 123 Merlot Cir., Laf, La. 70503
+        {/* REDO WITH MAP */}
+          <div className= "text-dimWhite">
+            <div className="flex flex-col">
+              <span className="mb-5"><PhoneInTalkIcon className="mr-5"/>(337)-257-9202</span>
+              <span className="mb-5"><AlternateEmailIcon className="mr-5"/>stellarinnovationco@gmail.com</span>
+              <span className="mb-5"><PlaceIcon className="mr-5"/> 123 Merlot Cir., Laf, La. 70503</span>
             </div>
           </div>
-
-          {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-            aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
-          </p> */}
         </div>
 
         <div className={`${layout.sectionImg} flex-col z-[1]`}>
