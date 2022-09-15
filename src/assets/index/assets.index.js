@@ -17,3 +17,5 @@ export { default as tailwindLogo } from "../images/logo/tailwind_logo.png"
 export { default as LSUfs } from '../images/certifications/LSU_fullstack.jpg'
 export { default as hoobankImg } from '../images/projects/hoobankPg.vite.png'
 export { default as NicRes } from "../images/res/Nic Babineaux.png"
+export { default as me_drumPic } from "../images/me/me_drumPic.png"
+export { default as grouse_room } from "../images/me/grouse_room.jpeg"

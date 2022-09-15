@@ -13,7 +13,7 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
         className={`flex flex-row w-[300px] p-6 rounded-[20px] z-[1] ${
           index !== features.length - 1 ? "mb-8" : "mb-0"
         } glass-card card-hover cursor-pointer xs:w-[400px]`}
-        onMouseEnter={() => setInfo(!info)}
+        onClick={() => setInfo(!info)}
         onMouseLeave={() => setInfo(false)}
       >
         <div
@@ -27,17 +27,19 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
         </div>
         <div className="flex-1 flex flex-col ml-3">
           <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1 hover:text-secondary">
-            <Link to={`${path}`}>{title}</Link>
+            {title}
+            {/* <Link to={`${path}`}>{title}</Link> */}
           </h4>
           {info ? (
-            <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1 underline hover:text-secondary">
-              <Link to={`${path}`}>{content}</Link>
+            <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
+              {content}
+              <Link className="underline hover:text-secondary text-[20px]" to={`${path}`}>{`view${path}`}</Link>
             </p>
           ) : null}
         </div>
        
       </div>
-      <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
+      <div className="absolute z-[0] w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
     </>
   );
 };

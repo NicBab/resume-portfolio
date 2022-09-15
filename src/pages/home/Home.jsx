@@ -22,8 +22,8 @@ const Home = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Deal />
-          <Billing />
           <Business />
+          <Billing />
           <CTA />
         </div>
       </div>

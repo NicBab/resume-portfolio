@@ -14,8 +14,9 @@ const Stats = () => {
         {/* <h4 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">
           {stat.value}
         </h4> */}
-        <p className={`${styles.flexCenter} purple-text-gradient font-poppins font-normal xs:text-[30px] text-[16px] xs:leading-[53px] leading-[43px] uppercase ml-3`}>
-          <a href={`#${stat.id}`}>{stat.title}</a>
+        <p className={`${styles.flexCenter} purple-text-gradient font-poppins font-normal xs:text-[30px] text-[16px] tracking-wider xs:leading-[53px] leading-[43px] uppercase ml-3`}>
+        {stat.title}
+          {/* <a href={`#${stat.id}`}></a> */}
         </p>
       </div>
     ))}

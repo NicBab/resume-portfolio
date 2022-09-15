@@ -3,6 +3,10 @@ import styles, { layout } from "../../.././style";
 import { SendEmailButton } from "../../.././components/index/components.index";
 import emailjs from "@emailjs/browser";
 
+import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
+import PlaceIcon from "@mui/icons-material/Place";
+
 const ContactForm = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
@@ -39,11 +43,21 @@ const ContactForm = () => {
               Available for freelancing and hire!
             </span>
           </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+
+          <div className= "flex-flex-col text-dimWhite">
+            <div>
+              <PhoneInTalkIcon /> (337)-257-9202
+              <AlternateEmailIcon />stellarinnovationco@gmail.com
+              <PlaceIcon /> 123 Merlot Cir., Laf, La. 70503
+            </div>
+          </div>
+
+          {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
             aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
-          </p>
+          </p> */}
         </div>
+
         <div className={`${layout.sectionImg} flex-col z-[1]`}>
           <form
             ref={formRef}

@@ -1,6 +1,7 @@
 import styles from "../.././style";
 import { BUTTON } from "../.././components/index/components.index";
 import { Link } from "react-router-dom"
+
 const AboutMe = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const AboutMe = () => {
         className={`bg-primary ${styles.paddingX} ${styles.flexCenter} flex-col`}
       >
         <div
-          className={`flex flex-row p-8 w-[300px] rounded-[20px] z-[1] glass-card-2 mt-10 mb-10 xs:w-auto`}
+          className={`flex flex-row p-8 w-[300px] rounded-[20px] z-[1] glass-card-2 mt-10 mb-10 xs:w-auto md:max-w-[900px]`}
         >
           <p className={`${styles.paragraph}`}>
             {" "}
@@ -38,7 +39,7 @@ const AboutMe = () => {
         </div>
         <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
       </div>
-      <div className={`bg-primary ${styles.padding} ${styles.flexEnd} flex-col `}>
+      <div className={`bg-primary ${styles.padding} ${styles.flexEnd} flex-col`}>
         <Link to="/contact">
         <BUTTON name="CONTACT ME" />
         </Link>

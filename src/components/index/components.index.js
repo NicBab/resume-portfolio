@@ -19,6 +19,7 @@ export { default as ProjectCard } from '.././cards/projects-card/ProjectCard'
 export { default as AboutMeHeroClicker } from '.././buttons/AboutMeHeroClicker'
 export { default as SendEmailButton } from '.././buttons/SendEmailButton'
 export { default as BUTTON } from ".././buttons/BUTTON"
+export { default as SecBtn } from ".././buttons/SecBtn"
 
 //FORMS
 export { default as ContactForm } from '../forms/contact/ContactForm'

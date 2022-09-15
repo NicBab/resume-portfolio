@@ -19,7 +19,7 @@ const CTA = () => {
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
         <Link to="/contact">
-          <BUTTON name={"CONTACT"} />
+          <BUTTON name="CONTACT ME" />
         </Link>
       </div>
       <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.25]" />

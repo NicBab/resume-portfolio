@@ -1,10 +1,11 @@
 const styles = {
     boxWidth: "xl:max-w-[100vw] w-full",
 
-    button: "py-4 px-6 bg-purple-gradient font-poppins font-medium text-[18px] text-primary rounded-[10px] hover:text-secondary",
+    button: "py-4 px-6 mb-5 w-[200px] bg-purple-gradient font-poppins font-medium text-[18px] text-primary rounded-[10px] hover:text-secondary",
+    buttonSecondary: "py-4 px-6 xs:ml-5 w-[200px] purple-text-gradient hover:secondary font-poppins font-medium text-[18px] outline outline-1 outline-iconPurple rounded-[10px]",
 
     heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-    paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] indent-5",
+    paragraph: "m-5 font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] indent-5",
   
     flexStart: "flex justify-center items-start",
     flexCenter: "flex justify-center items-center",
@@ -18,6 +19,7 @@ const styles = {
   
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
+
 
   };
   
