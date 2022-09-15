@@ -38,17 +38,25 @@ const ContactForm = () => {
             Interested?... <br className="sm:block hidden" />
             Get in touch!
             <br className="sm:block hidden" />
-            <span className="text-white text-[20px] ss:text-[30px] ">
-              Available for freelancing and hire!
-            </span>
           </h2>
+          <span className="text-white text-[20px] ss:text-[30px] leading-[40px] py-10">
+            Available for freelancing and hire!
+          </span>
 
-        {/* REDO WITH MAP */}
-          <div className= "text-dimWhite">
+          {/* REDO WITH MAP */}
+          <div className="text-dimWhite">
             <div className="flex flex-col">
-              <span className="mb-5"><PhoneInTalkIcon className="mr-5"/>(337)-257-9202</span>
-              <span className="mb-5"><AlternateEmailIcon className="mr-5"/>stellarinnovationco@gmail.com</span>
-              <span className="mb-5"><PlaceIcon className="mr-5"/> 123 Merlot Cir., Laf, La. 70503</span>
+              <span className="mb-5">
+                <PhoneInTalkIcon className="mr-5" />
+                (337)-257-9202
+              </span>
+              <span className="mb-5">
+                <AlternateEmailIcon className="mr-5" />
+                stellarinnovationco@gmail.com
+              </span>
+              <span className="mb-5">
+                <PlaceIcon className="mr-5" /> 123 Merlot Cir., Laf, La. 70503
+              </span>
             </div>
           </div>
         </div>
