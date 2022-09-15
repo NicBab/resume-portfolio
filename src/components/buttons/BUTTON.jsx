@@ -1,14 +1,11 @@
-import styles from "../.././style"
+import styles from "../.././style";
 
-const BUTTON = ({name}) => {
+const BUTTON = ({ name }) => {
   return (
-    <button
-    type="button"
-    className={`${styles.button}`}
-  >
-    {name}
-  </button>
-  )
-}
+    <button type="button" className={`${styles.button}`}>
+      {name}
+    </button>
+  );
+};
 
-export default BUTTON
+export default BUTTON;

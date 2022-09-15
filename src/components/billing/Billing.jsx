@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styles, { layout } from "../.././style";
 import { LSUfs } from "../.././assets/index/assets.index";
@@ -19,7 +18,6 @@ const Billing = () => {
       </div>
       <div className={`${layout.sectionInfo} z-[2]`}>
         <h2 className={styles.heading2}>
-          "billing"
           <br className="sm:block hidden" />
           Projects
         </h2>

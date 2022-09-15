@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../.././style";
 import { Social } from "../../components/index/components.index";
 import { gearLogo } from "../.././assets/index/assets.index";
@@ -9,7 +8,9 @@ const Footer = () => {
     <section
       className={`${styles.flexCenter} ${styles.paddingY} z-[1] flex-col bg-primary border-t-[1px] border-t-[#3F3E45] `}
     >
-      <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full z-[1]`}>
+      <div
+        className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full z-[1]`}
+      >
         <div className="flex-[1] flex flex-col justify-start mr-10">
           <img
             src={gearLogo}
@@ -44,17 +45,15 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        </div>
-        <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-        Copyright Ⓒ 2022 StellarInnovationCo. All Rights Reserved.
-      </p>
-
-      <div >
-       <Social />
       </div>
-    </div>
-
+      <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+        <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+          Copyright Ⓒ 2022 StellarInnovationCo. All Rights Reserved.
+        </p>
+        <div>
+          <Social />
+        </div>
+      </div>
     </section>
   );
 };

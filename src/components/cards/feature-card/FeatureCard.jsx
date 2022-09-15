@@ -1,7 +1,6 @@
-import React from "react";
 import { useState } from "react";
 import { features } from "../../.././constants/index";
-import styles, { layout } from "../../.././style"
+import styles from "../../.././style";
 import { Link } from "react-router-dom";
 
 const FeatureCard = ({ icon, title, path, content, index }) => {
@@ -28,16 +27,17 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
         <div className="flex-1 flex flex-col ml-3">
           <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1 hover:text-secondary">
             {title}
-            {/* <Link to={`${path}`}>{title}</Link> */}
           </h4>
           {info ? (
             <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
               {content}
-              <Link className="underline hover:text-secondary text-[20px]" to={`${path}`}>{`view${path}`}</Link>
+              <Link
+                className="underline hover:text-secondary text-[20px]"
+                to={`${path}`}
+              >{`view${path}`}</Link>
             </p>
           ) : null}
         </div>
-       
       </div>
       <div className="absolute z-[0] w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
     </>

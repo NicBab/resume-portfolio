@@ -1,5 +1,5 @@
-import React from 'react'
-import { socialMedia } from '../../constants/index'
+import React from "react";
+import { socialMedia } from "../../constants/index";
 
 const Social = () => {
   return (
@@ -16,8 +16,7 @@ const Social = () => {
         />
       ))}
     </div>
+  );
+};
 
-  )
-}
-
-export default Social
+export default Social;

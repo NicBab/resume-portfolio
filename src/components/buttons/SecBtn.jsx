@@ -1,9 +1,9 @@
 import styles from "../.././style";
 
-const SecBtn = ({name}) => {
+const SecBtn = ({ name }) => {
   return (
     <button type="button" className={`${styles.buttonSecondary}`}>
-        {name}
+      {name}
     </button>
   );
 };

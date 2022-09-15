@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styles, { layout } from "../.././style";
 import { BUTTON, SecBtn } from "../.././components/index/components.index";
@@ -24,8 +23,8 @@ const Deal = () => {
       </div>
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>
-          "deal" <br className="sm:block hidden" />
-          About Me...
+          <br className="sm:block hidden" />
+          About...
         </h2>
         <p className={`${styles.paragraph} max-w-[470px]`}>
           Creating web front end, back end, databases and APIs. Enhancing the

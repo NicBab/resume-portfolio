@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import styles from "../.././style";
 import robot from "../.././assets/images/hero/robot.png";
 import AboutMeHeroClicker from "../buttons/AboutMeHeroClicker";
@@ -12,13 +11,7 @@ const Hero = () => {
       >
         <div
           className={`flex flex-col items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2`}
-        >
-          {/* <img src={discount} alt="discount" className="w-[32px] h-32px" /> */}
-          {/* <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-dimWhite ss:text-[25px] hidden sm:block">Hello</span>
-          </p> */}
-        </div>
-
+        ></div>
         <div className="flex flex-wrap-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[30px] text-dimWhite ss:leading-[40px] leading-[40px]">
             Welcome,
@@ -29,11 +22,10 @@ const Hero = () => {
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <Link to="/bio">
-            <AboutMeHeroClicker />
+              <AboutMeHeroClicker />
             </Link>
           </div>
         </div>
-
         <h1 className="purple-text-gradient font-poppins font-semibold xs:text-[68px] text-[40px] tracking-wider text-white ss:leading-[80px] leading-[75px] w-full">
           Nick Babineaux.
         </h1>
@@ -42,7 +34,7 @@ const Hero = () => {
             Software Developer
           </span>
           <br className="sm:block " />
-          Creating stylish modern web services and E-commerce utilizing a
+          Designing stylish modern web services and E-commerce utilizing a
           variety of markup languages and frameworks.
         </p>
       </div>
@@ -58,7 +50,6 @@ const Hero = () => {
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"></div>
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
       </div>
-      {/* <div className={`ss:hidden ${styles.flexCenter}`}><GetStarted/></div> */}
     </section>
   );
 };

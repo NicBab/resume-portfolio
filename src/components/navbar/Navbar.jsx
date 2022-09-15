@@ -1,24 +1,25 @@
-
 import { useState } from "react";
-import { Link } from "react-router-dom"
-import { menu, close } from "../.././assets/index/assets.index"
-import { navLinks } from '../.././constants/index'
-import { Social } from "../.././components/index/components.index"
+import { Link } from "react-router-dom";
+import { menu, close } from "../.././assets/index/assets.index";
+import { navLinks } from "../.././constants/index";
+import { Social } from "../.././components/index/components.index";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <Social className="w-[110px] h-[52px]"/>
+      <Social className="w-[110px] h-[52px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite z-[10]
-            ${index === navLinks.length - 1 ? "mr-0" : "mr-10"} hover:text-secondary`}
+            ${
+              index === navLinks.length - 1 ? "mr-0" : "mr-10"
+            } hover:text-secondary`}
           >
-             <Link to={`${nav.path}`}>{nav.title}</Link>
+            <Link to={`${nav.path}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>

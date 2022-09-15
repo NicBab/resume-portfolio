@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styles, { layout } from "../.././style";
 import { features } from "../.././constants/index";
@@ -9,14 +8,10 @@ import {
 } from "../.././components/index/components.index";
 
 const Business = () => {
-  // const filteredFeature = features.filter(i => i.title === "Projects")
-  // console.log(filteredFeature);
-
   return (
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          "business"
           <br className="sm:block hidden" />
           Why Choose Me?
         </h2>

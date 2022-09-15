@@ -1,10 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../.././style";
-import {
-  BUTTON,
-  Social,
-} from "../.././components/index/components.index";
+import { BUTTON, Social } from "../.././components/index/components.index";
 
 const CTA = () => {
   return (
