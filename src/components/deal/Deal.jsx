@@ -6,23 +6,27 @@ import { me_drumPic, grouse_room } from "../.././assets/index/assets.index";
 const Deal = () => {
   return (
     <section className={`${layout.section} relative mb-[50px]`}>
-      <div className={`${styles.flexStart} ml-[100px]`}>
+
+
+      <div className={`${styles.flexStart} ml-[50px]`}>
         <div className="absolute z-[0] w-[60%] h-[60%] rounded-full white__gradient opacity-[.2]" />
         <img
           src={me_drumPic}
           alt="me_drumPic"
-          className="w-[250px] h-[250px] relative rounded-md z-[2] mb-8 shadow-2 opacity-[.80]"
+          className="w-[250px] h-[250px] relative rounded-md z-[2] mb-8 shadow-2"
         />
       </div>
 
-      <div className={`${styles.flexEnd} hidden md:flex`}>
-        <div className="absolute z-[0] w-[60%] h-[60%] rounded-full blue__gradient opacity-[.4]" />
+      <div className={`${styles.flexEnd}`}>
+        <div className="absolute z-[1] w-[60%] h-[60%] rounded-full blue__gradient opacity-[.4]" />
         <img
           src={grouse_room}
           alt="me_drumPic"
-          className="w-[250px] h-[200px] relative ml-[-20px] mr-20 rounded-md z-[1] shadow opacity-[.70]"
+          className="w-[250px] h-[200px] relative ml-[-20px] mr-20 rounded-md z-[1] shadow "
         />
       </div>
+
+
 
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>

@@ -26,3 +26,9 @@ export { default as ArrowUp } from "../icons/arrow-up.svg"
     //CERTS
     export { default as LSUfullstack } from '../images/certifications/LSU_fullstack.jpg'
     export { default as UdGit } from '../images/certifications/Ud_gitCert.jpg'
+
+    //PROJECTS
+    export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
+    export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"
+    export { default as fs_Ecommerce } from "../images/projects/FS_ecommerceApp_screenshot.png"
+ 

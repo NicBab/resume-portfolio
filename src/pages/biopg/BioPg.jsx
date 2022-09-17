@@ -1,7 +1,7 @@
 
-import { AboutMe } from "../.././components/index/components.index";
+import { Bio } from "../.././components/index/components.index";
 
-const BioPg = () => <AboutMe />;
+const BioPg = () => <Bio />;
 
 
 export default BioPg;

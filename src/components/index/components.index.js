@@ -1,7 +1,7 @@
 //Components - In order of page layout
 export { default as Navbar } from ".././navbar/Navbar";
 export { default as Hero } from ".././hero/Hero";
-export { default as AboutMe } from ".././about-me/AboutMe"; //BioPg
+export { default as Bio } from "../bio/Bio"; //BioPg
 export { default as Stats } from "../stats/Stats";
 export { default as Deal } from ".././deal/Deal";
 export { default as Business } from ".././business/Business";
