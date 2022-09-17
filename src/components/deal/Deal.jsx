@@ -11,7 +11,7 @@ const Deal = () => {
         <img
           src={me_drumPic}
           alt="me_drumPic"
-          className="w-[250px] h-[250px] relative rounded-md z-[2] mb-8 shadow-2"
+          className="w-[250px] h-[250px] relative rounded-md z-[2] mb-8 shadow-2 opacity-[.80]"
         />
       </div>
 
@@ -20,7 +20,7 @@ const Deal = () => {
         <img
           src={grouse_room}
           alt="me_drumPic"
-          className="w-[250px] h-[200px] relative ml-[-20px] mr-20 rounded-md z-[1] shadow"
+          className="w-[250px] h-[200px] relative ml-[-20px] mr-20 rounded-md z-[1] shadow opacity-[.70]"
         />
       </div>
 

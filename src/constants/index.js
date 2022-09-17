@@ -82,26 +82,21 @@ export const features = [
     icon: Star,
     title: "Projects",
     path: "/portfolio",
-    content:
-      "Returning to south Louisiana some years later...still in the powersports industry, I was on the search for something bigger, better, and more rewarding. I got into cryptocurrencies and day trading. Furthermore, that led to an extreme interest in web design and software development.",
+    content: "",
   },
   {
     id: "feature-2",
     icon: Shield,
     title: "Education",
     path: "/resume",
-    content: {
-      li1: "* Fullstack Academy 2021",
-      li2: "* South Louisiana Community College 2012",
-      li3: "* Universal Technical Institute 2010"
-    },
+    content: ""
   },
   {
     id: "feature-3",
     icon: Send,
     title: "Experience",
     path: "/resume",
-    content: " Powersports Technician, Fullstack Developer",
+    content: "",
   },
 ];
 

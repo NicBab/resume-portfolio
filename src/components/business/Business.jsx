@@ -16,7 +16,7 @@ const Business = () => {
           Why Choose Me?
         </h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
-          Strong technical background and management skills. Excellent
+          With sociology, strong technical background and management skills. Excellent
           troubleshooting, debugging and problem-solving skills. Ability to
           multi-task and a keen eye for detail. <br />
           <p>
