@@ -10,7 +10,7 @@ const Billing = () => {
       <div className="absolute z-[0] w-[70%] h-[60%] rounded-full white__gradient opacity-[.15]" />
       {/* gradient end */}
 
-      <div className={`${layout.sectionImgReverse} glass-card`}>
+      <div className={`${layout.sectionImgReverse}`}>
         <div className={`${styles.flexStart}`}>
           <img
             src={LSUfullstack}
@@ -29,15 +29,13 @@ const Billing = () => {
         Creating web front end, back end, databases and APIs. Enhancing the
           functionality, user experience and user interface design, while
           optimizing web pages for maximum speed and scalability.
-
-
         </p>
         <div>
           <Link to="/portfolio">
             <BUTTON name="VIEW PORTFOLIO" />
           </Link>
-          <Link to="/contact">
-            <SecBtn name="CONTACT ME" />
+          <Link to="/resume">
+            <SecBtn name="VIEW RESUME" />
           </Link>
         </div>
       </div>

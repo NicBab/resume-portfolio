@@ -29,8 +29,8 @@ const Business = () => {
           <Link to="/resume">
             <BUTTON name="VIEW RESUME" />
           </Link>
-          <Link to="/contact">
-            <SecBtn name="CONTACT ME" />
+          <Link to="/bio">
+            <SecBtn name="ABOUT ME" />
           </Link>
         </div>
       </div>
