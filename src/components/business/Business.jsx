@@ -9,8 +9,8 @@ import {
 
 const Business = () => {
   return (
-    <section id="features" className={layout.section}>
-      <div className={layout.sectionInfo}>
+    <section id="features" className={`${layout.sectionReverse} mb-[50px]`}>
+      <div className={`${layout.sectionInfo}`}>
         <h2 className={styles.heading2}>
           <br className="sm:block hidden" />
           Why Choose Me?
@@ -31,7 +31,7 @@ const Business = () => {
           </Link>
         </div>
       </div>
-      <div className={`${layout.sectionImg} flex-col `}>
+      <div className={`${layout.sectionImg} flex-col mb-5`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}

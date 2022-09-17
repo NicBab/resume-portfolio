@@ -11,7 +11,7 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
       <div
         className={`flex flex-row w-[300px] p-6 rounded-[20px] z-[1] ${
           index !== features.length - 1 ? "mb-8" : "mb-0"
-        } glass-card card-hover cursor-pointer xs:w-[400px]`}
+        } glass-card cursor-pointer xs:w-[400px]`}
         onClick={() => setInfo(!info)}
         onMouseLeave={() => setInfo(false)}
       >
@@ -29,13 +29,14 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
             {title}
           </h4>
           {info ? (
-            <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
-              {content}
-              <Link
+            <div className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
+              <span>{content.li1}</span>
+              <span>{content.li2}</span>
+              {/* <Link
                 className="underline hover:text-secondary text-[20px]"
                 to={`${path}`}
-              >{`view${path}`}</Link>
-            </p>
+              >{`view${path}`}</Link> */}
+            </div>
           ) : null}
         </div>
       </div>

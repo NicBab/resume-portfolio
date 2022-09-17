@@ -1,5 +1,5 @@
 import styles from "../.././style";
-import { BUTTON } from "../.././components/index/components.index";
+import { BUTTON, CertCard } from "../.././components/index/components.index";
 import { Link } from "react-router-dom"
 
 const AboutMe = () => {
@@ -8,6 +8,7 @@ const AboutMe = () => {
       <div
         className={`bg-primary ${styles.paddingX} ${styles.flexCenter} flex-col`}
       >
+        <CertCard />
         <div
           className={`flex flex-row p-8 w-[300px] rounded-[20px] z-[1] glass-card-2 mt-10 mb-10 xs:w-auto md:max-w-[900px]`}
         >

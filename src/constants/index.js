@@ -90,7 +90,11 @@ export const features = [
     icon: Shield,
     title: "Education",
     path: "/resume",
-    content: "Universsal Technical Institute, South Louisiana Community College, Fullstack Academy",
+    content: {
+      li1: "* Fullstack Academy 2021",
+      li2: "* South Louisiana Community College 2012",
+      li3: "* Universal Technical Institute 2010"
+    },
   },
   {
     id: "feature-3",

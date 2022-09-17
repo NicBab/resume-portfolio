@@ -1,4 +1,4 @@
-//Components In order of page layout
+//Components - In order of page layout
 export { default as Navbar } from ".././navbar/Navbar";
 export { default as Hero } from ".././hero/Hero";
 export { default as AboutMe } from ".././about-me/AboutMe"; //BioPg
@@ -14,6 +14,7 @@ export { default as Resume } from ".././resume/Resume";
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard";
 export { default as ProjectCard } from ".././cards/projects-card/ProjectCard";
+export { default as CertCard } from ".././cards/cert-card/CertCard";
 
 //BUTTONS
 export { default as AboutMeHeroClicker } from ".././buttons/AboutMeHeroClicker";
