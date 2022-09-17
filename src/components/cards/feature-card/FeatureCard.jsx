@@ -30,8 +30,7 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
           </h4>
           {info ? (
             <div className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
-              <span>{content.li1}</span>
-              <span>{content.li2}</span>
+              <span>{content.li1}</span>        
               {/* <Link
                 className="underline hover:text-secondary text-[20px]"
                 to={`${path}`}
