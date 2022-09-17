@@ -6,8 +6,8 @@ import { me_drumPic, grouse_room } from "../.././assets/index/assets.index";
 const Deal = () => {
   return (
     <section className={`${layout.section} relative mb-[50px]`}>
-    <div className={`${styles.flexStart} ml-[100px]`}>
-    <div className="absolute z-[0] w-[60%] h-[60%] rounded-full white__gradient opacity-[.2]" />
+      <div className={`${styles.flexStart} ml-[100px]`}>
+        <div className="absolute z-[0] w-[60%] h-[60%] rounded-full white__gradient opacity-[.2]" />
         <img
           src={me_drumPic}
           alt="me_drumPic"
@@ -16,7 +16,7 @@ const Deal = () => {
       </div>
 
       <div className={`${styles.flexEnd} hidden md:flex`}>
-      <div className="absolute z-[0] w-[60%] h-[60%] rounded-full blue__gradient opacity-[.4]" />
+        <div className="absolute z-[0] w-[60%] h-[60%] rounded-full blue__gradient opacity-[.4]" />
         <img
           src={grouse_room}
           alt="me_drumPic"
@@ -29,10 +29,13 @@ const Deal = () => {
           <br className="sm:block hidden" />
           About...
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px]`}>
-          Creating web front end, back end, databases and APIs. Enhancing the
-          functionality, user experience and user interface design, while
-          optimizing web pages for maximum speed and scalability.
+        <p className={`${styles.paragraph} max-w-[500px]`}>
+          Being able to understand the big picture means being able to imagine
+          another way of doing things. <br />
+          <p>
+            One that might work better for the organization's goal, employee
+            productivity and job satisfaction!
+          </p>
         </p>
         <div className="md:flex flex-row">
           <Link to="/bio">

@@ -26,9 +26,11 @@ const Billing = () => {
           Projects
         </h2>
         <p className={`${styles.paragraph} max-w-[470px]`}>
-          Being able to understand the big picture means being able to imagine
-          another way of doing things, one that might work better for the
-          organization's goal, employee productivity and job satisfaction!
+        Creating web front end, back end, databases and APIs. Enhancing the
+          functionality, user experience and user interface design, while
+          optimizing web pages for maximum speed and scalability.
+
+
         </p>
         <div>
           <Link to="/portfolio">
