@@ -27,16 +27,13 @@ const Deal = () => {
 
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>
-          <br className="sm:block hidden" />
           About...
         </h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
           Being able to understand the big picture means being able to imagine
           another way of doing things. <br />
-          <p>
-            One that might work better for the organization's goal, employee
-            productivity and job satisfaction!
-          </p>
+          One that might work better for the organization's goal, employee
+          productivity and job satisfaction!
         </p>
         <div className="md:flex flex-row">
           <Link to="/bio">

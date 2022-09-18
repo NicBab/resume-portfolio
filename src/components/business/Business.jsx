@@ -15,7 +15,7 @@ const Business = () => {
           <br className="sm:block hidden" />
           Why Choose Me?
         </h2>
-        <p className={`${styles.paragraph} max-w-[500px]`}>
+        <div className={`${styles.paragraph} max-w-[500px]`}>
           With sociology, strong technical background and management skills. Excellent
           troubleshooting, debugging and problem-solving skills. Ability to
           multi-task and a keen eye for detail. <br />
@@ -24,7 +24,7 @@ const Business = () => {
             create high-level programs that perfectly meet the needs of the
             company.
           </p>
-        </p>
+        </div>
         <div>
           <Link to="/resume">
             <BUTTON name="VIEW RESUME" />
