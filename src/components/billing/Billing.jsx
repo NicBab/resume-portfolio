@@ -9,14 +9,12 @@ import { BUTTON, SecBtn } from "../.././components/index/components.index";
 
 const Billing = () => {
   return (
-    <section id="product" className={`${layout.section} relative mb-[50px]`}>
+    <section id="product" className={`${layout.section} relative mb-[100px]`}>
       {/* gradient start */}
-
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-50 white__gradient opacity-[.25]"></div>
-
+        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 white__gradient opacity-[.25]"></div>
       {/* gradient end */}
 
-      <div className={`${layout.sectionInfo} z-[4] mt-5`}>
+      <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
             src={fs_Ecommerce}
@@ -41,6 +39,7 @@ const Billing = () => {
           />
         </div>
       </div>
+
 
       <div className={`${layout.sectionInfo} z-[4]`}>
         <h2 className={styles.heading2}>

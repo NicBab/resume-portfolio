@@ -39,7 +39,7 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
           ) : null}
         </div>
       </div>
-      <div className="absolute z-[0] w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
+      <div className="absolute z-[0] w-[80%] h-[80%] rounded-full purple__gradient opacity-[.15]" />
     </>
   );
 };

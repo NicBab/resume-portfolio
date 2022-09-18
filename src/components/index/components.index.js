@@ -10,10 +10,11 @@ export { default as CTA } from ".././cta/CTA";
 export { default as Footer } from ".././footer/Footer";
 export { default as Social } from ".././social/Social";
 export { default as Resume } from ".././resume/Resume";
+export { default as Projects } from ".././projects/Projects"
 
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard";
-export { default as ProjectCard } from ".././cards/projects-card/ProjectCard";
+export { default as ProjectCard } from "../cards/project-card/ProjectCard";
 export { default as CertCard } from ".././cards/cert-card/CertCard";
 
 //BUTTONS

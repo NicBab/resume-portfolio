@@ -9,7 +9,7 @@ import {
 
 const Business = () => {
   return (
-    <section id="features" className={`${layout.sectionReverse} mb-[50px]`}>
+    <section id="features" className={`${layout.sectionReverse} mb-[100px]`}>
       <div className={`${layout.sectionInfo}`}>
         <h2 className={styles.heading2}>
           <br className="sm:block hidden" />
@@ -34,7 +34,7 @@ const Business = () => {
           </Link>
         </div>
       </div>
-      <div className={`${layout.sectionImg} flex-col mb-5`}>
+      <div className={`${layout.sectionImg} flex-col mb-[50px]`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
         ))}

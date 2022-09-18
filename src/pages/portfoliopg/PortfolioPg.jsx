@@ -1,7 +1,5 @@
+import { Projects } from "../.././components/index/components.index";
 
-import { ProjectCard } from "../.././components/index/components.index"
+const PortfolioPg = () => <Projects />
 
-
-const PortfolioPg = () => <ProjectCard />
-
-export default PortfolioPg
+export default PortfolioPg;
