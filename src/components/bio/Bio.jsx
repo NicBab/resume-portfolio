@@ -12,7 +12,7 @@ const Bio = () => {
         <div
           className={`flex flex-row p-8 w-[300px] rounded-[20px] z-[1] glass-card-2 mt-10 mb-10 xs:w-auto md:max-w-[900px]`}
         >
-          <p className={`${styles.paragraph}`}>
+          <div className={`${styles.paragraph}`}>
             {" "}
             Hi all! My name is Nic Babineaux, I am currently located in
             Lafayette, Louisiana. I am a fullstack, front end, ui developer,
@@ -41,7 +41,7 @@ const Bio = () => {
               functional web applications for individual artists and local small
               businesses!
             </p>
-          </p>
+          </div>
         </div>
         <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
       </div>

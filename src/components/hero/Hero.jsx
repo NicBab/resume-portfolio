@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "../.././style";
-import robot from "../.././assets/images/hero/robot.png";
+import { robot_atom_hand } from "../../assets/index/assets.index";
 import AboutMeHeroClicker from "../buttons/AboutMeHeroClicker";
 
 const Hero = () => {
@@ -42,8 +42,8 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={robot}
-          alt="billing"
+          src={robot_atom_hand}
+          alt="robot hand"
           className="w-[100%] h-[100%] relative z-[5]"
         />
         <div className="absolute z-[0] w-[50%] h-[50%] top-0 purple__gradient"></div>

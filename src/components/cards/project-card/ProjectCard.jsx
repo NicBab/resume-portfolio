@@ -11,19 +11,20 @@ const ProjectCard = ({ project }) => {
 
     return (
     <div
-      className={`${styles.flexCenter} ${styles.padding} flex-col w-[400px] h-[auto] rounded-[20px] m-10 glass-card`}
+      className={`${styles.flexCenter} flex-col w-[400px] h-[auto] rounded-[20px] m-5 glass-card`}
     >
-      <div
-        className={`${styles.sectionImg} h-[250px] w-[250px]`}
-      >
-        <img className="h-[100%] w-[100%]" src={img} alt="" />
+      <div className="h-[350px] w-[350px]">
+        <img className="h-[100%] w-[100%] rounded-[10px] p-1" src={img} alt="" />
       </div>
-      <div className={`${styles.cardHeading}`}>
+
+      <div className={`${styles.cardHeading} hover:text-secondary`}>
           <a href={`#${url}`} onClick={() => openInNewTab()}>{title}</a>
       </div>
-      <div className={`${styles.paragraph}`}>
+
+      <div className={`${styles.cardParagraph}`}>
         <p>{description}</p>
       </div>
+
     </div>
   );
 };

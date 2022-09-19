@@ -6,6 +6,7 @@ export { default as Stats } from "../stats/Stats";
 export { default as Deal } from ".././deal/Deal";
 export { default as Business } from ".././business/Business";
 export { default as Billing } from ".././billing/Billing";
+export { default as SkillStack } from '.././skill-stack/SkillStack'
 export { default as CTA } from ".././cta/CTA";
 export { default as Footer } from ".././footer/Footer";
 export { default as Social } from ".././social/Social";

@@ -11,6 +11,8 @@ import {
   fs_Ecommerce,
 } from "../assets/index/assets.index";
 
+import { LSUfullstack, UdGit } from "../assets/index/assets.index"
+
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import PlaceIcon from "@mui/icons-material/Place";
@@ -129,6 +131,17 @@ export const projectsInfo = [
     gitHubUrl: "https://github.com/NicBab/Bytor_Designs",
   }
 ];
+
+export const certInfo = [
+  {
+    id: 1,
+    img: LSUfullstack,
+  },
+  {
+    id: 2,
+    img: UdGit
+  }
+]
 
 export const contactInfo = [
   {

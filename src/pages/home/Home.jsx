@@ -6,6 +6,7 @@ import {
   Business,
   Billing,
   Deal,
+  SkillStack,
   CTA,
 } from "../.././components/index/components.index";
 
@@ -24,6 +25,7 @@ const Home = () => {
           <Deal />
           <Business />
           <Billing />
+          <SkillStack />
           <CTA />
         </div>
       </div>
