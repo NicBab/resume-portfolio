@@ -12,6 +12,7 @@ export { default as Footer } from ".././footer/Footer";
 export { default as Social } from ".././social/Social";
 export { default as Resume } from ".././resume/Resume";
 export { default as Projects } from ".././projects/Projects"
+export { default as ScrollToTop } from "../../components/scroll-to-top/ScrollToTop"
 
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard";
