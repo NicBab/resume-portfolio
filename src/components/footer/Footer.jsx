@@ -1,7 +1,7 @@
 import styles from "../.././style";
 import { Social } from "../../components/index/components.index";
 import { gearLogo } from "../.././assets/index/assets.index";
-import { footerLinks } from "../.././constants/index";
+import { footerLinks } from '../../constants/footer-links-data/footer-links-data.index'
 
 const Footer = () => {
   return (

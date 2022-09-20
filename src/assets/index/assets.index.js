@@ -19,7 +19,7 @@ export { default as ArrowUp } from "../icons/arrow-up.svg"
     export { default as LSUfullstack } from '../images/certifications/LSU_fullstack.jpg'
     export { default as UdGit } from '../images/certifications/Ud_gitCert.jpg'
     //HERO
-    export { default as robot_atom_hand } from "../images/hero/hand atom.png";
+    export { default as robot_atom_hand } from "../images/hero/hand_atom.png";
     //LOGO
     export { default as gearLogo } from "../images/logo/gears_Img2.png"
     //ME

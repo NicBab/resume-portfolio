@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../.././style";
-import { features } from "../.././constants/index";
+import { features } from '../../constants/features-data/features-data.index'
 import {
   BUTTON,
   SecBtn,

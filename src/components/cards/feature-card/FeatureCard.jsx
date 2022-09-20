@@ -1,7 +1,6 @@
 import { useState } from "react";
-import { features } from "../../.././constants/index";
+import { features } from '../../.././constants/features-data/features-data.index'
 import styles from "../../.././style";
-import { Link } from "react-router-dom";
 
 const FeatureCard = ({ icon, title, path, content, index }) => {
   const [info, setInfo] = useState(false);

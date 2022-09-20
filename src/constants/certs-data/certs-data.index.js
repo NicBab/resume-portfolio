@@ -1,3 +1,5 @@
+import { LSUfullstack, UdGit } from '../../assets/index/assets.index'
+
 export const certInfo = [
     {
       id: 1,

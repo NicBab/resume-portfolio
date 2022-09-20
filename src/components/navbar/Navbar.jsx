@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { menu, close } from "../.././assets/index/assets.index";
-import { navLinks } from "../.././constants/index";
+import { navLinks } from '../.././constants/nav-data/nav-data.index'
 import { Social } from "../.././components/index/components.index";
 
 const Navbar = () => {

@@ -1,3 +1,9 @@
+import {
+  SG_photo,
+  Bytor_designs,
+  fs_Ecommerce,
+} from '../../assets/index/assets.index'
+
 export const projectsInfo = [
     {
       id: 1,

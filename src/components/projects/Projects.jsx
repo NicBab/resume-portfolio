@@ -1,6 +1,6 @@
 import { ProjectCard } from "../.././components/index/components.index";
 import styles, { layout } from "../.././style";
-import { projectsInfo } from "../.././constants/index";
+import { projectsInfo } from '../.././constants/projects-data/projects-data.index'
 
 const Projects = () => {
   return (

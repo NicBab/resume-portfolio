@@ -1,3 +1,9 @@
+import {
+  Send,
+  Shield,
+  Star,
+} from '../../assets/index/assets.index'
+
 export const features = [
     {
       id: "feature-1",

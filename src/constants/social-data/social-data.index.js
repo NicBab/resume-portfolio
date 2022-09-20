@@ -1,3 +1,10 @@
+import {
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+} from '../.././assets/index/assets.index'
+
 export const socialMedia = [
     {
       id: "social-media-1",

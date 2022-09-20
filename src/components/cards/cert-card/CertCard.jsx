@@ -1,14 +1,13 @@
 import React from "react";
-import styles, { layout } from "../../.././style";
-import { certInfo } from "../../../constants";
-// import { LSUfullstack, UdGit } from '../../.././assets/index/assets.index'
+import { layout } from "../../.././style";
+import { certInfo } from '../../.././constants/certs-data/certs-data.index'
 
 const CertCard = () => {
   return (
     <div className={`${layout.sectionImgReverse} flex-wrap`}>
       {certInfo.map((cert, id) => (
         <img
-        key={id}
+          key={id}
           src={cert.img}
           alt="lsu-fullstack-cert"
           className="min-w-[200px] h-[200px] relative ml-5 mb-5 rounded-md z-[1]"
