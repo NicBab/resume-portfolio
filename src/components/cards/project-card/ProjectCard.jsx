@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
 
     return (
     <div
-      className={`${styles.flexCenter} flex-col w-[400px] h-[auto] rounded-[20px] m-5 glass-card`}
+      className={`${styles.flexCenter} flex-col w-[400px] h-[auto] rounded-[20px] m-5 glass-card shadow`}
     >
       <div className="h-[350px] w-[350px]">
         <img className="h-[100%] w-[100%] rounded-[10px] p-1" src={img} alt="" />
