@@ -4,7 +4,7 @@ import { skillIcons } from "../../constants/skill-icons-data/skill-icons-data.in
 const SkillStack = () => {
   return (
     <section className={`${styles.flexCenter} my-4`}>
-    <div className={`${styles.flexCenter} flex-wrap w-full`}>
+    {/* <div className={`${styles.flexCenter} flex-wrap w-full`}>
       {skillIcons.map((icon) => (
         <div
           key={icon.id}
@@ -17,7 +17,7 @@ const SkillStack = () => {
           />
         </div>
       ))}
-    </div>
+    </div> */}
   </section>
   )
 }

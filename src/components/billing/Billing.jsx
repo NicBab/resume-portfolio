@@ -19,7 +19,7 @@ const Billing = () => {
           <img
             src={fs_Ecommerce}
             alt="fullstack Ecommerce app"
-            className="w-[280px] h-[250px] relative right-20 rounded-md z-[3] mb-8 shadow-3"
+            className="w-[200px] h-[200px] sm:w-[280px] sm:h-[250px] relative right-20 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
 
@@ -27,7 +27,7 @@ const Billing = () => {
           <img
             src={SG_photo}
             alt="SG Photography"
-            className="w-[250px] h-[210px] relative left-20 -top-20 rounded-md z-[2] mb-8 shadow-2"
+            className="w-[180px] h-[180px] sm:w-[250px] sm:h-[210px] relative left-20 -top-20 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
 
@@ -35,7 +35,7 @@ const Billing = () => {
           <img
             src={Bytor_designs}
             alt="Bytor designs"
-            className="w-[220px] h-[200px] relative right-10 -top-[150px] rounded-md z-[1] shadow"
+            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 -top-[150px] rounded-md z-[1] shadow"
           />
         </div>
       </div>
