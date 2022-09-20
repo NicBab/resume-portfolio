@@ -6,9 +6,9 @@ import { Navbar, Footer } from "./components/index/components.index.js";
 function App() {
   return (
     <>
-      <div className="bg-primary w-full overflow-hidden z-[1]">
-        <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-          <div className={`${styles.boxWidth} z-[1]`}>
+      <div className="bg-primary w-full overflow-hidden">
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth} z-[10]`}>
             <Navbar />
           </div>
         </div>
