@@ -23,8 +23,8 @@ const Home = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Deal />
-          <Business />
           <Billing />
+          <Business />
           <SkillStack />
           <CTA />
         </div>

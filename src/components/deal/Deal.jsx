@@ -12,7 +12,7 @@ const Deal = () => {
           <img
             src={me_drumPic}
             alt="me_drumPic"
-            className="w-[180px] h-[150px] sm:w-[270px] sm:h-[250px] relative right-20 rounded-md z-[2] mb-8 shadow-3"
+            className="w-[180px] h-[150px] sm:w-[270px] sm:h-[250px] relative right-20 top-10 rounded-md z-[2] mb-8 shadow-3"
           />
         </div>
 
@@ -20,7 +20,7 @@ const Deal = () => {
           <img
             src={grouse_room}
             alt="me_drumPic"
-            className="w=[160px] h-[120px] sm:w-[250px] sm:h-[210px] relative left-10 -top-10 sm:left-20 sm:-top-20 rounded-md z-[1] mb-8 shadow"
+            className="w=[160px] h-[120px] sm:w-[250px] sm:h-[210px] relative left-10 -top-10 sm:left-20 sm:-top-10 rounded-md z-[1] shadow"
           />
         </div>
       </div>

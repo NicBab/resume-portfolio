@@ -31,6 +31,9 @@ body {
   border: 1px solid rgba(62, 62, 62, 0.657);
   box-shadow: 8px 8px 20px 4px rgba(0, 0, 1, 0.999);
 }
+.transform:hover {
+  transform: scale(1.01);
+}
 
 .bg-black-gradient {
   background: linear-gradient(144.39deg,
@@ -112,10 +115,6 @@ body {
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid  #5ce1e6;
 }
-
-/* .card-hover:hover {
-  border: 1px solid #00f6ff;
-} */
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
