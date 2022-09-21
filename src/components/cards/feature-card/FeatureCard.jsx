@@ -10,7 +10,7 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
       <div
         className={`flex flex-row w-[300px] p-6 rounded-[20px] z-[1] ${
           index !== features.length - 1 ? "mb-8" : "mb-0"
-        } glass-card cursor-pointer xs:w-[400px]`}
+        } glass-card transform xs:w-[400px]`}
         onClick={() => setInfo(!info)}
         onMouseLeave={() => setInfo(false)}
       >
@@ -24,7 +24,7 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
           />
         </div>
         <div className="flex-1 flex flex-col ml-3">
-          <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1 hover:text-secondary">
+          <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1 hover:text-secondary cursor-pointer">
             {title}
           </h4>
           {info ? (
