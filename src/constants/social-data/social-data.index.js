@@ -3,7 +3,7 @@ import {
   instagram,
   linkedin,
   twitter,
-  gitHubIcon,
+  githubIcon,
 } from '../.././assets/index/assets.index'
 
 export const socialMedia = [
@@ -14,7 +14,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: gitHubIcon,
+    icon: githubIcon,
     link: "https://github.com/NicBab",
   },
     // {

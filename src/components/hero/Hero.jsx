@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "../.././style";
 import { robot_atom_hand } from "../../assets/index/assets.index";
-import AboutMeHeroClicker from "../buttons/AboutMeHeroClicker";
+import { AboutMeHeroClicker } from ".././index/components.index"
 
 const Hero = () => {
   return (

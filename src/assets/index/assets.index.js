@@ -12,7 +12,9 @@ export { default as Star } from '../icons/Star.svg'
 export { default as close } from "../icons/close.svg"
 export { default as menu } from "../icons/menu.svg"
 export { default as ArrowUp } from "../icons/arrow-up.svg"
-export { default as gitHubIcon } from "../icons/github.svg"
+export { default as githubIcon } from "../icons/githubIcon.svg"
+export { default as infoIcon } from "../icons/infoIcon.svg"
+export { default as eyeIcon } from "../icons/eyeIcon.svg"
    
 
 //IMAGES

@@ -1,8 +1,9 @@
 import styles from "../../../style";
+import { ProjectIconSelect } from "../.././index/components.index"
 
 //project props from Projects component map
 const ProjectCard = ({ project }) => {
-  const { img, title, description, url, gitHubUrl } = project;
+  const { img, title, url } = project;
 
   const openInNewTab = () => {
     const newWindow = window.open(url, "_blank", "noopener, noreferrer");
@@ -22,11 +23,10 @@ const ProjectCard = ({ project }) => {
           <a href={`#${url}`} onClick={() => openInNewTab()}>
             {title}
           </a>
+          
         </div>
 
-        {/* <div className={`${styles.cardParagraph} hidden sm:flex`}>
-          <p>{description}</p>
-        </div> */}
+        <ProjectIconSelect project={project} />
       </div>
     </div>
   );
