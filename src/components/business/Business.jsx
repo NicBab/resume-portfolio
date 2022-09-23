@@ -21,14 +21,10 @@ const Business = () => {
           Why Choose Me?
         </h2>
         <div className={`${styles.paragraph} max-w-[500px]`}>
-          With sociology, strong technical background and management skills.
-          Excellent troubleshooting, debugging and problem-solving skills.
-          Ability to multi-task and a keen eye for detail. <br />
-          <p>
-            Ability to work individually, or as part of a development team to
-            create high-level programs that perfectly meet the needs of the
-            company.
-          </p>
+          A strong technical background and management skills in mechanics and
+          sociology, provides me with excellent troubleshooting, debugging,
+          problem-solving skills, and the ability to multi-task with a keen eye
+          for detail.
         </div>
         <div>
           <Link to="/resume">

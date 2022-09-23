@@ -10,7 +10,7 @@ const FeatureCard = ({ icon, title, path, content, index }) => {
       <div
         className={`flex flex-row w-[300px] p-6 rounded-[20px] z-[1] ${
           index !== features.length - 1 ? "mb-8" : "mb-0"
-        } glass-card transform xs:w-[400px]`}
+        } glass-card transform shadow xs:w-[400px]`}
         onClick={() => setInfo(!info)}
         onMouseLeave={() => setInfo(false)}
       >

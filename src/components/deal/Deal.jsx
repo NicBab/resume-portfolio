@@ -12,10 +12,9 @@ const Deal = () => {
           <img
             src={me_drumPic}
             alt="me_drumPic"
-            className="w-[180px] h-[150px] sm:w-[270px] sm:h-[250px] relative right-20 top-10 rounded-md z-[2] mb-8 shadow-3"
+            className="w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] relative right-20 top-10 rounded-md z-[2] mb-8 shadow-3"
           />
         </div>
-
         <div className={`${styles.flexCenter} `}>
           <img
             src={grouse_room}
@@ -24,11 +23,8 @@ const Deal = () => {
           />
         </div>
       </div>
-
       <div className={`${layout.sectionInfo} z-[3]`}>
-        <h2 className={styles.heading2}>
-          About...
-        </h2>
+        <h2 className={styles.heading2}>About...</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
           Being able to understand the big picture means being able to imagine
           another way of doing things. <br />

@@ -40,6 +40,11 @@ const Bio = () => {
               front end and fullstack developer, creating responsive and
               functional web applications for individual artists and local small
               businesses!
+
+              {/* to work individually, 
+        or as part of a development team to
+        create high-level programs that perfectly meet the needs of the
+        company. */}
             </p>
           </div>
         </div>
