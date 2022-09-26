@@ -1,20 +1,14 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../.././style";
-import { features } from "../../constants/features-data/features-data.index";
 import {
   BUTTON,
   SecBtn,
-  FeatureCard,
 } from "../.././components/index/components.index";
 
 const Business = () => {
   return (
     <section id="features" className={`${layout.section}`}>
-      <div className={`${layout.sectionImg} flex-col`}>
-        {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
-      </div>
+//whyMe img component here
       <div className={`${layout.sectionInfo} mt-10 mb-20`}>
         <h2 className={styles.heading2}>
           <br className="sm:block hidden" />

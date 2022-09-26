@@ -1,15 +1,48 @@
-import styles from "../../style";
-import { BUTTON, SecBtn, CertCard } from "../index/components.index";
+import {
+  BUTTON,
+  SecBtn,
+  CertCard,
+  FeatureCard,
+} from "../index/components.index";
 import { Link } from "react-router-dom";
+import styles, { layout } from "../.././style";
+import { features } from "../../constants/features-data/features-data.index";
 
 const Bio = () => {
   return (
-    <>
-      <div
-        className={`bg-primary ${styles.paddingX} ${styles.flexCenter} flex-col`}
-      >
+    <div className={`bg-primary ${styles.paddingX} flex-col`}>
+
+      <div className="p-20">
         <CertCard />
-        <div
+      </div>
+
+      <div className={`${styles.paddingX} ${styles.flexCenter} flex-col`}>
+        <div className={`${layout.sectionImg} flex-col`}>
+          {features.map((feature, index) => (
+            <FeatureCard key={feature.id} {...feature} index={index} />
+          ))}
+        </div>
+        <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
+      </div>
+
+      <div
+        className={`${styles.padding} ${styles.flexEnd} flex-col`}
+      >
+        <Link to="/contact">
+          <BUTTON name="CONTACT ME" />
+        </Link>
+        <Link to="/resume">
+          <SecBtn name="VIEW RESUME" />
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default Bio;
+
+{
+  /* <div
           className={`flex flex-row p-8 w-[300px] rounded-[20px] z-[1] glass-card-2 mt-10 mb-10 xs:w-auto md:max-w-[900px]`}
         >
           <div className={`${styles.paragraph}`}>
@@ -41,27 +74,11 @@ const Bio = () => {
               functional web applications for individual artists and local small
               businesses!
 
-              {/* to work individually, 
+              to work individually, 
         or as part of a development team to
         create high-level programs that perfectly meet the needs of the
-        company. */}
+        company.
             </p>
           </div>
-        </div>
-        <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
-      </div>
-      <div
-        className={`bg-primary ${styles.padding} ${styles.flexEnd} flex-col`}
-      >
-        <Link to="/contact">
-          <BUTTON name="CONTACT ME" />
-        </Link>
-        <Link to="/resume">
-          <SecBtn name="VIEW RESUME" />
-        </Link>
-      </div>
-    </>
-  );
-};
-
-export default Bio;
+        </div> */
+}

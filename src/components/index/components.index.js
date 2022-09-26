@@ -13,7 +13,7 @@ export { default as Social } from ".././social/Social";
 export { default as Resume } from ".././resume/Resume";
 export { default as Projects } from ".././projects/Projects"
 export { default as ScrollToTop } from "../../components/scroll-to-top/ScrollToTop"
-export { default as ProjectIconSelect } from ".././card-icon-select/ProjectIconSelect"
+export { default as ProjectCardIcons } from "../project-card-icons/ProjectCardIcons"
 
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard";

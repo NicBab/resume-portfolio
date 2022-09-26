@@ -9,7 +9,7 @@ const CertCard = () => {
         <img
           key={id}
           src={cert.img}
-          alt="lsu-fullstack-cert"
+          alt={id}
           className="min-w-[200px] h-[200px] relative ml-5 mb-5 rounded-md z-[1]"
         />
       ))}
