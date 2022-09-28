@@ -11,7 +11,7 @@ export const projectsInfo = [
       title: "Ecommerce app",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       url: "",
-      gitHubUrl: "",
+      gitHubUrl: "https://github.com/NicBab/fs-ecommerce-app",
     },
     {
       id: 2,

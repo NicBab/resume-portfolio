@@ -3,12 +3,23 @@ import styles, { layout } from "../.././style";
 import {
   BUTTON,
   SecBtn,
+  FeatureCard
 } from "../.././components/index/components.index";
+import { features } from "../../constants/features-data/features-data.index";
 
 const Business = () => {
   return (
     <section id="features" className={`${layout.section}`}>
-//whyMe img component here
+
+      <div className={`${styles.paddingX} ${styles.flexCenter} flex-col`}>
+        <div className={`${layout.sectionImg} flex-col`}>
+          {features.map((feature, index) => (
+            <FeatureCard key={feature.id} {...feature} index={index} />
+          ))}
+        </div>
+        <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
+      </div>
+
       <div className={`${layout.sectionInfo} mt-10 mb-20`}>
         <h2 className={styles.heading2}>
           <br className="sm:block hidden" />
@@ -17,10 +28,11 @@ const Business = () => {
         <div className={`${styles.paragraph} max-w-[500px]`}>
           A strong technical background and management skills in mechanics and
           sociology, provides me with excellent troubleshooting, debugging,
-          problem-solving skills, and the ability to multi-task with a keen eye
+          problem-solving skills, with the ability to multi-task and an exceptional eye
           for detail.
         </div>
-        <div>
+
+        <div className="md:flex flex-row">
           <Link to="/resume">
             <BUTTON name="VIEW RESUME" />
           </Link>
@@ -28,6 +40,7 @@ const Business = () => {
             <SecBtn name="ABOUT ME" />
           </Link>
         </div>
+        
       </div>
     </section>
   );
