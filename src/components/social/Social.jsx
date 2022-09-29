@@ -8,7 +8,7 @@ const Social = () => {
       {socialMedia.map((social, index) => (
         <Tooltip title={social.title}>
           <img
-            key={social.id}
+            key={index}
             src={social.icon}
             alt={social.id}
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${
