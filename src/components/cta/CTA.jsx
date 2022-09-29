@@ -10,14 +10,14 @@ const CTA = () => {
       <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.25]" />
       <div className="flex-1 flex flex-col z-[1]">
         <h2 className={styles.heading2}>Let’s chat about your project!</h2>
-        <div className={`${styles.flexCenter} max-w-[470px] m-5`}>
-          <Social />
-        </div>
       </div>
-      <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10 z-[1]`}>
+      <div className={`${styles.flexCenter} flex-col sm:ml-10 ml-0 sm:mt-0 mt-10 z-[1]`}>
         <Link to="/contact">
           <BUTTON name="CONTACT ME" />
         </Link>
+        <div className={`${styles.flexCenter} max-w-[470px] m-5`}>
+          <Social />
+        </div>
       </div>
     </section>
   );

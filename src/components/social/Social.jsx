@@ -6,9 +6,8 @@ const Social = () => {
   return (
     <div className="flex flex-row md:mt-0 mt-6">
       {socialMedia.map((social, index) => (
-        <Tooltip title={social.title}>
+        <Tooltip title={social.title} key={index}>
           <img
-            key={index}
             src={social.icon}
             alt={social.id}
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${

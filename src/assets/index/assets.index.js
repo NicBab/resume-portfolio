@@ -21,17 +21,25 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     //CERTIFICATIONS 
     export { default as LSUfullstack } from '../images/certifications/LSU_fullstack.jpg'
     export { default as UdGit } from '../images/certifications/Ud_gitCert.jpg'
+    export { default as mmi_60wk } from "../images/certifications/mmi_60wk.png";
+    export { default as mmi_hd } from "../images/certifications/mmi_hd.png";
+    export { default as mmi_dj } from "../images/certifications/mmi_dj.png";
+
     //HERO
     export { default as robot_atom_hand } from "../images/hero/hand_atom.png";
+
     //LOGO
     export { default as gearLogo } from "../images/logo/gears_Img2.png"
+
     //ME
     export { default as me_drumPic } from "../images/me/me_drumPic.png"
     export { default as grouse_room } from "../images/me/grouse_room.jpeg"
+
     //PROJECTS
     export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
     export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"
     export { default as fs_Ecommerce } from "../images/projects/FS_ecommerceApp_screenshot.png"
+    
     //RESUME 
     export { default as NicRes } from "../images/resume/Nic Babineaux.png"
 
