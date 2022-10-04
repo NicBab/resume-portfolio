@@ -10,7 +10,7 @@ import { features } from "../../constants/features-data/features-data.index";
 const Business = () => {
   return (
     <section id="features" className={`${layout.section}`}>
-
+{/* 
       <div className={`${styles.paddingX} ${styles.flexCenter} flex-col`}>
         <div className={`${layout.sectionImg} flex-col`}>
           {features.map((feature, index) => (
@@ -18,7 +18,7 @@ const Business = () => {
           ))}
         </div>
         <div className="absolute z-[0]  w-[50%] h-[60%] rounded-full purple__gradient opacity-[.15]" />
-      </div>
+      </div> */}
 
       <div className={`${layout.sectionInfo} mt-10 mb-20`}>
         <h2 className={styles.heading2}>
