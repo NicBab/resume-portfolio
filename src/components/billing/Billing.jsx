@@ -46,7 +46,7 @@ const Billing = () => {
           <img
             src={SG_photo}
             alt="SG Photography"
-            className="w-[180px] h-[180px] sm:w-[250px] sm:h-[210px] relative left-20 top-10 rounded-md z-[2] mb-8 shadow-2"
+            className="w-[180px] h-[180px] sm:w-[250px] sm:h-[210px] relative left-10 top-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
 

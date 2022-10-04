@@ -21,9 +21,6 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     //CERTIFICATIONS 
     export { default as LSUfullstack } from '../images/certifications/LSU_fullstack.jpg'
     export { default as UdGit } from '../images/certifications/Ud_gitCert.jpg'
-    export { default as mmi_60wk } from "../images/certifications/mmi_60wk.png";
-    export { default as mmi_hd } from "../images/certifications/mmi_hd.png";
-    export { default as mmi_dj } from "../images/certifications/mmi_dj.png";
 
     //HERO
     export { default as robot_atom_hand } from "../images/hero/hand_atom.png";

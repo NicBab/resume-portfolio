@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-o sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16`}
       >
         <div
           className={`flex flex-col items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2`}
@@ -29,8 +29,8 @@ const Hero = () => {
         <h1 className="purple-text-gradient font-poppins font-semibold xs:text-[68px] text-[30px] tracking-wider text-white xs:leading-[80px] leading-[60px] w-full">
           Nick Babineaux
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          <span className="ss:text-[35px] text-[18px] text-white">
+        <p className={`${styles.paragraph} max-w-[400px] min-w-[250px] mt-5`}>
+          <span className="ss:text-[35px] text-[20px] text-white">
             Software Developer
           </span>
           <br className="sm:block " />
