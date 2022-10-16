@@ -34,7 +34,7 @@ const Hero = () => {
             Software Developer
           </span>
           <br className="sm:block " />
-          Designing stylish modern web services and E-commerce utilizing a
+          Designing innovative, creative, and stylish solutions for modern web services and E-commerce utilizing a
           variety of markup languages and frameworks.
         </p>
       </div>
