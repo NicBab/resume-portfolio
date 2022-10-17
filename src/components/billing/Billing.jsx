@@ -9,7 +9,7 @@ import { BUTTON, SecBtn } from "../.././components/index/components.index";
 
 const Billing = () => {
   return (
-    <section id="product" className={`${layout.sectionReverse} relative mb-[100px]`}>
+    <section id="product" className={`${layout.sectionReverse} relative mb-[25px]`}>
       {/* gradient start */}
         <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 white__gradient opacity-[.25]"></div>
       {/* gradient end */}
