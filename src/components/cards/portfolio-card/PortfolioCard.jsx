@@ -1,8 +1,8 @@
 import styles from "../../../style";
-import { ProjectCardIcons } from "../.././index/components.index";
+import { PortfolioCardIcons } from "../../index/components.index";
 
 //project props from Projects component map
-const ProjectCard = ({ project }) => {
+const PortfolioCard = ({ project }) => {
   const { img, title, url } = project;
 
   const openInNewTab = () => {
@@ -23,10 +23,10 @@ const ProjectCard = ({ project }) => {
             {title}
           </a>
         </div>
-        <ProjectCardIcons project={project} />
+        <PortfolioCardIcons project={project} />
       </div>
     </div>
   );
 };
 
-export default ProjectCard;
+export default PortfolioCard;

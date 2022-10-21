@@ -3,9 +3,9 @@ import styles from "../.././style";
 import {
   Hero,
   Stats,
-  Business,
-  Billing,
-  Deal,
+  WhyMe,
+  Projects,
+  About,
   SkillStack,
   CTA,
 } from "../.././components/index/components.index";
@@ -22,9 +22,9 @@ const Home = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Deal />
-          <Billing />
-          <Business />
+          <About />
+          <Projects />
+          <WhyMe />
           <SkillStack />
           <CTA />
         </div>

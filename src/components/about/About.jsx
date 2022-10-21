@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import styles, { layout } from "../.././style";
-import { BUTTON, SecBtn } from "../.././components/index/components.index";
-import { me_drumPic, grouse_room } from "../.././assets/index/assets.index";
+import styles, { layout } from "../../style";
+import { BUTTON, SecBtn } from "../index/components.index";
+import { me_drumPic, grouse_room } from "../../assets/index/assets.index";
 
 const Deal = () => {
   return (

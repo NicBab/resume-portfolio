@@ -3,21 +3,21 @@ export { default as Navbar } from ".././navbar/Navbar";
 export { default as Hero } from ".././hero/Hero";
 export { default as Bio } from "../bio/Bio"; //BioPg
 export { default as Stats } from "../stats/Stats";
-export { default as Deal } from ".././deal/Deal";
-export { default as Business } from ".././business/Business";
-export { default as Billing } from ".././billing/Billing";
+export { default as About } from "../about/About";
+export { default as WhyMe } from "../why-me/WhyMe";
+export { default as Projects } from "../projects/Projects";
 export { default as SkillStack } from '.././skill-stack/SkillStack'
 export { default as CTA } from ".././cta/CTA";
 export { default as Footer } from ".././footer/Footer";
 export { default as Social } from ".././social/Social";
 export { default as Resume } from ".././resume/Resume";
-export { default as Projects } from ".././projects/Projects"
+export { default as Portfolio } from "../portfolio/Portfolio"
 export { default as ScrollToTop } from "../../components/scroll-to-top/ScrollToTop"
-export { default as ProjectCardIcons } from "../project-card-icons/ProjectCardIcons"
+export { default as PortfolioCardIcons } from "../portfolio-card-icons/PortfolioCardIcons"
 
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard";
-export { default as ProjectCard } from "../cards/project-card/ProjectCard";
+export { default as PortfolioCard } from "../cards/portfolio-card/PortfolioCard";
 export { default as CertCard } from ".././cards/cert-card/CertCard";
 
 //BUTTONS
