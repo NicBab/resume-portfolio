@@ -5,7 +5,7 @@ export const bioData = [
     },
     {
         id: 2,
-        content: "With a passion for software and electronics... I have always had the __ to delve into a continuously evolving career and rewarding career path."
+        content: "As part of the generation that saw tech manifest, I have always an extreme passion for software and electronics, which led me to delve into this continuously evolving and rewarding career path."
     },
     {
         id: 3,
