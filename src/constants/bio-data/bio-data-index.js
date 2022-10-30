@@ -5,7 +5,7 @@ export const bioData = [
     },
     {
         id: 2,
-        content: "As part of the generation that saw tech manifest, I have always an extreme passion for software and electronics, which led me to delve into this continuously evolving and rewarding career path."
+        content: "As part of the generation that saw tech manifest, I have always had an extreme passion for software and electronics, which led me to delve into this continuously evolving and rewarding career path."
     },
     {
         id: 3,

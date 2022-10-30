@@ -17,11 +17,7 @@ const WhyMe = () => {
           <br className="sm:block hidden" />
           Why Choose Me?
         </h2>
-        <div className={`${styles.paragraph} max-w-[500px]`}>
-          <h3 className="flex-1 font-poppins font-semibold leading-[40px] text-[16px] text-dimWhite ss:text-[20px] ss:leading-[40px] mb-6">
-            In a new era of tech talent...<br className="sm:block " />
-            Hire for what they can do, not for what they have done.
-          </h3>
+        <div className={`max-w-[500px]`}>
           <p className={`${styles.paragraph}`}>
             A strong technical background and management skills in mechanics and
             sociology, provides me with excellent troubleshooting, debugging,
