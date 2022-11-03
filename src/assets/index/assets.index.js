@@ -36,6 +36,7 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
     export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"
     export { default as fs_Ecommerce } from "../images/projects/FS_ecommerceApp_screenshot.png"
+    export { default as Blog_App } from "../images/projects/Blog_App_ss.png"
     
     //RESUME 
     export { default as NicRes } from "../images/resume/Nic Babineaux.png"

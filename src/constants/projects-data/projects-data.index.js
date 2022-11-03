@@ -1,4 +1,5 @@
 import {
+  Blog_App,
   SG_photo,
   Bytor_designs,
   fs_Ecommerce,
@@ -15,6 +16,14 @@ export const projectsInfo = [
     },
     {
       id: 2,
+      img: Blog_App,
+      title: "Blog App",
+      description: "Simple crud blog app using React/Mongo ",
+      url: "",
+      gitHubUrl: "",
+    },
+    {
+      id: 3,
       img: SG_photo,
       title: "SG Photography",
       description: "Landing page for a Colorado based photographer, using React with an Image carousel",
@@ -22,7 +31,7 @@ export const projectsInfo = [
       gitHubUrl: "https://github.com/NicBab/Scuuba-gooding-photography",
     },
     {
-      id: 3,
+      id: 4,
       img: Bytor_designs,
       title: "Bytor Designs",
       description: "Front-End landing page for a local graphic design artist, using React and Image slider.",
