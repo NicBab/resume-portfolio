@@ -1,5 +1,5 @@
 import { PortfolioCard } from "../index/components.index";
-import styles, { layout } from "../../style";
+import styles from "../../style";
 import { projectsInfo } from "../../constants/projects-data/projects-data.index";
 
 const Portfolio = () => {

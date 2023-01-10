@@ -1,7 +1,4 @@
 //ICONS
-     //SKILL-ICONS
-     export { default as html_logo } from '../icons/skill-icons/3_html_logo.png';
-     export { default as js_logo } from "../icons/skill-icons/2_javascript_logo.png";
 export { default as facebook } from '../icons/facebook.svg'
 export { default as twitter } from '../icons/twitter.svg'
 export { default as instagram } from '../icons/instagram.svg'
@@ -15,6 +12,9 @@ export { default as ArrowUp } from "../icons/arrow-up.svg"
 export { default as githubIcon } from "../icons/githubIcon.svg"
 export { default as infoIcon } from "../icons/infoIcon.svg"
 export { default as eyeIcon } from "../icons/eyeIcon.svg"
+     //SKILL-ICONS
+     export { default as html_logo } from '../icons/skill-icons/3_html_logo.png';
+     export { default as js_logo } from "../icons/skill-icons/2_javascript_logo.png";
    
 
 //IMAGES
@@ -35,8 +35,9 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     //PROJECTS
     export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
     export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"
-    export { default as fs_Ecommerce } from "../images/projects/FS_ecommerceApp_screenshot.png"
-    export { default as Blog_App } from "../images/projects/Blog_App_ss.png"
+    export { default as BlogApp } from "../images/projects/BlogApp_ss.png";
+    export { default as EshopApp } from "../images/projects/EshopApp_ss.png"
+    export { default as MERN_SocialApp } from "../images/projects/MERN_Social_App_ss.png";
     
     //RESUME 
     export { default as NicRes } from "../images/resume/Nic Babineaux.png"

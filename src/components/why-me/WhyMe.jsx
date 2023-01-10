@@ -7,12 +7,15 @@ import { certsData } from "../../constants/certs-data/certs-data.index";
 const WhyMe = () => {
   return (
     <section id="features" className={`${layout.section} mt-20`}>
+      {/* gradient start */}
+      <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 blue__gradient opacity-[.25]"></div>
+      {/* gradient end */}
       <div className={`${layout.sectionImg} ${styles.padding} flex-wrap`}>
         {certsData.map((certs, index) => (
           <CertCard key={index} props={certs} />
         ))}
       </div>
-      <div className={`${layout.sectionInfo} mb-10`}>
+      <div className={`${layout.sectionInfo} mb-10 z-[1]`}>
         <h2 className={styles.heading2}>
           <br className="sm:block hidden" />
           Why Choose Me?

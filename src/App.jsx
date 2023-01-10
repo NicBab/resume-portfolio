@@ -13,6 +13,7 @@ function App() {
           </div>
         </div>
       </div>
+
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/bio" element={<BioPg />} />
@@ -20,11 +21,13 @@ function App() {
         <Route path="/contact" element={<ContactPg />} />
         <Route path="/resume" element={ <ResumePg /> } />
       </Routes>
+
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
       </div>
+      
     </>
   );
 }
