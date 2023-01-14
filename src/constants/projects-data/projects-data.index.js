@@ -14,16 +14,16 @@ export const projectsInfo = [
     description:
       "Fullstack Social media app",
     url: "",
-    gitHubUrl: "",
+    gitHubUrl: "https://github.com/NicBab/socialmediaapp/tree/main/app",
   },
   {
     id: 2,
     img: EshopApp,
     title: "Ecommerce app",
     description:
-      "Fullstack E-commerce application React, Redux, Firebase, GraphQL, Stripe.",
+      "Fullstack E-commerce application React, Redux, Mongo, Stripe.",
     url: "",
-    gitHubUrl: "https://github.com/NicBab/fs-ecommerce-app",
+    gitHubUrl: "https://github.com/NicBab/eshop",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const projectsInfo = [
     title: "Blog App",
     description: "Simple crud blog app using React/Mongo ",
     url: "",
-    gitHubUrl: "",
+    gitHubUrl: "https://github.com/NicBab/blogapp/tree/main/app",
   },
   {
     id: 4,
