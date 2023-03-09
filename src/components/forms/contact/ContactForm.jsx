@@ -79,7 +79,7 @@ const ContactForm = () => {
           </form>
           <SendEmailButton type="submit" />
         </div>
-        <div className="absolute z-[0] w-[60%] h-[50%] -top-[0] rounded-full blue__gradient opacity-[.50]" />
+        <div className="absolute z-[0] w-[60%] h-[50%] -top-[0] rounded-full blue__gradient opacity-[.3]" />
       </section>
       <div>
         {done

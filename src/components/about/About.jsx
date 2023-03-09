@@ -6,7 +6,7 @@ import { me_drumPic, grouse_room } from "../../assets/index/assets.index";
 const Deal = () => {
   return (
     <section className={`${layout.section} relative mb-[50px]`}>
-        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 purple__gradient opacity-[.15]"></div>
+        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 purple__gradient opacity-[.1]"></div>
       <div className={`${layout.sectionInfo} z-[4]`}>
         <div className={`${styles.flexStart}`}>
           <img

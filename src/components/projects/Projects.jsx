@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <section id="product" className={`${layout.sectionReverse} relative mb-[25px]`}>
       {/* gradient start */}
-        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 white__gradient opacity-[.2]"></div>
+        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 white__gradient opacity-[.1]"></div>
       {/* gradient end */}
       <div className={`${layout.sectionInfo} z-[4]`}>
         <h2 className={styles.heading2}>
