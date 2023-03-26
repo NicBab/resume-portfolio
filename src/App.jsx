@@ -23,11 +23,10 @@ function App() {
       </Routes>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth}  h-[50vh]`}>
           <Footer />
         </div>
       </div>
-      
     </>
   );
 }
