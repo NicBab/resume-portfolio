@@ -5,9 +5,9 @@ const FeatureCard = ({ content, index }) => {
   return (
     <>
       <div
-        className={`flex flex-row w-[300px] h-[auto] sm:w-[400px] p-6 rounded-[20px] z-[1] ${
+        className={`flex flex-row w-[100%] h-[auto] sm:w-[100%] p-6 rounded-[10px] z-[1] ${
           index !== features.length - 1 ? "mb-8" : "mb-0"
-        } glass-card-2 transform shadow`}
+        } glass-card-2`}
       >
         <div className={`flex-1 flex flex-col`}>
           <div
