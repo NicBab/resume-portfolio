@@ -9,7 +9,7 @@ const Bio = () => {
     <div
       className={`bg-primary ${styles.paddingX} ${styles.flexCenter} flex-col`}
     >
-      <div className="absolute z-[0] w-[80%] h-[80%] rounded-full purple__gradient opacity-[.1]" />
+      <div className="absolute z-[0] w-[80%] h-[80%] rounded-full purple__gradient opacity-[.25]" />
       <div className="mt-20 z-[1]">
         <div
           className="flex flex-col p-8 w-[300px] rounded-[10px] mt-10 xs:w-auto md:max-w-[900px]"
