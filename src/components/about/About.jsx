@@ -6,7 +6,7 @@ import { me_drumPic, grouse_room } from "../../assets/index/assets.index";
 const Deal = () => {
   return (
     <section className={`${layout.section} relative mb-[50px]`}>
-        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 purple__gradient opacity-[.1]"></div>
+      <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 purple__gradient opacity-[.1]"></div>
       <div className={`${layout.sectionInfo} z-[4]`}>
         <div className={`${styles.flexStart}`}>
           <img
@@ -26,10 +26,15 @@ const Deal = () => {
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>About...</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
-          Being able to understand the big picture means being able to imagine
-          another way of doing things. <br />
-          One that might work better for the organization's goal, employee
-          productivity and job satisfaction!
+          Understanding the big picture entails envisioning alternative
+          approaches that enhance organizational goals, employee productivity,
+          and job satisfaction. By embracing a broader perspective, I can
+          explore innovative solutions that lead to improved outcomes. I strive
+          to foster an environment that encourages creativity, efficiency, and
+          the fulfillment of employees. Embracing new ideas and challenging
+          conventional methods, I constantly seek opportunities to optimize
+          processes and drive positive change for the organization and its
+          workforce.
         </p>
         <div className="md:flex flex-row">
           <Link to="/bio">

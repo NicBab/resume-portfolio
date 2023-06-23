@@ -11,19 +11,22 @@ import { BUTTON, SecBtn } from "../index/components.index";
 
 const Projects = () => {
   return (
-    <section id="product" className={`${layout.sectionReverse} relative mb-[25px]`}>
+    <section
+      id="product"
+      className={`${layout.sectionReverse} relative mb-[25px]`}
+    >
       {/* gradient start */}
-        <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 white__gradient opacity-[.1]"></div>
+      <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 white__gradient opacity-[.1]"></div>
       {/* gradient end */}
       <div className={`${layout.sectionInfo} z-[4]`}>
         <h2 className={styles.heading2}>
-          <br className="sm:block hidden mt-10"/>
+          <br className="sm:block hidden mt-10" />
           Projects...
         </h2>
         <p className={`${styles.paragraph} max-w-[470px]`}>
-          Creating web front end, back end, databases and APIs. Enhancing the
-          functionality, user experience and user interface design, while
-          optimizing web pages for maximum speed and scalability.
+          Developing web front-end and back-end systems, databases, and APIs.
+          Enhancing functionality, user experience, and UI design, while
+          optimizing web pages for optimal speed and scalability.
         </p>
         <div>
           <Link to="/portfolio">

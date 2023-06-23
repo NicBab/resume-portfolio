@@ -40,7 +40,7 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as MERN_SocialApp } from "../images/projects/MERN_Social_App_ss.png";
     
     //RESUME 
-    export { default as NicRes } from "../images/resume/Nic Babineaux.png"
+    export { default as NicRes } from "../images/resume/Nick Babineaux.png"
 
 
 
