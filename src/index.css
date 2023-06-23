@@ -114,7 +114,7 @@ body {
       #6d6d6d3c -78.47%,
       #11101d7d 91.61%);
   backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(2px);
   border: 1px solid  #5ce1e6;
 }
 
