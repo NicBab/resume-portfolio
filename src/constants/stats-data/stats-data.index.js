@@ -1,16 +1,21 @@
 export const stats = [
     {
       id: "stats-1",
-      title: "Fullstack",
+      title: "FULLSTACK",
       value: "",
     },
     {
       id: "stats-2",
-      title: "Front-End",
+      title: "FRONTEND",
       value: "",
     },
     {
       id: "stats-3",
+      title: "Database",
+      value: "",
+    },
+    {
+      id: "stats-4",
       title: "UI/UX",
       value: "",
     },
