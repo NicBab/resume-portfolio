@@ -26,13 +26,9 @@ const Deal = () => {
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>About...</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
-          Understanding the big picture entails envisioning alternative
-          approaches that enhance organizational goals, employee productivity,
-          and job satisfaction. By embracing a broader perspective, I can
-          explore innovative solutions that lead to improved outcomes. I strive
-          to foster an environment that encourages creativity, efficiency, and
-          the fulfillment of employees. Embracing new ideas and challenging
-          conventional methods, I constantly seek opportunities to optimize
+          Understanding the big picture.
+          Embracing new ideas and challenging
+          conventional methods. I constantly seek opportunities to optimize
           processes and drive positive change for the organization and its
           workforce.
         </p>
