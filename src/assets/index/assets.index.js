@@ -38,6 +38,7 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as BlogApp } from "../images/projects/BlogApp_ss.png";
     export { default as EshopApp } from "../images/projects/EshopApp_ss.png"
     export { default as MERN_SocialApp } from "../images/projects/MERN_Social_App_ss.png";
+    export { default as dalleAiImage } from "../images/projects/dalleAiImage.png";
     
     //RESUME 
     export { default as NicRes } from "../images/resume/Nick Babineaux.png"

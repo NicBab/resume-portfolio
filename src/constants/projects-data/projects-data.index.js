@@ -4,11 +4,21 @@ import {
   Bytor_designs,
   EshopApp,
   MERN_SocialApp,
+  dalleAiImage,
 } from "../../assets/index/assets.index";
 
 export const projectsInfo = [
   {
     id: 1,
+    img: dalleAiImage,
+    title: "OpenAi image",
+    description:
+      "fullstack openai image generator MERN stack+cloudinary",
+    url: "https://glistening-bunny-6ec7a8.netlify.app/",
+    gitHubUrl: "https://github.com/NicBab/Ai-Image",
+  },
+  {
+    id: 2,
     img: MERN_SocialApp,
     title: "Social media app",
     description:
@@ -17,7 +27,7 @@ export const projectsInfo = [
     gitHubUrl: "https://github.com/NicBab/socialmediaapp/tree/main/app",
   },
   {
-    id: 2,
+    id: 3,
     img: EshopApp,
     title: "Ecommerce app",
     description:
@@ -26,7 +36,7 @@ export const projectsInfo = [
     gitHubUrl: "https://github.com/NicBab/eshop",
   },
   {
-    id: 3,
+    id: 4,
     img: BlogApp,
     title: "Blog App",
     description: "Simple crud blog app using React/Mongo ",
@@ -34,7 +44,7 @@ export const projectsInfo = [
     gitHubUrl: "https://github.com/NicBab/blogapp/tree/main/app",
   },
   {
-    id: 4,
+    id: 5,
     img: SG_photo,
     title: "SG Photography",
     description:
@@ -43,7 +53,7 @@ export const projectsInfo = [
     gitHubUrl: "https://github.com/NicBab/Scuuba-gooding-photography",
   },
   {
-    id: 5,
+    id: 6,
     img: Bytor_designs,
     title: "Bytor Designs",
     description:
