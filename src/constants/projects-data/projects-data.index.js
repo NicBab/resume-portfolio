@@ -23,7 +23,7 @@ export const projectsInfo = [
     title: "Social media app",
     description:
       "Fullstack Social media app",
-    url: "",
+    url: "https://elegant-croissant-793a6b.netlify.app/",
     gitHubUrl: "https://github.com/NicBab/socialmediaapp/tree/main/app",
   },
   {
