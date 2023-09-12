@@ -22,7 +22,7 @@ const WhyMe = () => {
         </h2>
         <div className={`max-w-[500px]`}>
           <p className={`${styles.paragraph}`}>
-            With a solid technical foundation in mechanics and sociology, I
+            With a solid technical foundation in mechanics, software, and sociology. I
             possess strong management skills and excel in troubleshooting,
             debugging, and problem-solving. I have a keen eye for detail,
             multitasking abilities, and a commitment to delivering exceptional

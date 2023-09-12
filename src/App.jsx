@@ -1,7 +1,7 @@
 import styles from "./style";
 import { Routes, Route } from "react-router-dom";
 import { Home, BioPg, PortfolioPg, ContactPg, ResumePg } from "./pages/index/pages.index";
-import { Navbar, Footer } from "./components/index/components.index.js";
+import { Navbar, ReactProj, Footer } from "./components/index/components.index.js";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/bio" element={<BioPg />} />
         <Route path="/portfolio" element={ < PortfolioPg /> } />
+          <Route path="/reactProjects" element={<ReactProj/>} />
         <Route path="/contact" element={<ContactPg />} />
         <Route path="/resume" element={ <ResumePg /> } />
       </Routes>

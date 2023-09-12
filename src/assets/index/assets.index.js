@@ -32,6 +32,9 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as me_drumPic } from "../images/me/me_drumPic.png"
     export { default as grouse_room } from "../images/me/grouse_room.jpeg"
 
+    //SKILL LOGOS
+    export { default as react_Logo } from "../images/logo/react_Logo.png"
+
     //PROJECTS
     export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
     export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"

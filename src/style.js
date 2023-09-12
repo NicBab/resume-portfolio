@@ -1,8 +1,8 @@
 const styles = {
     boxWidth: "max-w-[100vw] w-full",
 
-    button: "py-4 px-6 mb-5 w-[200px] bg-purple-gradient font-poppins font-medium text-[18px] text-primary rounded-[10px] hover:text-blueText",
-    buttonSecondary: "py-4 px-6 xs:ml-5 w-[200px] purple-text-gradient font-poppins font-medium text-[18px] border border-1 border-iconPurple hover:border-blueText rounded-[10px]",
+    button: "py-2 px-4 mb-5 w-[200px] bg-purple-gradient font-poppins font-medium text-[18px] text-primary rounded-full hover:text-blueText",
+    buttonSecondary: "py-2 px-4 xs:ml-5 w-[200px] purple-text-gradient font-poppins font-medium text-[18px] border border-1 border-iconPurple hover:border-blueText rounded-full",
 
     heading2: "font-poppins flex justify-center font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[85px] leading-[50px] w-full",
     paragraph: "m-5 font-poppins font-normal text-dimWhite text-[14px] md:text-[16px] leading-[35px] indent-5",

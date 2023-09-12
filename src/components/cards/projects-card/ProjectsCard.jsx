@@ -2,7 +2,7 @@ import styles from "../../../style";
 import { PortfolioCardIcons } from "../../index/components.index";
 
 //project props from Projects component map
-const PortfolioCard = ({ project }) => {
+const ProjectsCard = ({ project }) => {
   const { img, title, url } = project;
 
   const openInNewTab = () => {
@@ -29,4 +29,4 @@ const PortfolioCard = ({ project }) => {
   );
 };
 
-export default PortfolioCard;
+export default ProjectsCard;

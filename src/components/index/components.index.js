@@ -12,13 +12,15 @@ export { default as Footer } from ".././footer/Footer";
 export { default as Social } from ".././social/Social";
 export { default as Resume } from ".././resume/Resume";
 export { default as Portfolio } from "../portfolio/Portfolio"
+    export {default as ReactProj } from "../portfolio/ReactProj";
 export { default as ScrollToTop } from "../../components/scroll-to-top/ScrollToTop"
 export { default as PortfolioCardIcons } from "../portfolio-card-icons/PortfolioCardIcons"
 
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard";
-export { default as PortfolioCard } from "../cards/portfolio-card/PortfolioCard";
+export { default as ProjectsCard } from "../cards/projects-card/ProjectsCard";
 export { default as CertCard } from ".././cards/cert-card/CertCard";
+export { default as LogoCard } from ".././cards/logo-card/LogoCard";
 
 //BUTTONS
 export { default as AboutMeHeroClicker } from ".././buttons/AboutMeHeroClicker";
