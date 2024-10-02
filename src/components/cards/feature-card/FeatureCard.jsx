@@ -11,7 +11,7 @@ const FeatureCard = ({ content, index }) => {
       >
         <div className={`flex-1 flex flex-col`}>
           <div
-            className={` ${styles.paragraph} font-poppins font-normal text-dimWhite text-[16px]`}
+            className={` ${styles.paragraph} font-poppins font-normal text-dimWhite text-[12px] sm:text-[16px]`}
           >
             <span>{content}</span>
           </div>

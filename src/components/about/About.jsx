@@ -16,21 +16,21 @@ const Deal = () => {
           <img
             src={downtown_Denver_river}
             alt="downtown_Denver_river"
-            className="w-[180px] h-[200px] sm:w-[260px] sm:h-[300px] relative right-10 top-20 rounded-md z-[3] mb-8 shadow-3"
+            className="w-[180px] h-[200px] sm:w-[260px] sm:h-[300px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
         <div className={`${styles.flexCenter} `}>
           <img
             src={me_drumPic}
             alt="me_drumPic"
-            className="w-[180px] h-[180px] sm:w-[240px] sm:h-[260px] relative left-10 top-10 rounded-md z-[2] mb-8 shadow-2"
+            className="w-[180px] h-[180px] sm:w-[240px] sm:h-[260px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
         <div className={`${styles.flexEnd} `}>
           <img
             src={grouse_room}
             alt="grouse_room"
-            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 bottom-2 rounded-md z-[1] shadow"
+            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 rounded-md z-[1] shadow"
           />
         </div>
       </div>

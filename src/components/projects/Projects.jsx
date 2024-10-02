@@ -37,24 +37,25 @@ const Projects = () => {
       </div>
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
-          <img
-            src={geaux_337_pic}
-            alt="geaux_337_pic"
-            className="w-[200px] h-[200px] sm:w-[280px] sm:h-[300px] relative right-10 top-20 rounded-md z-[3] mb-8 shadow-3"
-          />
-        </div>
-        <div className={`${styles.flexCenter} `}>
-          <img
+        <img
             src={robot_arm_code}
             alt="robot_arm_code"
-            className="w-[180px] h-[180px] sm:w-[250px] sm:h-[210px] relative left-10 top-10 rounded-md z-[2] mb-8 shadow-2"
+            className="w-[180px] h-[180px] sm:w-[300px] sm:h-[320px] relative top-10 right-10 rounded-md z-[3] shadow-3"
+          />
+          
+        </div>
+        <div className={`${styles.flexCenter} `}>
+        <img
+            src={geaux_337_pic}
+            alt="geaux_337_pic"
+            className="w-[200px] h-[200px] sm:w-[280px] sm:h-[300px] relative rounded-md z-[2] shadow-3"
           />
         </div>
         <div className={`${styles.flexEnd} `}>
           <img
             src={car_showcase_pic}
             alt="car_showcase_pic"
-            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 bottom-10 rounded-md z-[1] shadow"
+            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative bottom-10 right-10 rounded-md z-[1] shadow"
           />
         </div>
       </div>

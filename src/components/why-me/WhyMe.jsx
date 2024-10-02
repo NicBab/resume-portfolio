@@ -14,9 +14,10 @@ const WhyMe = () => {
           <img
             src={work_diff}
             alt="work_diff"
-            className="w-[200px] h-[200px] sm:w-[260px] sm:h-[300px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
+            className="w-[200px] h-[200px] sm:w-[260px] sm:h-[300px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
+        
       </div>
       <div className={`${layout.sectionInfo} mb-10 z-[1]`}>
         <h2 className={styles.heading2}>
