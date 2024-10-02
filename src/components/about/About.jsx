@@ -1,33 +1,43 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../style";
 import { BUTTON, SecBtn } from "../index/components.index";
-import { me_drumPic, grouse_room } from "../../assets/index/assets.index";
+import {
+  me_drumPic,
+  grouse_room,
+  downtown_Denver_river,
+} from "../../assets/index/assets.index";
 
 const Deal = () => {
   return (
     <section className={`${layout.section} relative mb-[50px]`}>
       <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 purple__gradient opacity-[.1]"></div>
-      <div className={`${layout.sectionInfo} z-[4]`}>
+      <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src={me_drumPic}
-            alt="me_drumPic"
-            className="w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] relative right-20 top-10 rounded-md z-[2] mb-8 shadow-3"
+            src={downtown_Denver_river}
+            alt="downtown_Denver_river"
+            className="w-[180px] h-[200px] sm:w-[260px] sm:h-[300px] relative right-10 top-20 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
         <div className={`${styles.flexCenter} `}>
           <img
-            src={grouse_room}
+            src={me_drumPic}
             alt="me_drumPic"
-            className="w=[150px] h-[150px] sm:w-[250px] sm:h-[250px] relative left-10 -top-10 sm:left-20 sm:-top-10 rounded-md z-[1] shadow"
+            className="w-[180px] h-[180px] sm:w-[240px] sm:h-[260px] relative left-10 top-10 rounded-md z-[2] mb-8 shadow-2"
+          />
+        </div>
+        <div className={`${styles.flexEnd} `}>
+          <img
+            src={grouse_room}
+            alt="grouse_room"
+            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 bottom-2 rounded-md z-[1] shadow"
           />
         </div>
       </div>
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>About...</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
-          Understanding the big picture.
-          Embracing new ideas and challenging
+          Understanding the big picture. Embracing new ideas and challenging
           conventional methods. I constantly seek opportunities to optimize
           processes and drive positive change for the organization and its
           workforce.

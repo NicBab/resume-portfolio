@@ -5,7 +5,8 @@ import {
   Bytor_designs,
   EshopApp,
   MERN_SocialApp,
-  BlogApp
+  BlogApp,
+  robot_arm_code
 } from "../../assets/index/assets.index";
 import { BUTTON, SecBtn } from "../index/components.index";
 
@@ -49,7 +50,7 @@ const Projects = () => {
 
         <div className={`${styles.flexCenter} `}>
           <img
-            src={EshopApp}
+            src={robot_arm_code}
             alt="Ecommerce shop"
             className="w-[180px] h-[180px] sm:w-[250px] sm:h-[210px] relative left-10 top-10 rounded-md z-[2] mb-8 shadow-2"
           />

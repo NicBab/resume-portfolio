@@ -33,8 +33,8 @@ const Hero = () => {
           </span>
           <br className="sm:block" />
           <span className={`${styles.paragraph} indent-56`}>
-          Crafting cutting-edge, sophisticated, and elegant solutions for
-          contemporary web services and E-commerce, leveraging diverse markup
+          Crafting elegant solutions for
+          contemporary web services, leveraging diverse markup
           languages and frameworks.
           </span>
         </p>

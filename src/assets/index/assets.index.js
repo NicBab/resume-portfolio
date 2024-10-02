@@ -21,20 +21,20 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     //CERTIFICATIONS 
     export { default as LSUfullstack } from '../images/certifications/LSU_fullstack.jpg'
     export { default as UdGit } from '../images/certifications/Ud_gitCert.jpg'
-
     //HERO
     export { default as robot_atom_hand } from "../images/hero/hand_atom.png";
-
     //LOGO
     export { default as gearLogo } from "../images/logo/gears_Img2.png"
-
+    export { default as react_Logo } from "../images/logo/react_Logo.png"
+    export { default as Arduino_Logo } from "../images/logo/Arduino_Logo.png"
+    export { default as python_Logo } from "../images/logo/python_Logo.png"
     //ME
     export { default as me_drumPic } from "../images/me/me_drumPic.png"
     export { default as grouse_room } from "../images/me/grouse_room.jpeg"
-
-    //SKILL LOGOS
-    export { default as react_Logo } from "../images/logo/react_Logo.png"
-
+    export { default as downtown_Denver_river} from "../images/me/downtown_Denver_river.png"
+    export { default as work_diff } from "../images/me/work_diff.png"
+    export { default as trx450_motor } from "../images/me/trx450_motor.png"
+    export { default as harleyWithTools } from "../images/me/harleyWithTools.png"
     //PROJECTS
     export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
     export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"
@@ -42,9 +42,9 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as EshopApp } from "../images/projects/EshopApp_ss.png"
     export { default as MERN_SocialApp } from "../images/projects/MERN_Social_App_ss.png";
     export { default as dalleAiImage } from "../images/projects/dalleAiImage.png";
-    
+    export { default as robot_arm_code } from "../images/projects/robot_arm_code.png"
     //RESUME 
-    export { default as NicRes } from "../images/resume/Nick Babineaux.png"
+    export { default as NicRes } from "../images/resume/Nick_Babineaux_resume.png"
 
 
 

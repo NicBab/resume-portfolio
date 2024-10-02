@@ -7,7 +7,7 @@ const LogoCard = ({props}) => {
       <img 
       src={logo}
       alt={id}
-      className="min-w-[200px] h-[200px] relative m-5 rounded-md z-[1]"/>
+      className="w-[250px] h-[150px] relative m-5 rounded-md z-[1]"/>
     </div>
   )
 }
