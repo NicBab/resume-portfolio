@@ -43,6 +43,8 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as MERN_SocialApp } from "../images/projects/MERN_Social_App_ss.png";
     export { default as dalleAiImage } from "../images/projects/dalleAiImage.png";
     export { default as robot_arm_code } from "../images/projects/robot_arm_code.png"
+    export { default as car_showcase_pic } from "../images/projects/car_showcase_pic.png"
+    export { default as geaux_337_pic } from "../images/projects/geaux_337_pic.png"
     //RESUME 
     export { default as NicRes } from "../images/resume/Nick_Babineaux_resume.png"
 
