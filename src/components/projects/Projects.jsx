@@ -1,11 +1,6 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../style";
 import {
-  SG_photo,
-  Bytor_designs,
-  EshopApp,
-  MERN_SocialApp,
-  BlogApp,
   robot_arm_code,
   geaux_337_pic,
   car_showcase_pic,
@@ -40,7 +35,6 @@ const Projects = () => {
           </Link>
         </div>
       </div>
-
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
@@ -49,7 +43,6 @@ const Projects = () => {
             className="w-[200px] h-[200px] sm:w-[280px] sm:h-[300px] relative right-10 top-20 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
-
         <div className={`${styles.flexCenter} `}>
           <img
             src={robot_arm_code}
@@ -57,10 +50,9 @@ const Projects = () => {
             className="w-[180px] h-[180px] sm:w-[250px] sm:h-[210px] relative left-10 top-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
-
         <div className={`${styles.flexEnd} `}>
           <img
-             src={car_showcase_pic}
+            src={car_showcase_pic}
             alt="car_showcase_pic"
             className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 bottom-10 rounded-md z-[1] shadow"
           />

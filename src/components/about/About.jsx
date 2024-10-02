@@ -37,10 +37,10 @@ const Deal = () => {
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>About...</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
-          Understanding the big picture means embracing new ideas and challenging
-          conventional methods. I constantly seek opportunities to optimize
-          processes and drive positive change for the organization and its
-          workforce.
+          Understanding the big picture means embracing new ideas and
+          challenging conventional methods. I constantly seek opportunities to
+          optimize processes and drive positive change for the organization and
+          its workforce.
         </p>
         <div className="md:flex flex-row">
           <Link to="/bio">
