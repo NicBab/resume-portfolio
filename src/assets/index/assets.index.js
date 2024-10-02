@@ -27,7 +27,7 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as gearLogo } from "../images/logo/gears_Img2.png"
     export { default as react_Logo } from "../images/logo/react_Logo.png"
     export { default as Arduino_Logo } from "../images/logo/Arduino_Logo.png"
-    export { default as python_Logo } from "../images/logo/python_Logo.png"
+    export { default as Python_Logo } from "../images/logo/Python_Logo.png"
     //ME
     export { default as me_drumPic } from "../images/me/me_drumPic.png"
     export { default as grouse_room } from "../images/me/grouse_room.jpeg"

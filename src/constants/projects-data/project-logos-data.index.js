@@ -1,4 +1,4 @@
-import { react_Logo, Arduino_Logo, python_Logo } from "../../assets/index/assets.index";
+import { react_Logo, Arduino_Logo, Python_Logo } from "../../assets/index/assets.index";
 
 export const projectLogosData = [
     {
@@ -13,7 +13,7 @@ export const projectLogosData = [
     },
     {
         id: 3,
-        logo: python_Logo,
+        logo: Python_Logo,
         path: "/pythonProjects"
     }
 ]
