@@ -40,23 +40,23 @@ const Projects = () => {
         <div className={`${styles.flexStart}`}>
         <img
             src={hmi_sensor_levels}
-            alt="robot_arm_code"
-            className="w-[180px] h-[120px] sm:w-[450px] sm:h-[320px] relative top-10 right-10 rounded-md z-[3] shadow-3"
+            alt="hmi_sensor_levels"
+            className="w-[180px] h-[120px] sm:w-[450px] sm:h-[320px] relative top-5 right-10 rounded-md z-[3] shadow-3"
           />
           
         </div>
         <div className={`${styles.flexCenter} `}>
         <img
             src={hmi_sensor_readings}
-            alt="geaux_337_pic"
-            className="w-[180px] h-[120px] sm:w-[380px] sm:h-[280px] relative rounded-md z-[2] shadow-3"
+            alt="hmi_sensor_readings"
+            className="w-[180px] h-[120px] sm:w-[390px] sm:h-[280px] relative rounded-md z-[2] shadow-3"
           />
         </div>
         <div className={`${styles.flexEnd} `}>
           <img
             src={hmi_climate_levels}
-            alt="car_showcase_pic"
-            className="w-[180px] h-[120px] mb-20 sm:w-[280px] sm:h-[200px] relative bottom-2 left-10 rounded-md z-[1] shadow"
+            alt="hmi_climate_levels"
+            className="w-[180px] h-[120px] mb-20 sm:w-[290px] sm:h-[200px] relative left-10 rounded-md z-[1] shadow"
           />
         </div>
       </div>
