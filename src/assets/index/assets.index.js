@@ -30,12 +30,8 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as Python_Logo } from "../images/logo/Python_Logo.png"
     //ME
     export { default as me_drumPic } from "../images/me/me_drumPic.png"
-    export { default as grouse_room } from "../images/me/grouse_room.jpeg"
     export { default as downtown_Denver_river} from "../images/me/downtown_Denver_river.png"
-    export { default as work_diff } from "../images/me/work_diff.png"
-    export { default as trx450_motor } from "../images/me/trx450_motor.png"
-    export { default as harleyWithTools } from "../images/me/harleyWithTools.png"
-   
+    
     //PROJECTS
     export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
     export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"

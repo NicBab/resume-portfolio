@@ -3,7 +3,6 @@ import styles, { layout } from "../../style";
 import { BUTTON, SecBtn } from "../index/components.index";
 import {
   me_drumPic,
-  grouse_room,
   downtown_Denver_river,
 } from "../../assets/index/assets.index";
 

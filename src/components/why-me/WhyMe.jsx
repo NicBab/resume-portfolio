@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../style";
 import { BUTTON, SecBtn } from "../index/components.index";
-import { work_diff, small_plc_panel } from "../../assets/index/assets.index";
+import { small_plc_panel } from "../../assets/index/assets.index";
 
 const WhyMe = () => {
   return (
@@ -13,7 +13,7 @@ const WhyMe = () => {
         <div className={`${styles.flexStart}`}>
           <img
             src={small_plc_panel}
-            alt="work_diff"
+            alt="plc_panel"
             className="w-[300px] h-[300px] sm:w-[400px] sm:h-[450px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
