@@ -56,7 +56,7 @@ const Projects = () => {
           <img
             src={hmi_climate_levels}
             alt="car_showcase_pic"
-            className="w-[180px] h-[120px] mb-20 sm:w-[280px] sm:h-[200px] relative bottom-2 right-20 rounded-md z-[1] shadow"
+            className="w-[180px] h-[120px] mb-20 sm:w-[280px] sm:h-[200px] relative bottom-2 left-10 rounded-md z-[1] shadow"
           />
         </div>
       </div>
