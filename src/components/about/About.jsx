@@ -26,21 +26,12 @@ const Deal = () => {
             className="w-[180px] h-[180px] sm:w-[240px] sm:h-[260px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
-        {/* <div className={`${styles.flexEnd} `}>
-          <img
-            src={grouse_room}
-            alt="grouse_room"
-            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 rounded-md z-[1] shadow"
-          />
-        </div> */}
       </div>
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>About...</h2>
         <p className={`${styles.paragraph} max-w-[500px]`}>
-          Understanding the big picture means embracing new ideas and
-          challenging conventional methods. I constantly seek opportunities to
-          optimize processes and drive positive change for the organization and
-          its workforce.
+         Understanding the big picture means embracing new ideas and challenging conventional methods.
+        I constantly seek opportunities to optimize processes and drive innovative solutions, while ensuring reliability and scalability in every project
         </p>
         <div className="md:flex flex-row">
           <Link to="/bio">

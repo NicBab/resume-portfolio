@@ -12,7 +12,7 @@ const Footer = () => {
         <Navbar />
       </nav>
       <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white p-10">
-        Copyright Ⓒ 2022 StellarInnovationCo. All Rights Reserved.
+        Copyright Ⓒ 2025 StellarInnovationCo. All Rights Reserved.
       </p>
     </section>
   );

@@ -26,11 +26,10 @@ const WhyMe = () => {
         </h2>
         <div className={`max-w-[500px]`}>
           <p className={`${styles.paragraph}`}>
-            With a solid technical foundation in mechanics, software, and
+            With a solid technical foundation in software, automation, mechanics, and
             sociology. I possess strong management skills and excel in
             troubleshooting, debugging, and problem-solving. I have a keen eye
-            for detail, multitasking abilities, and a commitment to delivering
-            exceptional results.
+            for detail, multitasking, and take pride in delivering innovative real world solutions.
           </p>
         </div>
         <div className="md:flex flex-row">

@@ -29,12 +29,13 @@ const Hero = () => {
         </h1>
         <p className="max-w-[400px] min-w-[250px] mt-5">
           <span className="ss:text-[35px] text-[20px] text-white">
-            Software Developer
+            Software Developer/
+            Controls Engineer
           </span>
           <br className="sm:block" />
           <span className={`${styles.paragraph} indent-56`}>
-          Crafting elegant solutions for
-          contemporary web services, leveraging diverse markup
+          Crafting innovative and elegant solutions for
+          contemporary web services, and industrial automation. Leveraging diverse platforms, markup
           languages and frameworks.
           </span>
         </p>
