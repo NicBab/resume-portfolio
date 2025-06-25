@@ -1,5 +1,5 @@
 import styles, { layout } from "../.././style";
-import { NicRes } from "../.././assets/index/assets.index";
+import { updated_resume } from "../.././assets/index/assets.index";
 
 const Resume = () => {
   return (
@@ -7,7 +7,7 @@ const Resume = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={layout.sectionImg}>
           <img
-            src={NicRes}
+            src={updated_resume}
             alt="resume"
             className="w-[100%] h-[100%] relative rounded-md z-[1]"
           />

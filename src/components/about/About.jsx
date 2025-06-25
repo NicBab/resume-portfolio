@@ -26,13 +26,13 @@ const Deal = () => {
             className="w-[180px] h-[180px] sm:w-[240px] sm:h-[260px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
-        <div className={`${styles.flexEnd} `}>
+        {/* <div className={`${styles.flexEnd} `}>
           <img
             src={grouse_room}
             alt="grouse_room"
             className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative right-10 rounded-md z-[1] shadow"
           />
-        </div>
+        </div> */}
       </div>
       <div className={`${layout.sectionInfo} z-[3]`}>
         <h2 className={styles.heading2}>About...</h2>

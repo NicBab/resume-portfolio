@@ -4,6 +4,9 @@ import {
   robot_arm_code,
   geaux_337_pic,
   car_showcase_pic,
+  hmi_sensor_levels,
+  hmi_sensor_readings,
+  hmi_climate_levels,
 } from "../../assets/index/assets.index";
 import { BUTTON, SecBtn } from "../index/components.index";
 
@@ -35,27 +38,28 @@ const Projects = () => {
           </Link>
         </div>
       </div>
+      
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
         <img
-            src={robot_arm_code}
+            src={hmi_sensor_levels}
             alt="robot_arm_code"
-            className="w-[180px] h-[180px] sm:w-[300px] sm:h-[320px] relative top-10 right-10 rounded-md z-[3] shadow-3"
+            className="w-[180px] h-[120px] sm:w-[400px] sm:h-[320px] relative top-10 right-10 rounded-md z-[3] shadow-3"
           />
           
         </div>
         <div className={`${styles.flexCenter} `}>
         <img
-            src={geaux_337_pic}
+            src={hmi_sensor_readings}
             alt="geaux_337_pic"
-            className="w-[200px] h-[200px] sm:w-[280px] sm:h-[300px] relative rounded-md z-[2] shadow-3"
+            className="w-[180px] h-[150px] sm:w-[380px] sm:h-[280px] relative rounded-md z-[2] shadow-3"
           />
         </div>
         <div className={`${styles.flexEnd} `}>
           <img
-            src={car_showcase_pic}
+            src={hmi_climate_levels}
             alt="car_showcase_pic"
-            className="w-[160px] h-[160px] sm:w-[220px] sm:h-[200px] relative bottom-10 right-10 rounded-md z-[1] shadow"
+            className="w-[180px] h-[150px] mb-20 sm:w-[280px] sm:h-[200px] relative bottom-2 right-20 rounded-md z-[1] shadow"
           />
         </div>
       </div>

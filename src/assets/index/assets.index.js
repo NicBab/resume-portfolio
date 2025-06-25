@@ -35,6 +35,7 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as work_diff } from "../images/me/work_diff.png"
     export { default as trx450_motor } from "../images/me/trx450_motor.png"
     export { default as harleyWithTools } from "../images/me/harleyWithTools.png"
+   
     //PROJECTS
     export { default as SG_photo } from "../images/projects/SG_photography_hp.png"
     export { default as Bytor_designs } from "../images/projects/BytorSite_screenshot.png"
@@ -45,8 +46,14 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as robot_arm_code } from "../images/projects/robot_arm_code.png"
     export { default as car_showcase_pic } from "../images/projects/car_showcase_pic.png"
     export { default as geaux_337_pic } from "../images/projects/geaux_337_pic.png"
+    export { default as hmi_sensor_levels } from "../images/projects/hmi_sensor_levels.png"
+    export { default as hmi_sensor_readings } from "../images/projects/hmi_sensor_readings.png"
+    export { default as hmi_trends } from "../images/projects/hmi_trends.png"
+    export { default as hmi_controls } from "../images/projects/hmi_controls.png"
+    export { default as hmi_climate_levels } from "../images/projects/hmi_climate_levels.png"
+    export { default as small_plc_panel } from "../images/projects/small_plc_panel.png"
     //RESUME 
-    export { default as NicRes } from "../images/resume/Nick_Babineaux_resume.png"
+    export { default as updated_resume } from "../images/resume/UPDATED_RESUME.png"
 
 
 
