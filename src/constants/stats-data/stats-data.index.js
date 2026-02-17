@@ -1,31 +1,31 @@
 export const stats = [    {
       id: "stats-1",
-      title: "AUTOMATION",
+      title: "FULLSTACK",
       value: "",
     },
       {
       id: "stats-2",
-      title: "HMI",
+      title: "FRONT END",
       value: "",
     },
         {
       id: "stats-3",
-      title: "ARDUINO",
+      title: "DATABASE",
       value: "",
     },
     {
       id: "stats-4",
-      title: "FULLSTACK",
+      title: "AUTOMATION",
       value: "",
     },
     {
       id: "stats-5",
-      title: "FRONTEND",
+      title: "I.T.",
       value: "",
     },
     {
       id: "stats-6",
-      title: "Database",
+      title: "HMI",
       value: "",
     },
     {

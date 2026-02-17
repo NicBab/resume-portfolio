@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import styles, { layout } from "../../style";
 import { BUTTON, SecBtn } from "../index/components.index";
 import {
-  me_drumPic,
-  downtown_Denver_river,
+  mower_harness,
+  mower_hmi
 } from "../../assets/index/assets.index";
 
 const Deal = () => {
@@ -13,16 +13,16 @@ const Deal = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src={downtown_Denver_river}
-            alt="downtown_Denver_river"
-            className="w-[180px] h-[200px] sm:w-[260px] sm:h-[300px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
+            src={mower_harness}
+            alt="mower_harness"
+            className="w-[200px] h-[200px] sm:w-[460px] sm:h-[400px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
         <div className={`${styles.flexCenter} `}>
           <img
-            src={me_drumPic}
-            alt="me_drumPic"
-            className="w-[180px] h-[180px] sm:w-[240px] sm:h-[260px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
+            src={mower_hmi}
+            alt="mower_hmi"
+            className="w-[200px] h-[180px] sm:w-[380px] sm:h-[280px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
       </div>

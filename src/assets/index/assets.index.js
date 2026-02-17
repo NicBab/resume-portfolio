@@ -48,6 +48,8 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as hmi_controls } from "../images/projects/hmi_controls.png"
     export { default as hmi_climate_levels } from "../images/projects/hmi_climate_levels.png"
     export { default as small_plc_panel } from "../images/projects/small_plc_panel.png"
+    export { default as mower_harness } from "../images/projects/mower_harness.png"
+    export { default as mower_hmi } from "../images/projects/mower_hmi.png"
     //RESUME 
     export { default as updated_resume } from "../images/resume/UPDATED_RESUME.png"
 
