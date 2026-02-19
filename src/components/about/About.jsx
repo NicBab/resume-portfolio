@@ -2,8 +2,13 @@ import { Link } from "react-router-dom";
 import styles, { layout } from "../../style";
 import { BUTTON, SecBtn } from "../index/components.index";
 import {
+  esp32_access,
+  greenhouse_backplane,
+  hmi_sensor_levels,
+  hmi_trends,
   mower_harness,
-  mower_hmi
+  mower_hmi,
+  xtech_site
 } from "../../assets/index/assets.index";
 
 const Deal = () => {
@@ -13,16 +18,16 @@ const Deal = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src={mower_harness}
-            alt="mower_harness"
-            className="w-[200px] h-[200px] sm:w-[460px] sm:h-[400px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
+            src={hmi_sensor_levels}
+            alt="hmi levels"
+            className="w-[200px] h-[200px] sm:w-[480px] sm:h-[400px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
         <div className={`${styles.flexCenter} `}>
           <img
-            src={mower_hmi}
-            alt="mower_hmi"
-            className="w-[200px] h-[180px] sm:w-[380px] sm:h-[280px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
+            src={xtech_site}
+            alt="xtech site"
+            className="w-[200px] h-[180px] sm:w-[400px] sm:h-[300px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
       </div>

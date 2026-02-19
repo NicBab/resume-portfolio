@@ -29,8 +29,7 @@ const Hero = () => {
         </h1>
         <p className="max-w-[400px] min-w-[250px] mt-5">
           <span className="ss:text-[35px] text-[20px] text-white">
-            Controls Engineer 
-            / Software Developer
+            Software / Controls / I.T.
           </span>
           <br className="sm:block" />
           <span className={`${styles.paragraph} indent-56`}>

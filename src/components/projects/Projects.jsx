@@ -4,6 +4,9 @@ import {
   hmi_sensor_levels,
   hmi_sensor_readings,
   hmi_climate_levels,
+  mower_harness,
+  greenhouse_backplane,
+  esp32_access
 } from "../../assets/index/assets.index";
 import { BUTTON, SecBtn } from "../index/components.index";
 
@@ -39,23 +42,23 @@ const Projects = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
         <img
-            src={hmi_sensor_levels}
-            alt="hmi_sensor_levels"
-            className="w-[180px] h-[120px] sm:w-[450px] sm:h-[320px] relative top-5 right-10 rounded-md z-[3] shadow-3"
+            src={greenhouse_backplane}
+            alt="greenhouse backplane"
+            className="w-[180px] h-[120px] sm:w-[350px] sm:h-[340px] relative top-5 right-10 rounded-md z-[3] shadow-3"
           />
           
         </div>
         <div className={`${styles.flexCenter} `}>
         <img
-            src={hmi_sensor_readings}
-            alt="hmi_sensor_readings"
-            className="w-[180px] h-[120px] sm:w-[390px] sm:h-[280px] relative rounded-md z-[2] shadow-3"
+            src={esp32_access}
+            alt="esp32 access"
+            className="w-[180px] h-[120px] sm:w-[360px] sm:h-[260px] relative rounded-md z-[2] shadow-3"
           />
         </div>
         <div className={`${styles.flexEnd} `}>
           <img
-            src={hmi_climate_levels}
-            alt="hmi_climate_levels"
+            src={mower_harness}
+            alt="mower_harness"
             className="w-[180px] h-[120px] mb-20 sm:w-[290px] sm:h-[200px] relative left-10 rounded-md z-[1] shadow"
           />
         </div>

@@ -3,11 +3,11 @@ export const stats = [    {
       title: "FULLSTACK",
       value: "",
     },
-      {
-      id: "stats-2",
-      title: "FRONT END",
-      value: "",
-    },
+    //   {
+    //   id: "stats-2",
+    //   title: "FRONT END",
+    //   value: "",
+    // },
         {
       id: "stats-3",
       title: "DATABASE",

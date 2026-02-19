@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../style";
 import { BUTTON, SecBtn } from "../index/components.index";
-import { small_plc_panel } from "../../assets/index/assets.index";
+import { greenhouse_backplane, mini_rack } from "../../assets/index/assets.index";
 
 const WhyMe = () => {
   return (
@@ -12,9 +12,9 @@ const WhyMe = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src={small_plc_panel}
-            alt="plc_panel"
-            className="w-[300px] h-[300px] sm:w-[400px] sm:h-[450px] relative rounded-md z-[3] mb-8 shadow-3"
+            src={mini_rack}
+            alt="greenhouse_backplane"
+            className="w-[300px] h-[300px] sm:w-[400px] sm:h-[480px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>
         
