@@ -27,7 +27,7 @@ const Deal = () => {
           <img
             src={xtech_site}
             alt="xtech site"
-            className="w-[200px] h-[180px] sm:w-[400px] sm:h-[300px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
+            className="w-[200px] h-[180px] sm:w-[450px] sm:h-[300px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
       </div>
