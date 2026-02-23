@@ -9,7 +9,7 @@ const Resume = () => {
           <img
             src={resume}
             alt="resume"
-            className="w-[60%] h-[60%] relative rounded-md z-[1]"
+            className="w-[50%] h-[60%] relative rounded-md z-[1]"
           />
         </div>
       </div>
