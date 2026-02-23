@@ -23,9 +23,14 @@ export const stats = [    {
       title: "I.T.",
       value: "",
     },
+        {
+      id: "stats-5",
+      title: "Security",
+      value: "",
+    },
     {
       id: "stats-6",
-      title: "HMI",
+      title: "PLC/HMI",
       value: "",
     },
     {
