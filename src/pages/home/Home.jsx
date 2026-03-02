@@ -3,11 +3,13 @@ import styles from "../.././style";
 import {
   Hero,
   Stats,
-  WhyMe,
-  Projects,
-  About,
-  SkillStack,
+  CoreStrengths,
+  TechnicalSkills,
+  Experience,
+   KeyProjects,
+  Education,
   CTA,
+
 } from "../.././components/index/components.index";
 
 const Home = () => {
@@ -22,10 +24,11 @@ const Home = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <About />
-          <Projects />
-          <WhyMe />
-          <SkillStack />
+          <CoreStrengths />
+          <TechnicalSkills />
+          <Experience />
+          <KeyProjects />
+          <Education />
           <CTA />
         </div>
       </div>

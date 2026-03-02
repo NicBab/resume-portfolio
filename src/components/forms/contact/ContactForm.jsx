@@ -55,7 +55,7 @@ const ContactForm = () => {
                 stellarinnovationco@gmail.com
               </span>
               <span className="mb-5">
-                <PlaceIcon className="mr-5" /> 123 Merlot Cir., Laf, La. 70503
+                <PlaceIcon className="mr-5" /> Lafayette, La.
               </span>
             </div>
           </div>

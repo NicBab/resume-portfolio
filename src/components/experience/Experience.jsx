@@ -50,7 +50,7 @@
 import styles from "../../style";
 import { resumeData } from "../../constants/resumeData/resumeData.index";
 
-const WhyMe = () => {
+const Experience = () => {
   const { experience } = resumeData;
 
   // Temporary local wrappers (you can extract later)
@@ -122,4 +122,4 @@ const WhyMe = () => {
   );
 };
 
-export default WhyMe;
+export default Experience;

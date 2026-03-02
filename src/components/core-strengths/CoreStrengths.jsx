@@ -55,7 +55,7 @@
 import styles from "../../style";
 import { resumeData } from "../../constants/resumeData/resumeData.index";
 
-const Deal = () => {
+const CoreStrengths = () => {
   const { strengths } = resumeData;
 
   // Temporary local wrappers (you can extract later)
@@ -107,4 +107,4 @@ const Deal = () => {
   );
 };
 
-export default Deal;
+export default CoreStrengths;

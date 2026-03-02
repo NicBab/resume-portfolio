@@ -67,17 +67,20 @@ const Hero = () => {
     <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16`}>
         <div
-          className={`flex flex-col items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2`}
+          className={`flex flex-col items-center py-[6px] px-4 bg-discount-gradient rounded-[10px]`}
         ></div>
 
         <div className="flex flex-wrap-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[20px] text-dimWhite ss:leading-[40px] leading-[40px]">
+             <p className="text-dimWhite text-[14px] tracking-widest uppercase">
+                Resume • Portfolio • Case Studies
+              </p>
+          {/* <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[20px] text-dimWhite ss:leading-[40px] leading-[40px]">
             Welcome,
             <br className="sm:block " />
             <span className="ss:text-[20px] text-[12px] text-dimWhite">
               My name is
             </span>
-          </h1>
+          </h1> */}
 
           <div className="ss:flex hidden md:mr-4 mr-0">
             <Link to="/bio">
@@ -91,14 +94,14 @@ const Hero = () => {
         </h1>
 
         {/* Resume-aligned headline + summary */}
-        <p className="max-w-[520px] min-w-[250px] mt-5">
-          <span className="ss:text-[28px] text-[18px] text-white leading-tight">
+        <p className={`${styles.paragraph} max-w-[520px] min-w-[250px]`}>
+          <span className="ss:text-[28px] text-[18px] text-white">
             Industrial Controls • Automation • Full-Stack • Industrial IoT
           </span>
 
-          <br className="sm:block" />
+          <br className="sm:block m-2" />
 
-          <span className={`${styles.paragraph} mt-5`}>
+          <span className={`${styles.paragraph}`}>
             Industrial Control Systems, Software & Automation experience designing,
             programming, commissioning, and troubleshooting PLC, HMI, SCADA, software,
             and IT systems across automation environments. Known for bridging controls,
@@ -106,7 +109,7 @@ const Hero = () => {
           </span>
         </p>
 
-        {/* Optional: quick credibility chips (clean + scannable) */}
+        {/* Optional: quick credibility chips (clean + scannable)
         <div className="flex flex-wrap gap-2 mt-5 max-w-[560px]">
           {[
             "PLC/HMI/SCADA",
@@ -123,7 +126,7 @@ const Hero = () => {
               {t}
             </span>
           ))}
-        </div>
+        </div> */}
 
         {/* Optional: CTA row matching your existing button styling */}
         <div className="md:flex flex-row mt-7">
