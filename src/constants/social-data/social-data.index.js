@@ -1,6 +1,7 @@
 import {
   linkedin,
   githubIcon,
+  facebook,
 } from "../.././assets/index/assets.index";
 
 export const socialMedia = [
@@ -15,5 +16,11 @@ export const socialMedia = [
     title: "Github",
     icon: githubIcon,
     link: "https://github.com/NicBab",
+  },
+    {
+    id: "social-media-3",
+    title: "Facebook",
+    icon: facebook,
+    link: "https://www.facebook.com/profile.php?id=100064002194567",
   },
 ];
