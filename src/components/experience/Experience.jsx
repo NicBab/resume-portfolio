@@ -49,7 +49,7 @@
 
 
 import { resumeData } from "../../constants/resumeData/resumeData.index";
-import { SectionShell, GlassCard } from "../index/components.index"
+import { SectionShell, GlassCard, Divider } from "../index/components.index"
 
 const Experience = () => {
   const { experience } = resumeData;
@@ -57,7 +57,7 @@ const Experience = () => {
   return (
     <SectionShell
       title="Experience"
-      subtitle="A quick snapshot of roles and responsibilities—focused on impact, integration, and delivery."
+      // subtitle="A quick snapshot of roles and responsibilities—focused on impact, integration, and delivery."
     >
       <div className="space-y-6">
         {experience.map((job) => (
@@ -97,6 +97,7 @@ const Experience = () => {
           </GlassCard>
         ))}
       </div>
+      <Divider />
     </SectionShell>
   );
 };

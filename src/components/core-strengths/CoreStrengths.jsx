@@ -54,7 +54,7 @@
 
 
 import { resumeData } from "../../constants/resumeData/resumeData.index";
-import { SectionShell, GlassCard } from "../index/components.index";
+import { SectionShell, GlassCard, Divider } from "../index/components.index";
 
 const CoreStrengths = () => {
   const { strengths } = resumeData;
@@ -62,7 +62,7 @@ const CoreStrengths = () => {
   return (
     <SectionShell
       title="Core Strengths"
-      subtitle="High-level capabilities—organized like a product feature set so employers can scan fast."
+      // subtitle="High-level capabilities—organized like a product feature set so employers can scan fast."
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {strengths.map((s) => (
@@ -82,7 +82,9 @@ const CoreStrengths = () => {
           </GlassCard>
         ))}
       </div>
+      <Divider />
     </SectionShell>
+    
   );
 };
 

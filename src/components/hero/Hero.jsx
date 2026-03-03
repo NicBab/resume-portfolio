@@ -98,7 +98,7 @@ const Hero = () => {
             Industrial Control Systems, Software & Automation experience
             designing, programming, commissioning, and troubleshooting PLC, HMI,
             SCADA, software, and IT systems across automation environments.
-            Known for bridging controls, OT/IT, and data systems to deliver
+            Known for bridging controls, IT/OT, and data systems to deliver
             reliable, scalable solutions.
           </span>
         </p>

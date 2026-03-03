@@ -1,10 +1,10 @@
 import { resumeData } from "../../constants/resumeData/resumeData.index";
-import { SectionShell, GlassCard, MiniLabel, Tag } from "../index/components.index";
+import { SectionShell, GlassCard, MiniLabel, Tag, Divider } from "../index/components.index";
 
 const KeyProjects = () => {
      const { caseStudies } = resumeData;
   return (
-     <SectionShell title="Key Projects" subtitle="Portfolio-ready: problem → solution → stack → outcomes.">
+     <SectionShell title="Key Projects">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {caseStudies.map((cs) => (
             <GlassCard key={cs.title} className="p-6">
@@ -46,6 +46,7 @@ const KeyProjects = () => {
             </GlassCard>
           ))}
         </div>
+        <Divider />
       </SectionShell>
   )
 }

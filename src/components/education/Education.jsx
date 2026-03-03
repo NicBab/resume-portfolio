@@ -1,5 +1,5 @@
 import { resumeData } from "../../constants/resumeData/resumeData.index";
-import { SectionShell, GlassCard } from "../index/components.index"
+import { SectionShell, GlassCard, Divider } from "../index/components.index"
 
 const Education = () => {
     const { education } = resumeData;
@@ -13,6 +13,7 @@ const Education = () => {
             </GlassCard>
           ))}
         </div>
+        <Divider />
       </SectionShell>
   )
 }

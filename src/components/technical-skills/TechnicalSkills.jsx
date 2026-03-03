@@ -71,7 +71,7 @@
 
 
 import { resumeData } from "../../constants/resumeData/resumeData.index";
-import { SectionShell, GlassCard } from "../index/components.index";
+import { SectionShell, GlassCard, Divider } from "../index/components.index";
 
 const Projects = () => {
   const { skills } = resumeData;
@@ -79,7 +79,7 @@ const Projects = () => {
   return (
     <SectionShell
       title="Technical Skills"
-      subtitle="Organized by domain—built for fast recruiter scanning and technical evaluation."
+      // subtitle="Organized by domain—built for fast recruiter scanning and technical evaluation."
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {skills.map((group) => (
@@ -101,6 +101,7 @@ const Projects = () => {
           </GlassCard>
         ))}
       </div>
+      <Divider />
     </SectionShell>
   );
 };

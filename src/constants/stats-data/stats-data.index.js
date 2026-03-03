@@ -20,14 +20,14 @@ export const stats = [    {
     },
     {
       id: "stats-5",
-      title: "I.T.",
+      title: "IT/OT",
       value: "",
     },
-        {
-      id: "stats-5",
-      title: "Security",
-      value: "",
-    },
+    //     {
+    //   id: "stats-5",
+    //   title: "Security",
+    //   value: "",
+    // },
     {
       id: "stats-6",
       title: "PLC/HMI",
