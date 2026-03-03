@@ -20,7 +20,7 @@
 // export default Resume;
 
 import styles, { layout } from "../../style";
-import { resume } from "../../assets/index/assets.index";
+import { resume, Resume_pdf } from "../../assets/index/assets.index";
 import { GlassCard, BUTTON } from "../index/components.index";
 
 const Resume = () => {
@@ -36,7 +36,7 @@ const Resume = () => {
          {/* Download Button */}
             <div className="mt-8 flex justify-center">
               <a
-                href="/Nick_Babineaux_Resume.pdf"
+                href={Resume_pdf}
                 download
               >
                 <BUTTON name="DOWNLOAD PDF" />

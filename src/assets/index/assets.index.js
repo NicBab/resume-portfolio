@@ -58,7 +58,7 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     //RESUME 
     export { default as updated_resume } from "../images/resume/UPDATED_RESUME.png"
     export { default as resume } from "../images/resume/1page_resume_screenshot_v1.png"
-
+    export { default as Resume_pdf } from "../images/resume/Nick_ICS_resume.pdf"
 
 
   
