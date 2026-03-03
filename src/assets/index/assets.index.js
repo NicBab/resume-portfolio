@@ -54,6 +54,7 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as esp32_access } from "../images/projects/esp32_access.jpeg"
     export { default as greenhouse_backplane } from "../images/projects/greenhouse_backplane.jpeg" 
     export { default as xtech_site } from "../images/projects/xtech_site.png"
+    
     //RESUME 
     export { default as updated_resume } from "../images/resume/UPDATED_RESUME.png"
     export { default as resume } from "../images/resume/1page_resume_screenshot_v1.png"
