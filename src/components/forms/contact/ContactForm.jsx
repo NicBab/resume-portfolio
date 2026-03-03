@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
-import styles, { layout } from "../../.././style";
-import { SendEmailButton } from "../../.././components/index/components.index";
+import { useRef, useState } from "react";
+import styles, { layout } from "../../../style";
+import { SendEmailButton, GlassCard } from "../../index/components.index";
 import emailjs from "@emailjs/browser";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
@@ -31,41 +31,64 @@ const ContactForm = () => {
   };
 
   return (
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexEnd} `}>
-      <section className={layout.section}>
-        <div className={`${layout.sectionInfo} z-[1]`}>
-          <h2 className={styles.heading2}>
-            Interested?... <br className="sm:block hidden" />
-            Get in touch!
-            <br className="sm:block hidden" />
-          </h2>
-          <span className="text-white text-[20px] ss:text-[30px] leading-[40px] py-10">
-            Available for freelancing and hire!
-          </span>
+  <div className={`bg-primary ${styles.paddingX} ${styles.flexEnd} relative`}>
+    <section className={`${layout.section} min-h-[100vh] relative`}>
+      {/* left: info */}
+      <div className={`${layout.sectionInfo} z-[2]`}>
+        <h2 className={styles.heading2}>
+          Contact Me
+          <br className="sm:block hidden" />
+        </h2>
 
-          {/* REDO WITH MAP */}
-          <div className="text-dimWhite">
-            <div className="flex flex-col">
-              <span className="mb-5">
-                <PhoneInTalkIcon className="mr-5" />
-                (337)-257-9202
-              </span>
-              <span className="mb-5">
-                <AlternateEmailIcon className="mr-5" />
-                stellarinnovationco@gmail.com
-              </span>
-              <span className="mb-5">
-                <PlaceIcon className="mr-5" /> Lafayette, La.
-              </span>
+        <p className="text-white text-[18px] ss:text-[22px] leading-[34px] mt-4">
+          Available for freelance work and full-time roles.
+        </p>
+
+        <div className="p-6 mt-8 max-w-[520px]">
+          <p className="text-dimWhite text-[13px] uppercase tracking-widest">
+            Contact
+          </p>
+
+          <div className="mt-4 space-y-4 text-dimWhite text-[14px]">
+            <div className="flex items-center gap-3">
+              <PhoneInTalkIcon className="text-blueText" />
+              <span>(337) 257-9202</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <AlternateEmailIcon className="text-blueText" />
+              <span>stellarinnovationco@gmail.com</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <PlaceIcon className="text-blueText" />
+              <span>Lafayette, LA</span>
             </div>
           </div>
         </div>
 
-        <div className={`${layout.sectionImg} flex-col z-[1]`}>
+        {done ? (
+          <div className="mt-6">
+            <GlassCard className="p-4">
+              <p className="text-dimWhite text-[14px] leading-[24px]">
+                Thank you for reaching out — your message has been sent.
+              </p>
+            </GlassCard>
+          </div>
+        ) : null}
+      </div>
+
+      {/* right: form */}
+      <div className={`${layout.sectionImg} flex-col z-[2]`}>
+        <GlassCard className="p-6 sm:p-8 w-full max-w-[620px]">
+          <p className="text-dimWhite text-[13px] uppercase tracking-widest">
+            Message
+          </p>
+
           <form
             ref={formRef}
             onSubmit={handleEmailSubmit}
-            className={`${styles.flexStart} flex-col w-[100%] input`}
+            className={`${styles.flexStart} flex-col w-full mt-4`}
           >
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
@@ -74,20 +97,22 @@ const ContactForm = () => {
               rows="5"
               placeholder="Message"
               name="message"
-              className="textarea mb-10 "
+              className="mb-6"
             />
+
+            {/* Put submit INSIDE form so it works */}
+            <div className="mt-2">
+              <SendEmailButton type="submit" />
+            </div>
           </form>
-          <SendEmailButton type="submit" />
-        </div>
-        <div className="absolute z-[0] w-[60%] h-[50%] -top-[0] rounded-full blue__gradient opacity-[.3]" />
-      </section>
-      <div>
-        {done
-          ? "Thank you for your interest... Your email has been sent!"
-          : null}
+        </GlassCard>
       </div>
-    </div>
-  );
+
+      {/* background accent */}
+      <div className="absolute z-[0] w-[60%] h-[50%] -top-[0] rounded-full blue__gradient opacity-[.25]" />
+    </section>
+  </div>
+);
 };
 
 export default ContactForm;
