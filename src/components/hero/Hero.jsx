@@ -23,13 +23,13 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="purple-text-gradient font-poppins font-semibold xs:text-[68px] text-[30px] tracking-wider text-white xs:leading-[80px] leading-[60px] w-full">
+        <h1 className="font-poppins font-semibold xs:text-[68px] text-[30px] tracking-wider text-white xs:leading-[80px] leading-[60px] w-full">
           Nick Babineaux
         </h1>
 
         {/* Resume-aligned headline + summary */}
         <p className={`${styles.paragraph} max-w-[520px] min-w-[250px]`}>
-          <span className="ss:text-[28px] text-[18px] text-white">
+          <span className="ss:text-[28px] text-[18px] purple-text-gradient">
             Controls • Automation • Full-Stack • IoT
           </span>
 
