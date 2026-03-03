@@ -97,7 +97,7 @@ export const resumeData = {
     },
     {
       group: "OT/IT Networking & Cybersecurity Awareness",
-      tags: ["VLAN Segmentation", "Firewall Concepts", "Secure Remote Access", "OT/IT Practices", "SentinelOne", "Avanan", "Zorus", "Kali Linux (defensive awareness)"],
+      tags: ["VLAN Segmentation", "Firewall Concepts", "Secure Remote Access", "OT/IT Practices", "SentinelOne", "Avanan", "Zorus", "Kali Linux"],
     },
   ],
 

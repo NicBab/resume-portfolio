@@ -89,7 +89,7 @@ const Hero = () => {
         {/* Resume-aligned headline + summary */}
         <p className={`${styles.paragraph} max-w-[520px] min-w-[250px]`}>
           <span className="ss:text-[28px] text-[18px] text-white">
-            Industrial Controls • Automation • Full-Stack • Industrial IoT
+            Controls • Automation • Full-Stack • IoT
           </span>
 
           <br className="sm:block m-2" />
