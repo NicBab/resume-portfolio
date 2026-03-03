@@ -60,7 +60,7 @@
 import { Link } from "react-router-dom";
 import styles from "../.././style";
 import { robot_atom_hand } from "../../assets/index/assets.index";
-import { AboutMeHeroClicker } from ".././index/components.index";
+import { AboutMeHeroClicker, BUTTON } from ".././index/components.index";
 
 const Hero = () => {
   return (
@@ -71,19 +71,12 @@ const Hero = () => {
         ></div>
 
         <div className="flex flex-wrap-row justify-between items-center w-full">
-             <p className="text-dimWhite text-[14px] tracking-widest uppercase">
-                Resume • Portfolio • Case Studies
-              </p>
-          {/* <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[20px] text-dimWhite ss:leading-[40px] leading-[40px]">
-            Welcome,
-            <br className="sm:block " />
-            <span className="ss:text-[20px] text-[12px] text-dimWhite">
-              My name is
-            </span>
-          </h1> */}
+          <p className="text-dimWhite text-[14px] tracking-widest uppercase">
+            Resume • Portfolio • Case Studies
+          </p>
 
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <Link to="/bio">
+            <Link to="/about">
               <AboutMeHeroClicker />
             </Link>
           </div>
@@ -102,50 +95,34 @@ const Hero = () => {
           <br className="sm:block m-2" />
 
           <span className={`${styles.paragraph}`}>
-            Industrial Control Systems, Software & Automation experience designing,
-            programming, commissioning, and troubleshooting PLC, HMI, SCADA, software,
-            and IT systems across automation environments. Known for bridging controls,
-            OT/IT, and data systems to deliver reliable, scalable solutions.
+            Industrial Control Systems, Software & Automation experience
+            designing, programming, commissioning, and troubleshooting PLC, HMI,
+            SCADA, software, and IT systems across automation environments.
+            Known for bridging controls, OT/IT, and data systems to deliver
+            reliable, scalable solutions.
           </span>
         </p>
-
-        {/* Optional: quick credibility chips (clean + scannable)
-        <div className="flex flex-wrap gap-2 mt-5 max-w-[560px]">
-          {[
-            "PLC/HMI/SCADA",
-            "Modbus RTU/TCP",
-            "EtherNet/IP",
-            "Ignition / FactoryTalk",
-            "React / Next.js",
-            "Node / PostgreSQL",
-          ].map((t) => (
-            <span
-              key={t}
-              className="px-3 py-1 rounded-full border border-iconPurple text-dimWhite text-[12px] whitespace-nowrap"
-            >
-              {t}
-            </span>
-          ))}
-        </div> */}
 
         {/* Optional: CTA row matching your existing button styling */}
         <div className="md:flex flex-row mt-7">
           <Link to="/resume" className="inline-block">
             {/* Use your existing BUTTON component if you prefer */}
-            <button type="button" className={styles.button}>
+            <BUTTON variant="primary" name="RESUME"className={styles.button}>
               VIEW RESUME
-            </button>
+            </BUTTON>
           </Link>
 
           <Link to="/contact" className="inline-block">
-            <button type="button" className={styles.buttonSecondary}>
+            <BUTTON variant="secondary" name="CONTACT" className={styles.buttonSecondary}>
               CONTACT
-            </button>
+            </BUTTON>
           </Link>
         </div>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+      <div
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+      >
         <img
           src={robot_atom_hand}
           alt="robot hand"

@@ -1,6 +1,6 @@
 import styles from "./style";
 import { Routes, Route } from "react-router-dom";
-import { Home, BioPg, PortfolioPg, ContactPg, ResumePg } from "./pages/index/pages.index";
+import { Home, AboutPg, PortfolioPg, ContactPg, ResumePg } from "./pages/index/pages.index";
 import { Navbar, ReactProj, Footer } from "./components/index/components.index.js";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/bio" element={<BioPg />} />
+        <Route path="/about" element={<AboutPg />} />
         <Route path="/portfolio" element={ < PortfolioPg /> } />
           <Route path="/reactProjects" element={<ReactProj/>} />
         <Route path="/contact" element={<ContactPg />} />

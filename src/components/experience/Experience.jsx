@@ -47,33 +47,12 @@
 
 // export default WhyMe;
 
-import styles from "../../style";
+
 import { resumeData } from "../../constants/resumeData/resumeData.index";
+import { SectionShell, GlassCard } from "../index/components.index"
 
 const Experience = () => {
   const { experience } = resumeData;
-
-  // Temporary local wrappers (you can extract later)
-  const SectionShell = ({ title, subtitle, children }) => (
-    <section className={`relative ${styles.paddingX} ${styles.paddingY}`}>
-      <div className="absolute z-[0] w-[55%] h-[60%] rounded-full bottom-0 right-0 blue__gradient opacity-[.18]" />
-      <div className="relative z-[2] max-w-[1200px] mx-auto">
-        <div className="mb-8">
-          <h2 className={`${styles.heading2} !justify-start`}>{title}</h2>
-          <p className={`${styles.paragraph} !m-0 !mt-2 !indent-0 max-w-[950px]`}>
-            {subtitle}
-          </p>
-        </div>
-        {children}
-      </div>
-    </section>
-  );
-
-  const GlassCard = ({ children, className = "" }) => (
-    <div className={`glass-card shadow-2 transform rounded-2xl ${className}`}>
-      {children}
-    </div>
-  );
 
   return (
     <SectionShell

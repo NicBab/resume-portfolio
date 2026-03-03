@@ -1,9 +1,6 @@
 //Components
 export { default as Navbar } from ".././navbar/Navbar";
-
-export { default as Bio } from "../bio/Bio"; //BioPg
-export { default as Stats } from "../stats/Stats";
-export { default as CTA } from ".././cta/CTA";
+export { default as About } from "../about/About"; 
 export { default as Footer } from ".././footer/Footer";
 export { default as Social } from ".././social/Social";
 export { default as Resume } from ".././resume/Resume";
@@ -13,24 +10,33 @@ export { default as ScrollToTop } from "../../components/scroll-to-top/ScrollToT
 export { default as PortfolioCardIcons } from "../portfolio-card-icons/PortfolioCardIcons"
 
 //SECTIONS
-export { default as Hero } from ".././hero/Hero";
+export { default as Hero } from "../hero/Hero";
+export { default as Stats } from "../stats/Stats";
 export { default as CoreStrengths } from "../core-strengths/CoreStrengths";
 export { default as TechnicalSkills } from "../technical-skills/TechnicalSkills";
 export { default as Experience } from "../experience/Experience";
 export { default as KeyProjects } from "../key-projects/KeyProjects";
 export { default as Education } from "../education/Education";
+export { default as CTA } from ".././cta/CTA";
+
+//SHARED
+export { default as Divider } from "../shared/Divider";
+export { default as GlassCard } from "../shared/GlassCard";
+export { default as MiniLabel } from "../shared/MiniLabel";
+export { default as SectionShell } from "../shared/SectionShell";
+export { default as Tag } from "../shared/Tag";
+export { default as BUTTON } from "../shared/BUTTON";
+
+//BUTTONS
+export { default as AboutMeHeroClicker } from ".././buttons/AboutMeHeroClicker";
+export { default as SendEmailButton } from ".././buttons/SendEmailButton";
+export { default as SecBtn } from ".././buttons/SecBtn";
 
 //CARDS
 export { default as FeatureCard } from ".././cards/feature-card/FeatureCard";
 export { default as ProjectsCard } from "../cards/projects-card/ProjectsCard";
 export { default as CertCard } from ".././cards/cert-card/CertCard";
 export { default as LogoCard } from ".././cards/logo-card/LogoCard";
-
-//BUTTONS
-export { default as AboutMeHeroClicker } from ".././buttons/AboutMeHeroClicker";
-export { default as SendEmailButton } from ".././buttons/SendEmailButton";
-export { default as BUTTON } from ".././buttons/BUTTON";
-export { default as SecBtn } from ".././buttons/SecBtn";
 
 //FORMS
 export { default as ContactForm } from "../forms/contact/ContactForm";
