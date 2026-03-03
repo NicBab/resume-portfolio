@@ -31,10 +31,10 @@ return (
         </p>
         <div>
           <Link to="/portfolio">
-            <BUTTON name="VIEW PORTFOLIO" />
+            <BUTTON variant="primary" name="VIEW PORTFOLIO" />
           </Link>
           <Link to="/resume">
-            <SecBtn name="VIEW RESUME" />
+            <BUTTON variant="secondary" name="VIEW RESUME" />
           </Link>
         </div>
       </div>

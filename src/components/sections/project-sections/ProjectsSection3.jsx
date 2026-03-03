@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../../style";
-import { BUTTON, SecBtn } from "../../index/components.index";
+import { BUTTON } from "../../index/components.index";
 import { greenhouse_backplane, mini_rack } from "../../../assets/index/assets.index";
 
 const ProjectsSection3 = () => {
@@ -34,10 +34,10 @@ return (
         </div>
         <div className="md:flex flex-row">
           <Link to="/resume">
-            <BUTTON name="VIEW RESUME" />
+            <BUTTON variant="primary" name="VIEW RESUME" />
           </Link>
-          <Link to="/bio">
-            <SecBtn name="ABOUT ME" />
+          <Link to="/about">
+            <BUTTON variant="secondary" name="ABOUT ME" />
           </Link>
         </div>
       </div>

@@ -38,11 +38,11 @@ const ProjectsSection1 = () => {
         I constantly seek opportunities to optimize processes and drive innovative solutions, while ensuring reliability and scalability in every project
         </p>
         <div className="md:flex flex-row">
-          <Link to="/bio">
-            <BUTTON name="MORE ABOUT ME" />
+          <Link to="/about">
+            <BUTTON variant="primary" name="MORE ABOUT ME" />
           </Link>
           <Link to="/contact">
-            <SecBtn name="CONTACT ME" />
+            <BUTTON variant="secondary" name="CONTACT ME" />
           </Link>
         </div>
       </div>

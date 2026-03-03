@@ -27,7 +27,7 @@ const Resume = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
-        <div className="max-w-[900px] w-full">
+        <div className="max-w-[1200px] w-full">
           <GlassCard className="p-8 text-center">
             {/* Title */}
             <h2 className={`${styles.heading2} !justify-center`}>
