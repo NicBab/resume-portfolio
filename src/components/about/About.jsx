@@ -1,4 +1,4 @@
-import { BUTTON, SecBtn } from "../index/components.index";
+import { BUTTON } from "../index/components.index";
 import { Link } from "react-router-dom";
 import styles from "../../style";
 import { bioData } from "../../constants/bio-data/bio-data-index";

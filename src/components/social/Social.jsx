@@ -1,5 +1,4 @@
 import { Tooltip } from "@mui/material";
-import React from "react";
 import { socialMedia } from "../.././constants/social-data/social-data.index";
 
 const Social = () => {
