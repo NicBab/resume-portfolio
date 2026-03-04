@@ -209,7 +209,7 @@ const Esp32Access = () => {
           <Link to="/contact">
             <BUTTON variant="primary" name="REQUEST A DEMO" />
           </Link>
-          <Link to="/portfolio/industry4-multitenant-edge">
+          <Link to="/portfolio/case-study/industry4">
             <BUTTON variant="secondary" name="NEXT CASE STUDY" />
           </Link>
         </div>
