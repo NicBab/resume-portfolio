@@ -1,5 +1,12 @@
 import { projectLogosData } from "../../constants/projects-data/project-logos-data.index.js";
-import { LogoCard, Stats, ProjectsSection1, ProjectsSection2, ProjectsSection3, SectionShell } from "../../components/index/components.index.js";
+import { 
+  LogoCard, 
+  Stats, 
+  ProjectsSection1, 
+  ProjectsSection2, 
+  ProjectsSection3, 
+  SectionShell 
+} from "../../components/index/components.index.js";
 import styles from "../../style.js";
 import { Link } from "react-router-dom";
 

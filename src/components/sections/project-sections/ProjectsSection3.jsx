@@ -50,7 +50,7 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../../style";
 import { BUTTON, GlassCard } from "../../index/components.index"; // adjust if needed
-import { mini_rack } from "../../../assets/index/assets.index";
+import { mini_server_rack } from "../../../assets/index/assets.index";
 
 const ProjectsSection3 = () => {
   const highlights = [
@@ -69,8 +69,8 @@ const ProjectsSection3 = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src={mini_rack}
-            alt="mini rack"
+            src={mini_server_rack}
+            alt="mini server rack"
             className="w-[300px] h-[300px] sm:w-[400px] sm:h-[480px] relative rounded-md z-[3] mb-8 shadow-3"
           />
         </div>

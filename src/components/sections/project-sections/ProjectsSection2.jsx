@@ -76,6 +76,7 @@ import {
   mower_harness,
   greenhouse_backplane,
   esp32_access,
+  hmi_sensor_levels,
 } from "../../../assets/index/assets.index";
 import { BUTTON, GlassCard } from "../../index/components.index"; // adjust if needed
 
@@ -171,17 +172,18 @@ const ProjectsSection2 = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src={greenhouse_backplane}
-            alt="greenhouse backplane"
-            className="w-[180px] h-[120px] sm:w-[350px] sm:h-[340px] relative top-5 right-10 rounded-md z-[3] shadow-3"
+          
+             src={hmi_sensor_levels}
+            alt="sensor levels"
+            className="w-[180px] h-[120px] sm:w-[380px] sm:h-[320px] relative top-5 right-10 rounded-md z-[3] shadow-3"
           />
         </div>
 
         <div className={`${styles.flexCenter}`}>
           <img
-            src={esp32_access}
-            alt="esp32 access"
-            className="w-[180px] h-[120px] sm:w-[360px] sm:h-[260px] relative rounded-md z-[2] shadow-3"
+             src={greenhouse_backplane}
+            alt="greenhouse backplane"
+            className="w-[180px] h-[120px] sm:w-[340px] sm:h-[280px] relative rounded-md z-[2] shadow-3"
           />
         </div>
 

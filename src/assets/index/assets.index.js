@@ -54,6 +54,8 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as esp32_access } from "../images/projects/esp32_access.jpeg"
     export { default as greenhouse_backplane } from "../images/projects/greenhouse_backplane.jpeg" 
     export { default as xtech_site } from "../images/projects/xtech_site.png"
+    export { default as mini_server_rack } from "../images/projects/mini_server_rack.jpeg"
+    export { default as esp32_panel } from "../images/projects/esp32_panel.jpeg"
     
     //RESUME 
     export { default as updated_resume } from "../images/resume/UPDATED_RESUME.png"

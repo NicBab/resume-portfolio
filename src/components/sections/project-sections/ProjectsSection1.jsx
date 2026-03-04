@@ -60,6 +60,7 @@ import {
   esp32_access,
   hmi_sensor_levels,
   xtech_site,
+  esp32_panel
 } from "../../../assets/index/assets.index";
 
 const ProjectsSection1 = () => {
@@ -113,9 +114,9 @@ const ProjectsSection1 = () => {
 
         <div className={`${styles.flexCenter}`}>
           <img
-            src={xtech_site}
-            alt="xtech site"
-            className="w-[200px] h-[180px] sm:w-[450px] sm:h-[300px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
+            src={esp32_panel}
+            alt="esp access panel"
+            className="w-[200px] h-[180px] sm:w-[420px] sm:h-[380px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
       </div>
