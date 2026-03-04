@@ -1,5 +1,3 @@
-import React from 'react'
-
 const GlassCard = ({ children, className = "" }) => (
   <div className={`glass-card shadow-2 transform rounded-2xl ${className}`}>{children}</div>
 );

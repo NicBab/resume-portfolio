@@ -1,78 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "../../../style";
-import { BUTTON, GlassCard } from "../../../components/index/components.index"; // adjust import
-import { esp32_access } from "../../../assets/index/assets.index"; // adjust import
+import { BUTTON, GlassCard, Tag, SectionShell } from "../../../components/index/components.index"; 
+import { esp32_access } from "../../../assets/index/assets.index";
+import { data } from "../../../constants/case-study-data/espCaseStudyData"
 
 const Esp32Access = () => {
-  const data = {
-    productName: "ESP32 IoT Access Control",
-    tagline: "Edge-controlled access + event logging + remote visibility",
-    summary:
-      "A low-cost, reliable access control system built on ESP32 with deterministic relay control, MQTT event logging, and remote monitoring via dashboards.",
-    whoItsFor: ["Small facilities", "Workshops", "Gated areas", "Lab rooms", "Remote sites"],
-    stack: ["ESP32", "MQTT", "Relay Logic", "Access Events", "Dashboard Monitoring", "Home Assistant (optional)"],
-    outcomes: [
-      "Remote visibility and event logging for every access action",
-      "Edge-first reliability: system remains operational even if the network drops",
-      "Expandable design for sensors, cameras, and role-based access",
-    ],
-    sections: {
-      problem: [
-        "Traditional access systems were either expensive, hard to integrate, or lacked visibility.",
-        "Needed deterministic control at the edge with a clean trail of events for auditing.",
-        "Needed a foundation that could expand into cameras, sensors, and remote management.",
-      ],
-      solution: [
-        "ESP32-based controller handles access logic and relay outputs locally (fast + reliable).",
-        "MQTT publishes events (granted/denied, door state, tamper alerts) for visibility and automation.",
-        "Dashboard layer provides monitoring, basic controls, and alerts without requiring onsite access.",
-      ],
-      architecture: [
-        { label: "Edge Controller", value: "ESP32 handles relay logic and I/O state locally." },
-        { label: "Messaging", value: "MQTT events for access attempts, door state, and alerts." },
-        { label: "Dashboard", value: "Live status, event feed, and optional remote controls." },
-        { label: "Automation", value: "Rules can trigger notifications or integrate with other systems." },
-      ],
-      features: [
-        "Deterministic edge control (no dependency on cloud to operate)",
-        "Event logging for visibility and audit trail",
-        "Designed for expansion: sensors, cameras, additional doors/relays",
-        "Clean separation between field logic and UI monitoring layer",
-      ],
-      reliability: [
-        "Edge-first operation prevents outages due to internet instability",
-        "Simple recovery model after power loss (retain last-known safe states)",
-        "Failsafe behavior can be configured for lock/unlock rules",
-      ],
-      security: [
-        "Network segmentation-friendly design (IoT VLAN recommended)",
-        "MQTT topics can be namespaced per device/site",
-        "Authentication + access policies can be layered at the dashboard tier",
-      ],
-    },
-  };
-
-  const SectionShell = ({ title, subtitle, children }) => (
-    <section className={`relative ${styles.paddingX} ${styles.paddingY}`}>
-      <div className="relative z-[2] max-w-[1200px] mx-auto">
-        <div className="mb-8">
-          <h2 className={`${styles.heading2} !justify-start`}>{title}</h2>
-          {subtitle ? (
-            <p className={`${styles.paragraph} !m-0 !mt-2 !indent-0 max-w-[950px]`}>
-              {subtitle}
-            </p>
-          ) : null}
-        </div>
-        {children}
-      </div>
-    </section>
-  );
-
-  const Tag = ({ children }) => (
-    <span className="px-3 py-1 rounded-full border border-iconPurple text-dimWhite text-[12px] whitespace-nowrap">
-      {children}
-    </span>
-  );
 
   return (
     <div className="bg-primary w-full overflow-hidden">

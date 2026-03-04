@@ -1,5 +1,3 @@
-import React from 'react'
-
 const LogoCard = ({props}) => {
   const {id, logo} = props
   return (

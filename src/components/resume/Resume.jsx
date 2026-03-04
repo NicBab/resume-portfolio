@@ -29,7 +29,7 @@ const Resume = () => {
       <div className={`${styles.paddingX} ${styles.paddingY} ${styles.flexCenter}`}>
         <div className="max-w-[1200px] w-full">
           <GlassCard className="p-8 text-center">
-            {/* Title */}
+        
             <h2 className={`${styles.heading2} !justify-center`}>
               Resume
             </h2>
@@ -42,7 +42,7 @@ const Resume = () => {
                 <BUTTON name="DOWNLOAD PDF" />
               </a>
             </div>
-            {/* Thumbnail (clickable) */}
+      
             <a
               href="/Nick_Babineaux_Resume.pdf"
               target="_blank"

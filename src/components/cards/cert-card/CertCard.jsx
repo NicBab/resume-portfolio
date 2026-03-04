@@ -1,5 +1,3 @@
-import React from "react";
-
 const CertCard = ({ props }) => {
   const { id, img } = props;
   return (

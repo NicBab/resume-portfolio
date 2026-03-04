@@ -49,16 +49,11 @@
 
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../../style";
-import { BUTTON, GlassCard } from "../../index/components.index"; // adjust if needed
+import { BUTTON, GlassCard } from "../../index/components.index";
 import { mini_server_rack } from "../../../assets/index/assets.index";
+import { highlights } from "../../../constants/portfolio-data/portfolioData.index"
 
 const ProjectsSection3 = () => {
-  const highlights = [
-    "Bridges controls, OT/IT networking, and software to deliver complete systems",
-    "Strong commissioning mindset: reliability, diagnostics, and documentation",
-    "Comfortable at every layer: field devices → PLC/HMI → edge compute → dashboards",
-    "Builds for maintainability: clear structure, scalable architecture, clean UX",
-  ];
 
   return (
     <section id="features" className={`${layout.section} mt-20 relative`}>

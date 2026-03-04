@@ -75,36 +75,11 @@ import styles, { layout } from "../../../style";
 import {
   mower_harness,
   greenhouse_backplane,
-  esp32_access,
   hmi_sensor_levels,
 } from "../../../assets/index/assets.index";
-import { BUTTON, GlassCard } from "../../index/components.index"; // adjust if needed
-
+import { BUTTON, GlassCard, Tag } from "../../index/components.index"; 
+import { capabilityBlocks, techTags } from "../../../constants/portfolio-data/portfolioData.index"
 const ProjectsSection2 = () => {
-  const capabilityBlocks = [
-    {
-      title: "Industrial Automation",
-      points: ["PLC/HMI/SCADA delivery", "Commissioning + startup", "Alarms, trends, docs"],
-    },
-    {
-      title: "Edge + IoT Systems",
-      points: ["ESP32 / Raspberry Pi", "MQTT messaging + logging", "Sensor/relay control"],
-    },
-    {
-      title: "Web Applications",
-      points: ["Dashboards + portals", "APIs + DB design", "Auth + role-based UI"],
-    },
-    {
-      title: "OT/IT Integration",
-      points: ["VLAN segmentation", "Secure remote access", "Tenant isolation concepts"],
-    },
-  ];
-
-  const Tag = ({ children }) => (
-    <span className="px-3 py-1 rounded-full border border-iconPurple text-dimWhite text-[12px] whitespace-nowrap">
-      {children}
-    </span>
-  );
 
   return (
     <section id="product" className={`${layout.sectionReverse} relative mb-[25px]`}>
@@ -144,15 +119,7 @@ const ProjectsSection2 = () => {
 
         {/* quick tags (optional, but adds polish) */}
         <div className="flex flex-wrap gap-2 mt-6 max-w-[720px]">
-          {[
-            "PLC/HMI/SCADA",
-            "Modbus RTU/TCP",
-            "EtherNet/IP",
-            "ESP32",
-            "Raspberry Pi",
-            "React/Next.js",
-            "Node/PostgreSQL",
-          ].map((t) => (
+          {techTags.map((t) => (
             <Tag key={t}>{t}</Tag>
           ))}
         </div>

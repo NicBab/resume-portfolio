@@ -55,48 +55,15 @@
 import { Link } from "react-router-dom";
 import styles, { layout } from "../../../style";
 import { BUTTON } from "../../index/components.index";
-import { GlassCard } from "../../index/components.index"; // adjust if needed
+import { GlassCard, Tag } from "../../index/components.index";
+import { featured } from "../../../constants/portfolio-data/portfolioData.index"
 import {
-  esp32_access,
   hmi_sensor_levels,
-  xtech_site,
   esp32_panel
 } from "../../../assets/index/assets.index";
 
 const ProjectsSection1 = () => {
-  const featured = [
-    {
-      title: "ESP32 IoT Access Control",
-      subtitle: "Edge-controlled access + event logging + remote visibility",
-      image: esp32_access,
-      tags: ["ESP32", "MQTT", "Relay Logic", "Home Assistant", "Event Logging"],
-      bullets: [
-        "Edge-based control with secure state handling and reliable relay outputs",
-        "MQTT event publishing for activity trails and remote monitoring",
-        "Designed for expansion: sensors, cameras, permissions, audit trails",
-      ],
-      cta: { label: "VIEW CASE STUDY", to: "/portfolio/case-study/esp32-access-control" },
-    },
-    {
-      title: "Industry 4.0 Multi-Tenant Edge",
-      subtitle: "Multi-site, tenant-isolated SCADA portal running on edge compute",
-      image: hmi_sensor_levels,
-      tags: ["Multi-Tenant", "Edge (Pi)", "OPC/Modbus", "SaaS Portal", "VLAN Segmentation"],
-      bullets: [
-        "Company A can manage all sites; Company B and C are tenant-isolated",
-        "Local edge runtime for resiliency with cloud portal for visibility",
-        "Agentic diagnostics + maintenance recommendations (portfolio-ready)",
-      ],
-      cta: { label: "VIEW CASE STUDY", to: "/portfolio/case-study/industry4" },
-    },
-  ];
-
-  const Tag = ({ children }) => (
-    <span className="px-3 py-1 rounded-full border border-iconPurple text-dimWhite text-[12px] whitespace-nowrap">
-      {children}
-    </span>
-  );
-
+ 
   return (
     <section className={`${layout.section} relative mb-[50px]`}>
       {/* background accent */}
