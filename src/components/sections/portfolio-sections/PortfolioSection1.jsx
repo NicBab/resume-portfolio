@@ -59,7 +59,8 @@ import { GlassCard, Tag } from "../../index/components.index";
 import { featured } from "../../../constants/portfolio-data/portfolioData.index"
 import {
   hmi_sensor_levels,
-  esp32_panel
+  esp32_panel,
+  esp32_access,
 } from "../../../assets/index/assets.index";
 
 const ProjectsSection1 = () => {
@@ -73,17 +74,19 @@ const ProjectsSection1 = () => {
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[650px]`}>
         <div className={`${styles.flexStart}`}>
           <img
-            src={hmi_sensor_levels}
-            alt="hmi levels"
+        
+              src={esp32_panel}
+            alt="esp access panel"
             className="w-[200px] h-[200px] sm:w-[480px] sm:h-[400px] relative right-10 rounded-md z-[3] mb-8 shadow-3"
           />
+          
         </div>
 
         <div className={`${styles.flexCenter}`}>
           <img
-            src={esp32_panel}
-            alt="esp access panel"
-            className="w-[200px] h-[180px] sm:w-[420px] sm:h-[380px] relative left-10 rounded-md z-[2] mb-8 shadow-2"
+              src={esp32_access}
+            alt="esp cad"
+            className="w-[200px] h-[180px] sm:w-[460px] sm:h-[380px] relative left-15 rounded-md z-[2] mb-8 shadow-2"
           />
         </div>
       </div>
