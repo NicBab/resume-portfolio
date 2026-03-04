@@ -19,10 +19,12 @@ export { default as KeyProjects } from "../key-projects/KeyProjects";
 export { default as Education } from "../education/Education";
 export { default as CTA } from ".././cta/CTA";
 
-//PROJECTS PAGE SECTIONS
+//PORTFOLIO PAGE SECTIONS
 export { default as ProjectsSection1 } from "../sections/project-sections/ProjectsSection1";
 export { default as ProjectsSection2 } from "../sections/project-sections/ProjectsSection2";
 export { default as ProjectsSection3 } from "../sections/project-sections/ProjectsSection3";
+export { default as EspAccess } from "../portfolio/case-studies/EspAccess";
+export { default as Industry4 } from "../portfolio/case-studies/Industry4";
 
 
 //SHARED

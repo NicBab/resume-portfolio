@@ -1,7 +1,7 @@
 import styles from "./style";
 import { Routes, Route } from "react-router-dom";
 import { Home, AboutPg, PortfolioPg, ContactPg, ResumePg } from "./pages/index/pages.index";
-import { Navbar, ReactProj, Footer } from "./components/index/components.index.js";
+import { Navbar, ReactProj, EspAccess, Industry4, Footer } from "./components/index/components.index.js";
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<AboutPg />} />
         <Route path="/portfolio" element={ < PortfolioPg /> } />
+          <Route path="/portfolio/case-study/esp32-access-control" element={ <EspAccess /> } />
+          <Route path="/portfolio/case-study/industry4" element={ <Industry4 /> } />
           <Route path="/reactProjects" element={<ReactProj/>} />
         <Route path="/contact" element={<ContactPg />} />
         <Route path="/resume" element={ <ResumePg /> } />
