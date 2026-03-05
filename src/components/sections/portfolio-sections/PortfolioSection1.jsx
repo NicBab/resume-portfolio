@@ -58,7 +58,6 @@ import { BUTTON } from "../../index/components.index";
 import { GlassCard, Tag } from "../../index/components.index";
 import { featured } from "../../../constants/portfolio-data/portfolioData.index"
 import {
-  hmi_sensor_levels,
   esp32_panel,
   esp32_access,
 } from "../../../assets/index/assets.index";

@@ -23,7 +23,7 @@ const Home = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats />
+          {/* <Stats /> */}
           <CoreStrengths />
           <TechnicalSkills />
           <Experience />
