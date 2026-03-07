@@ -88,14 +88,13 @@ const ProjectsSection2 = () => {
 
       {/* LEFT (in reverse layout): Copy */}
       <div className={`${layout.sectionInfo} z-[4]`}>
-        <h2 className={`${styles.heading2} !justify-start`}>
+        <h2 className={`${styles.heading2} !justify-start sm:mt-20`}>
           Portfolio Overview
         </h2>
 
         <p className={`${styles.paragraph} !m-0 !mt-2 !indent-0 max-w-[600px]`}>
           I build production-minded systems across industrial controls and modern software—combining
-          edge devices, reliable communications, and clean dashboards that operators and stakeholders
-          can trust.
+          edge devices, reliable communications, and clean dashboards that operators can trust.
         </p>
 
         {/* capability grid (formal + scannable) */}

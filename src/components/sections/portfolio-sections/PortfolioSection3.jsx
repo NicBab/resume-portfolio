@@ -72,12 +72,12 @@ const ProjectsSection3 = () => {
       </div>
 
       {/* RIGHT: refined value prop */}
-      <div className={`${layout.sectionInfo} mb-10 z-[2]`}>
-        <h2 className={`${styles.heading2} !justify-start`}>
+      <div className={`${layout.sectionInfo} mb-10 xs:mb-5 md:ml-5 z-[2]`}>
+        <h2 className={`${styles.heading2} !justify-start `}>
           Delivery & Approach
         </h2>
 
-        <GlassCard className="p-7 max-w-[680px]">
+        <GlassCard className="p-7 max-w-[680px] mt-5">
           <p className={`${styles.paragraph} !m-0 !indent-0`}>
             I deliver production-minded automation and software systems with a focus on
             reliability, clarity, and long-term maintainability. My background spans

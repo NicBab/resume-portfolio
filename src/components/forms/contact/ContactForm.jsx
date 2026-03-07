@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import styles, { layout } from "../../../style";
-import { SendEmailButton, GlassCard } from "../../index/components.index";
+import { SendEmailButton, BUTTON, GlassCard } from "../../index/components.index";
 import emailjs from "@emailjs/browser";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
@@ -88,7 +88,7 @@ const ContactForm = () => {
           <form
             ref={formRef}
             onSubmit={handleEmailSubmit}
-            className={`${styles.flexStart} flex-col w-full mt-4`}
+            className={`${styles.flexCenter} flex-col w-full mt-4`}
           >
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
@@ -102,7 +102,7 @@ const ContactForm = () => {
 
             {/* Put submit INSIDE form so it works */}
             <div className="mt-2">
-              <SendEmailButton type="submit" />
+              <BUTTON type="submit" variant="primary" name="SEND"/>
             </div>
           </form>
         </GlassCard>

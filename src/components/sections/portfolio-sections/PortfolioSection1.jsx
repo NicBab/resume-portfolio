@@ -91,8 +91,8 @@ const ProjectsSection1 = () => {
       </div>
 
       {/* RIGHT: Featured Case Studies */}
-      <div className={`${layout.sectionInfo} z-[3]`}>
-        <h2 className={`${styles.heading2} !justify-start`}>
+      <div className={`${layout.sectionInfo} z-[3] md:ml-5`}>
+        <h2 className={`${styles.heading2} !justify-start mt-10 sm:mt-20`}>
           Featured Case Studies
         </h2>
 
@@ -141,7 +141,7 @@ const ProjectsSection1 = () => {
                   </ul>
 
                   {/* CTA */}
-                  <div className="md:flex flex-row mt-6">
+                  <div className="md:flex flex-row mt-6 md:flex-col">
                     <Link to={cs.cta.to}>
                       <BUTTON name={cs.cta.label} variant="primary" />
                     </Link>
