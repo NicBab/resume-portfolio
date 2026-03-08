@@ -125,7 +125,7 @@ const ProjectsSection2 = () => {
 
         {/* CTAs (keep your buttons consistent) */}
         <div className="md:flex flex-row mt-7">
-          <Link to="/portfolio">
+          <Link to="/reactProjects">
             <BUTTON variant="primary" name="VIEW PROJECTS" />
           </Link>
           <Link to="/resume">
