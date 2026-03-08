@@ -7,7 +7,6 @@ const Projects = () => {
   return (
     <SectionShell
       title="Technical Skills"
-      // subtitle="Organized by domain—built for fast recruiter scanning and technical evaluation."
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {skills.map((group) => (

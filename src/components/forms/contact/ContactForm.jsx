@@ -33,7 +33,7 @@ const ContactForm = () => {
   return (
   <div className={`bg-primary ${styles.paddingX} ${styles.flexEnd} relative`}>
     <section className={`${layout.section} min-h-[100vh] relative`}>
-      {/* left: info */}
+      {/* left */}
       <div className={`${layout.sectionInfo} z-[2]`}>
         <h2 className={styles.heading2}>
           Contact Me
@@ -78,7 +78,7 @@ const ContactForm = () => {
         ) : null}
       </div>
 
-      {/* right: form */}
+      {/* Right */}
       <div className={`${layout.sectionImg} flex-col z-[2]`}>
         <GlassCard className="p-6 sm:p-8 w-full max-w-[620px]">
           <p className="text-dimWhite text-[13px] uppercase tracking-widest">
@@ -100,7 +100,6 @@ const ContactForm = () => {
               className="mb-6"
             />
 
-            {/* Put submit INSIDE form so it works */}
             <div className="mt-2">
               <BUTTON type="submit" variant="primary" name="SEND"/>
             </div>

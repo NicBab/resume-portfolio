@@ -60,7 +60,7 @@ const ProjectsSection3 = () => {
       {/* background accent */}
       <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 blue__gradient opacity-[.22]"></div>
 
-      {/* LEFT: image stays */}
+      {/* LEFT */}
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img
@@ -71,7 +71,7 @@ const ProjectsSection3 = () => {
         </div>
       </div>
 
-      {/* RIGHT: refined value prop */}
+      {/* RIGHT  */}
       <div className={`${layout.sectionInfo} mb-10 xs:mb-5 md:ml-5 z-[2]`}>
         <h2 className={`${styles.heading2} !justify-start `}>
           Delivery & Approach

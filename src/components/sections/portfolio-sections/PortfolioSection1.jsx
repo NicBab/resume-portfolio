@@ -69,7 +69,7 @@ const ProjectsSection1 = () => {
       {/* background accent */}
       <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 purple__gradient opacity-[.10]" />
 
-      {/* LEFT: stacked imagery (keeps your striking look) */}
+      {/* LEFT */}
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[650px]`}>
         <div className={`${styles.flexStart}`}>
           <img
@@ -90,7 +90,7 @@ const ProjectsSection1 = () => {
         </div>
       </div>
 
-      {/* RIGHT: Featured Case Studies */}
+      {/* RIGHT: Case Studies */}
       <div className={`${layout.sectionInfo} z-[3] md:ml-5`}>
         <h2 className={`${styles.heading2} !justify-start mt-10 sm:mt-20`}>
           Featured Case Studies

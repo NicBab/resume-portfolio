@@ -97,7 +97,7 @@ const ProjectsSection2 = () => {
           edge devices, reliable communications, and clean dashboards that operators can trust.
         </p>
 
-        {/* capability grid (formal + scannable) */}
+        {/* capability grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 w-full max-w-[720px]">
           {capabilityBlocks.map((c) => (
             <GlassCard key={c.title} className="p-5">
@@ -116,14 +116,14 @@ const ProjectsSection2 = () => {
           ))}
         </div>
 
-        {/* quick tags (optional, but adds polish) */}
+        {/* tags */}
         <div className="flex flex-wrap gap-2 mt-6 max-w-[720px]">
           {techTags.map((t) => (
             <Tag key={t}>{t}</Tag>
           ))}
         </div>
 
-        {/* CTAs (keep your buttons consistent) */}
+        {/* CTA */}
         <div className="md:flex flex-row mt-7">
           <Link to="/reactProjects">
             <BUTTON variant="primary" name="VIEW PROJECTS" />
@@ -134,7 +134,7 @@ const ProjectsSection2 = () => {
         </div>
       </div>
 
-      {/* RIGHT: Image collage (keep the striking look) */}
+      {/* RIGHT */}
       <div className={`${layout.sectionInfo} z-[4] mt-5 max-h-[600px]`}>
         <div className={`${styles.flexStart}`}>
           <img

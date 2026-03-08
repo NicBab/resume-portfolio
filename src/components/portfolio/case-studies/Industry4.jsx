@@ -57,7 +57,7 @@ const Industry4 = () => {
         </div>
       </section>
 
-      {/* MULTI-TENANT RULE */}
+      {/* MULTI-TENANT */}
       <SectionShell title="Multi-Tenant Model" subtitle="The tenant isolation constraint is the product feature.">
         <GlassCard className="p-7">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

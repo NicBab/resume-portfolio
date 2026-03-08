@@ -12,7 +12,7 @@ const About = () => {
       
       <div className="absolute z-[0] w-[80%] h-[80%] rounded-full purple__gradient opacity-[.25]" />
       <div className="relative z-[2] max-w-[1100px] mx-auto mt-5">
-        {/* section header (formal + consistent) */}
+        {/* section header */}
         <div className="mb-8">
           <h2 className={`${styles.heading2} !justify-start`}>About</h2>
           <p className={`${styles.paragraph} max-w-[900px]`}>
