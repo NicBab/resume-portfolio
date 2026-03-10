@@ -1,6 +1,6 @@
 import styles, { layout } from "../../style";
 import { resume, Resume_pdf } from "../../assets/index/assets.index";
-import { GlassCard, BUTTON } from "../index/components.index";
+import { GlassCard, BUTTON, Certifications } from "../index/components.index";
 
 const Resume = () => {
   return (
@@ -38,6 +38,7 @@ const Resume = () => {
           </GlassCard>
         </div>
       </div>
+      <Certifications />
     </div>
   );
 };

@@ -4,12 +4,11 @@ export { default as About } from "../about/About";
 export { default as Footer } from ".././footer/Footer";
 export { default as Social } from ".././social/Social";
 export { default as Resume } from ".././resume/Resume";
-export { default as Portfolio } from "../portfolio/Portfolio"
-export { default as ReactProj } from "../portfolio/ReactProj";
 export { default as ScrollToTop } from "../../components/scroll-to-top/ScrollToTop"
 export { default as PortfolioCardIcons } from "../portfolio-card-icons/PortfolioCardIcons"
+export { default as Certifications } from "../certifications/Certifications"
 
-//SECTIONS
+//MAIN PAGE SECTIONS
 export { default as Hero } from "../hero/Hero";
 export { default as Stats } from "../stats/Stats";
 export { default as CoreStrengths } from "../core-strengths/CoreStrengths";
@@ -20,12 +19,13 @@ export { default as Education } from "../education/Education";
 export { default as CTA } from ".././cta/CTA";
 
 //PORTFOLIO PAGE SECTIONS
+export { default as Portfolio } from "../portfolio/Portfolio"
+export { default as ViewProjects } from "../portfolio/ViewProjects";
+export { default as EspAccess } from "../portfolio/case-studies/EspAccess";
+export { default as Industry4 } from "../portfolio/case-studies/Industry4";
 export { default as PortfolioSection1 } from "../sections/portfolio-sections/PortfolioSection1";
 export { default as PortfolioSection2 } from "../sections/portfolio-sections/PortfolioSection2";
 export { default as PortfolioSection3 } from "../sections/portfolio-sections/PortfolioSection3";
-export { default as EspAccess } from "../portfolio/case-studies/EspAccess";
-export { default as Industry4 } from "../portfolio/case-studies/Industry4";
-
 
 //SHARED
 export { default as Divider } from "../shared/Divider";
