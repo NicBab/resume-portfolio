@@ -124,6 +124,27 @@ export const resumeData = {
       ],
       stack: ["Next.js", "React", "Node.js", "PostgreSQL", "GitHub Actions", "Vercel", "ESP32", "MQTT", "Home Assistant"],
     },
+    {
+  role: "Powersports Technician & Electrical Diagnostics Specialist",
+  company: "Various Dealerships & Independent Service",
+  location: "Louisiana",
+  highlights: [
+    "15+ years diagnosing and repairing motorcycles, ATVs, and side-by-sides with strong specialization in low-voltage electrical systems.",
+    "Recognized as the electrical diagnostics specialist, resolving complex wiring harness, sensor, ECU, charging system, and ignition faults.",
+    "Performed advanced troubleshooting using wiring diagrams, multimeters, signal tracing, and systematic fault isolation.",
+    "Integrated mechanical repair expertise with electrical diagnostics including engine systems, sensors, relays, and vehicle control electronics.",
+  ],
+  stack: [
+    "Electrical Diagnostics",
+    "Low Voltage Systems",
+    "Wiring Harness Repair",
+    "Sensors & Relays",
+    "ECU Systems",
+    "Multimeter Diagnostics",
+    "Mechanical Systems",
+    "Troubleshooting"
+  ],
+},
   ],
 
   caseStudies: [
