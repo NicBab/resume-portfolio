@@ -119,7 +119,7 @@ const About = () => {
         <FeatureCard
           img={downtown_Denver_river}
           alt="Nick Babineaux"
-          content={bioData.map((item) => item.content).join(" ")}
+          content={bioData.map((item) => item.content).join(" ") }
         />
 
         <div className="flex items-end self-end flex-col p-10">

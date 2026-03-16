@@ -4,7 +4,7 @@ import { SectionShell, GlassCard, Divider } from "../index/components.index"
 const Education = () => {
     const { education } = resumeData;
   return (
-           <SectionShell title="Education" subtitle="Compact and readable—kept to the essentials.">
+           <SectionShell title="Education">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {education.map((e) => (
             <GlassCard key={e.title} className="p-6">
