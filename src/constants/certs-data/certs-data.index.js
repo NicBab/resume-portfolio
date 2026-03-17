@@ -3,7 +3,7 @@ import {
   UdGit,
   HART_course,
   Modbus_course,
-  PLC_level_1,
+  PLC_Level_1,
   RAU_Controls,
   RAU_Level1Logix,
   RAU_Level2Logix,
@@ -11,7 +11,7 @@ import {
 
   HART_course_pdf,
   Modbus_course_pdf,
-  PLC_level_1_pdf,
+  PLC_Level_1_pdf,
   RAU_Controls_pdf,
   RAU_Level1Logix_pdf,
   RAU_Level2Logix_pdf,
@@ -57,8 +57,8 @@ export const certsData = [
   },
   {
     id: 7,
-    img: PLC_level_1,
-    pdf: PLC_level_1_pdf,
+    img: PLC_Level_1,
+    pdf: PLC_Level_1_pdf,
     title: "PLC Level 1",
   },
     {
