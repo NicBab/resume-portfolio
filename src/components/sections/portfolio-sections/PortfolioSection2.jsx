@@ -125,11 +125,11 @@ const ProjectsSection2 = () => {
 
         {/* CTA */}
         <div className="md:flex flex-row mt-7">
-          <Link to="/portfolio/view-projects">
+          {/* <Link to="/portfolio/view-projects">
             <BUTTON variant="primary" name="VIEW PROJECTS" />
-          </Link>
+          </Link> */}
           <Link to="/resume">
-            <BUTTON variant="secondary" name="VIEW RESUME" />
+            <BUTTON variant="primary" name="VIEW RESUME" />
           </Link>
         </div>
       </div>
