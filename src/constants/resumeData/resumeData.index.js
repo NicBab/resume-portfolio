@@ -122,7 +122,7 @@ export const resumeData = {
         "Improved frontend performance by ~40% via React optimization; reduced deployment time ~60% with GitHub Actions + Vercel CI/CD.",
         "Built an IoT access control system using ESP32, MQTT, and relay automation with remote monitoring via Home Assistant.",
       ],
-      stack: ["Next.js", "React", "Node.js", "PostgreSQL", "GitHub Actions", "Vercel", "ESP32", "MQTT", "Home Assistant"],
+      stack: ["Next.js", "React", "Node.js", "PostgreSQL", "MongoDB", "Git", "Vercel", "ESP32", "MQTT", "Home Assistant"],
     },
     {
   role: "Powersports Technician & Electrical Diagnostics Specialist",
