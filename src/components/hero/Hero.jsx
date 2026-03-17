@@ -36,9 +36,9 @@ const Hero = () => {
           <br className="sm:block m-2" />
 
           <span className={`${styles.paragraph}`}>
-            Industrial Control Systems, Software & Automation experience
-            designing, programming, commissioning, and troubleshooting PLC, HMI,
-            SCADA, software, and IT systems across automation environments.
+            Software, Automation, & Control Systems experience
+            designing, programming, and troubleshooting PLC, HMI,
+            SCADA, Fullstack, Software, iOT, and IT systems across automation environments.
             Known for bridging controls, IT/OT, and data systems to deliver
             reliable, scalable solutions.
           </span>
