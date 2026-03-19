@@ -28,6 +28,10 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as RAU_Level1Logix } from "../images/certifications/RAU_Level1Logix.png"
     export { default as RAU_Level2Logix } from "../images/certifications/RAU_Level2Logix.png"
     export { default as RS485_course } from "../images/certifications/RS485_course.png"
+    export { default as PSST } from "../images/certifications/PSST.jpg"
+    export { default as RigPass } from "../images/certifications/RigPass.jpg"
+    export { default as SwingRope } from "../images/certifications/SwingRope.jpg"
+    export { default as T_HUET } from "../images/certifications/T_HUET.jpg"
     //PDFs
     export { default as HART_course_pdf } from "../images/certifications/HART_course.pdf"
     export { default as Modbus_course_pdf } from "../images/certifications/Modbus_course.pdf"
@@ -36,6 +40,10 @@ export { default as eyeIcon } from "../icons/eyeIcon.svg"
     export { default as RAU_Level1Logix_pdf } from "../images/certifications/RAU_Level1Logix.pdf"
     export { default as RAU_Level2Logix_pdf } from "../images/certifications/RAU_Level2Logix.pdf"
     export { default as RS485_course_pdf } from "../images/certifications/RS485_course.pdf"
+    export { default as PSST_pdf } from "../images/certifications/PSST.pdf"
+    export { default as RigPass_pdf } from "../images/certifications/RigPass.pdf"
+    export { default as SwingRope_pdf } from "../images/certifications/SwingRope.pdf"
+    export { default as T_HUET_pdf } from "../images/certifications/T_HUET.pdf"
 
     //HERO
     export { default as robot_atom_hand } from "../images/hero/hand_atom.png";

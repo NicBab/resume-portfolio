@@ -8,6 +8,10 @@ import {
   RAU_Level1Logix,
   RAU_Level2Logix,
   RS485_course,
+  PSST,
+  RigPass,
+  SwingRope,
+  T_HUET,
 
   HART_course_pdf,
   Modbus_course_pdf,
@@ -16,6 +20,10 @@ import {
   RAU_Level1Logix_pdf,
   RAU_Level2Logix_pdf,
   RS485_course_pdf,
+  PSST_pdf,
+  RigPass_pdf,
+  SwingRope_pdf,
+  T_HUET_pdf,
 } from "../../assets/index/assets.index";
 
 export const certsData = [
@@ -41,19 +49,19 @@ export const certsData = [
     id: 4,
     img: HART_course,
     pdf: HART_course_pdf,
-    title: "HART Course",
+    title: "HART",
   },
   {
     id: 5,
     img: Modbus_course,
     pdf: Modbus_course_pdf,
-    title: "Modbus Course",
+    title: "Modbus",
   },
   {
     id: 6,
     img: RS485_course,
     pdf: RS485_course_pdf,
-    title: "RS-485 Course",
+    title: "RS-485",
   },
   {
     id: 7,
@@ -63,13 +71,37 @@ export const certsData = [
   },
     {
     id: 8,
+    img: PSST,
+    pdf: PSST_pdf,
+    title: "Production Safety",
+  },
+  {
+    id: 9,
+    img: RigPass,
+    pdf: RigPass_pdf,
+    title: "Rig Pass",
+  },
+  {
+    id: 10,
+    img: SwingRope,
+    pdf: SwingRope_pdf,
+    title: "Personnel Transfer",
+  },
+  {
+    id: 11,
+    img: T_HUET,
+    pdf: T_HUET_pdf,
+    title: "Tropical Heli Evac",
+  },
+    {
+    id: 8,
     img: LSUfullstack,
-    title: "Fullstack Academy",
+    title: "Fullstack",
   },
   {
     id: 9,
     img: UdGit,
-    title: "Git Course",
+    title: "Git",
   },
 
 ];

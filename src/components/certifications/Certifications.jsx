@@ -5,7 +5,7 @@ const Certifications = () => {
   return (
     <SectionShell
       title="Certifications"
-      subtitle="Formal coursework and training across software development, industrial communications, and control systems."
+      subtitle="Formal coursework and training across software development, industrial communications, control systems, and safety training."
     >
       <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
         {certsData.map((cert) => {
